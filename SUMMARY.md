@@ -8,3 +8,7 @@
 * [Main](general/main.md)
 * [Ethereum](general/ethereum.md)
 
+## Tutorials
+
+* [Ethereum Virtual Machine \(EVM\)](tutorials/ethereum-virtual-machine-evm.md)
+
