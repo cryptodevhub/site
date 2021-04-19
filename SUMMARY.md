@@ -7,6 +7,7 @@
 
 * [Main](general/main.md)
 * [Ethereum](general/ethereum.md)
+* [Cosmos](general/cosmos.md)
 * [Substrate](general/substrate.md)
 
 ## Tutorials
