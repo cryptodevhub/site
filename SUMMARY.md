@@ -5,7 +5,7 @@
 
 ## General
 
-* [Main](general/main.md)
+* [Miscellaneous](general/miscellaneous.md)
 * [Ethereum](general/ethereum.md)
 * [Cosmos](general/cosmos.md)
 * [Substrate](general/substrate.md)
