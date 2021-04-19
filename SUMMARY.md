@@ -12,4 +12,5 @@
 
 * [Ethereum Virtual Machine \(EVM\)](tutorials/ethereum-virtual-machine-evm.md)
 * [Cosmos SDK](tutorials/cosmos-sdk.md)
+* [Substrate](tutorials/substrate.md)
 
