@@ -6,7 +6,7 @@ description: >-
 
 # Getting Started
 
-## 1. CryptoZombies
+## 1. Work through CryptoZombies
 
 The best way to learn something new is through a structured curriculum which walks you through the big ideas and major concepts in a guided fashion. Ideally as frictionless as possible.
 
