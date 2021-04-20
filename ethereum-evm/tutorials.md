@@ -12,9 +12,29 @@ In [CryptoZombies](https://cryptozombies.io/) you'll learn Solidity, one of EVMs
 
 Given its playful nature it's one of the best best introductions to the EVM and Solidity. While definitely interesting you might want to focus on the first two mini-courses and skip the "Beyond Ethereum" one when starting out.
 
+## Vyper.fun
+
+Solidity isn't the only EVM-compatible Smart Contract programming language. There's also Vyper, a language focused on security and simplicity. If you want to dip your toes into Vyper development you'll definitely don't want to miss [Vyper.fun](https://vyper.fun/). While working through this online course you'll build your own Pokémon Game written in Vyper and running on the EVM.
+
 ## Ethereum Development Tutorials
 
 The Ethereum foundation has its own [curated list](https://ethereum.org/en/developers/tutorials/) of community tutorials.
 
 Use the filters at the top to find the content you're interested in and if you wrote a tutorial yourself be sure to click the "Submit a Tutorial" button at the top to get added to the list as well.
+
+## Solidity Documentation
+
+The official Solidity documentation has a dedicated section called "[Solidity by Example](https://docs.soliditylang.org/en/v0.8.3/solidity-by-example.html)" which will walk you through various mini tutorials covering different aspects of the Solidity programming language and the Ethereum Virtual Machine \(EVM\).
+
+## Solidity by Example
+
+The "[Solidity by Example](https://solidity-by-example.org/)" website is a treasure trove of great outcome-focused tutorials. Do you want to create your own ERC-20 token or create Bi-directional payment channels? Whenever you get stuck you'll definitely want to check out this resource as it might list a tutorial which helps you solve your problem.
+
+## Learn X in Y minutes - Solidity
+
+Learn X in Y minutes has a [dedicated site](https://learnxinyminutes.com/docs/solidity/) for Solidity development. In it you'll learn how to use the Remix Online IDE, how to work with testnets and how to setup MetaMask. The core focus however is on a huge example Smart Contract written in Solidity, showcasing various language features. While it might be hard for newcomers to work through this gigantic file, Learn X in Y minutes is definitely a good resources for intermediate developers to revisit every now and then.
+
+## Learn X in Y minutes - Vyper
+
+In addition to the Solidity example mentioned above, Learn X in Y minutes also has a [dedicated site](https://learnxinyminutes.com/docs/vyper/) for development with the Vyper programming language. After a brief introduction to Vyper you'll see a huge annotated Smart Contract written in Vyper which walks you through its various language features. While it might be challenging for Vyper devs who are just starting out you'll definitely want to bookmark this page and visit it when you need a quick Vyper refresher.
 
