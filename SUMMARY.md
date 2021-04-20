@@ -9,6 +9,7 @@
 
 * [General](ethereum-evm/general.md)
 * [Tutorials](ethereum-evm/tutorials.md)
+* [Tools](ethereum-evm/tools.md)
 
 ## Cosmos
 
