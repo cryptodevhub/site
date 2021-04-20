@@ -1,8 +1,10 @@
 ---
-description: Substrate is a Blockchain framework based on the Rust programming language.
+description: >-
+  Work through some of the following tutorials to learn the ins and outs of
+  Substrate, a Blockchain framework based on the Rust programming language.
 ---
 
-# Substrate
+# Tutorials
 
 ## Substrate Developer Hub Tutorials
 

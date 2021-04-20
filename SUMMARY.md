@@ -2,17 +2,20 @@
 
 * [CryptoDevHub Wiki](README.md)
 * [Go to Main Website](https://cryptodevhub.io)
+* [General](general-1.md)
 
-## General
+## Ethereum / EVM
 
-* [Miscellaneous](general/miscellaneous.md)
-* [Ethereum](general/ethereum.md)
-* [Cosmos](general/cosmos.md)
-* [Substrate](general/substrate.md)
+* [General](ethereum-evm/general.md)
+* [Tutorials](ethereum-evm/tutorials.md)
 
-## Tutorials
+## Cosmos
 
-* [Ethereum Virtual Machine \(EVM\)](tutorials/ethereum-virtual-machine-evm.md)
-* [Cosmos SDK](tutorials/cosmos-sdk.md)
-* [Substrate](tutorials/substrate.md)
+* [General](cosmos/general.md)
+* [Tutorials](cosmos/tutorials.md)
+
+## Substrate
+
+* [General](substrate/general.md)
+* [Tutorials](substrate/tutorials.md)
 

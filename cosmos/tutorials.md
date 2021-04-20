@@ -2,7 +2,7 @@
 description: Helpful tutorials to learn how to get the most out of the Cosmos SDK.
 ---
 
-# Cosmos SDK
+# Tutorials
 
 ## Cosmos SDK Tutorials
 

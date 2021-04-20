@@ -2,7 +2,7 @@
 description: Useful resources to help you navigating the Ethereum development landscape.
 ---
 
-# Ethereum
+# General
 
 ## EthHub
 
@@ -11,6 +11,4 @@ description: Useful resources to help you navigating the Ethereum development la
 ## Eth.Build
 
 [Eth.build](https://eth.build/) is an educational sandbox which helps you understand how Ethereum works via visual exploration. Be sure to check out the [video introduction](https://www.youtube.com/watch?v=30pa790tIIA) which explains everything in great detail.
-
-
 

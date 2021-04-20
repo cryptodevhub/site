@@ -1,8 +1,8 @@
 ---
-description: General resources for the aspiring Substrate developers.
+description: General resources for aspiring Substrate developers.
 ---
 
-# Substrate
+# General
 
 ## Substrate Developer Hub
 

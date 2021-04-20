@@ -4,7 +4,7 @@ description: >-
   Ledger Technologies.
 ---
 
-# Miscellaneous
+# General
 
 ## Binance Academy
 

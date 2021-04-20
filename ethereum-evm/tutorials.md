@@ -4,7 +4,7 @@ description: >-
   supporting the EVM are (among others) Ethereum and Binance Smart Chain.
 ---
 
-# Ethereum Virtual Machine \(EVM\)
+# Tutorials
 
 ## CryptoZombies
 

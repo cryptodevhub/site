@@ -4,7 +4,7 @@ description: >-
   Tendermint.
 ---
 
-# Cosmos
+# General
 
 ## Cosmos Intro
 
