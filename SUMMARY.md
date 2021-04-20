@@ -4,6 +4,7 @@
 * [Go to Main Website](https://cryptodevhub.io)
 * [General Resources](general-resources.md)
 * [DeFi](defi.md)
+* [Jobs](jobs.md)
 
 ## Ethereum / EVM
 
