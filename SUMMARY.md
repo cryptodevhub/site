@@ -3,6 +3,7 @@
 * [CryptoDevHub Wiki](README.md)
 * [Go to Main Website](https://cryptodevhub.io)
 * [General](general-1.md)
+* [DeFi](defi.md)
 
 ## Ethereum / EVM
 
