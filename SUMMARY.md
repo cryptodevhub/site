@@ -3,6 +3,7 @@
 * [CryptoDevHub Wiki](README.md)
 * [Go to Main Website](https://cryptodevhub.io)
 * [General Resources](general-resources.md)
+* [Communities](communities.md)
 * [DeFi](defi.md)
 * [Jobs](jobs.md)
 
