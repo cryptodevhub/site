@@ -13,6 +13,7 @@
 * [Tutorials](ethereum-evm/tutorials.md)
 * [Tools](ethereum-evm/tools.md)
 * [Security](ethereum-evm/security.md)
+* [Communities](ethereum-evm/communities.md)
 
 ## Cosmos
 
