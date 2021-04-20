@@ -10,6 +10,10 @@ description: >-
 
 * [https://consensys.github.io/smart-contract-best-practices/tokens/](https://consensys.github.io/smart-contract-best-practices/tokens/)
 
+## Mastering Ethereum - Smart Contract Security
+
+* [https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc](https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc)
+
 ## Parity’s Checklist for Secure Smart Contract Development
 
 * [https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/)
