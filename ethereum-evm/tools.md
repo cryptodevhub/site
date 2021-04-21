@@ -48,10 +48,6 @@ The team at DappHub created and maintains the [Dappsys project](http://dapp.tool
 
 A notable component for example is the DSProxy which will help you implement ways to roll out Smart Contracts updates without introducing breaking changes for your end users.
 
-## Ethlint
-
-[Ethlint](https://github.com/duaraghav8/Ethlint) is a linter which helps you write more elegant and secure Solidity code. While linting is a very useful tool, its constant complains can also slow you down. Ethlint solves this problem by offering a "fix" feature so you can focus on your code rather than your code style.
-
 ## Solhint
 
 [Solhint](https://github.com/protofire/solhint) is a linting utility for Solidity code. It's easy to install and configure and seamlessly integrates with other tools such as Prettier.
