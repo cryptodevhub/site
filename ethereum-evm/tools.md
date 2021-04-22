@@ -50,7 +50,13 @@ A notable component for example is the DSProxy which will help you implement way
 
 ## Solhint
 
-[Solhint](https://github.com/protofire/solhint) is a linting utility for Solidity code. It's easy to install and configure and seamlessly integrates with other tools such as Prettier.
+[Solhint](https://github.com/protofire/solhint) is a linting utility which helps you write more standardized and secure Solidity code. It's easy to install and configure and seamlessly integrates with other tools such as Prettier.
+
+## Prettier Solidity
+
+When working in a professional environment it's useful to agree on one specific way to format code. [Prettier Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity/) is a plugin for the widely adopted code formatting tool Prettier. Once integrated it will automatically format your Solidity code according to best practices.
+
+Thanks to its configurability you can change the formatting rules to your liking. To streamline your workflow further you might also want to look into Editor and IDE integrations for Prettier. That way your code can be auto-formatted when saving files.
 
 ## TypeChain
 
