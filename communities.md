@@ -8,15 +8,15 @@ description: >-
 
 ## CryptoDevHub Discord
 
-* [https://discord.gg/v8kBD8wmP3](https://discord.gg/v8kBD8wmP3)
+Shameless plug: We have our very own [CryptoDevHub Discord](https://discord.gg/v8kBD8wmP3) server! Join us to discuss everything related to Blockchains, DLT, sharding, consensus algorithms and more.
+
+You'll also find channels to get dev support, showcase your project or find fellows to team up for Hackathons and startups.
 
 ## CryptoTechnology Subreddit
 
-* [https://www.reddit.com/r/CryptoTechnology/](https://www.reddit.com/r/CryptoTechnology/)
+The [/r/CryptoTechnology](https://www.reddit.com/r/CryptoTechnology/) subreddit is a great place for serious discussions about Blockchain- and Crypto technologies. It's actively moderated and discourages shameless self-promotion and shilling. Reading through it you'll learn about the most recent developments in the Blockchain and DLT space.
 
 ## CryptoDevs Discord
 
-* [https://discord.com/invite/5W5tVb3](https://discord.com/invite/5W5tVb3)
-
-
+The [CryptoDevs Discord](https://discord.com/invite/5W5tVb3) server was created by the /r/CryptoTechnology community to discuss and chat about recent developments in a more real time environment. It's a great place to find fellow developers passionate about Web 3, Solidity and Crypto tech in general.
 
