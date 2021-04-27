@@ -24,6 +24,14 @@ If you need some help getting the Blockchain data for your frontend you should a
 
 Hardhat core also ships with the [Hardhat Network](https://hardhat.org/hardhat-network/), a local Ethereum Network designed for fast iterations.
 
+## Remix IDE
+
+The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online development environment which lets you write, test, deploy and invoke Smart Contracts right from the comfort of your browser.
+
+It has support for different Solidity compiler versions, various plugins such as debuggers or linters as well as an in-browser CLI.
+
+**Protip**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
+
 ## Scaffold Eth
 
 Starting a new project is oftentimes preceded by a time-consuming setup phase in which all the necessary tools are installed and configured. Luckily there are boilerplates and templates which will help you take shortcuts and get up to speed faster.
