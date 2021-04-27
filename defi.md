@@ -56,6 +56,14 @@ On his [YouTube Channel](https://www.youtube.com/c/DeFiWeekly), Kerman sits down
 
 Watching DeFi Dad's videos on his [YouTube Channel](https://www.youtube.com/channel/UCatItl6C7wJp9txFMbXbSTg/) gives you the opportunity to peek over ones shoulder to see how DeFi products and protocols are used by end users. His Tutorial-style videos cover a wide range of topics with a focus on the Ethereum ecosystem.
 
+## DeFi Safety
+
+Interacting with various DeFi projects and protocols comes with some risks as "you are your own bank" and therefore solely responsible for the actions you take. While major DeFi projects are usually audited by expert firms like OpenZeppelin, others lack basic security checks and might expose you to severe Smart Contract bugs and common DeFi risks.
+
+The [DeFi Safety](https://defisafety.com/) project was started to address such issues. Visiting the project's page you'll get access to a variety of project reviews which are split up into sections such as "Code and Team", "Documentation" or "Testing" and result in an overall score from 0 - 100%.
+
+**Protip**: You can also request reviews if a project you're interested in is missing in their list. Simply click on the "Request Reviews" link in the top navigation.
+
 ## Money Legos
 
 If you're a Blockchain developer looking for a way to leverage the DeFi ecosystem and build upon existing protocols you should definitely check out the [Money Legos project](https://github.com/studydefi/money-legos) by the StudyDefi team.
