@@ -10,6 +10,12 @@ description: >-
 
 Browsing through [Yos Blog](https://yos.io/) you'll find very useful in-depth articles about Ethereum and Smart Contract development with Solidity. Topics covered are Smart Contract testing and development best practices, Decentralized Finance \(DeFi\) with its underlying algorithms and economics as well as Web 3 in general.
 
+## Week in Ethereum News
+
+The [Week in Ethereum News](https://weekinethereumnews.com/) Newsletter is one of the oldest and most established Ethereum Newsletters out there. Once subscribed, you'll get a weekly digest with curated content about all the important topics and discussions happening in the Ethereum ecosystem.
+
+Blockchain technology enthusiasts will definitely enjoy the summaries of the core dev calls whereas dApp and Smart Contract developers find hidden gems in the "Stuff for developers" section.
+
 ## Dapp University
 
 The DappUniversity [YouTube Channel](https://www.youtube.com/c/DappUniversity/) is a great place to find useful video tutorials for full-stack dApp development on Ethereum. Simply click on the "Playlists" tab to find curated lists with videos on topics such Solidity, Web3.js, Ethereum + React and more.
