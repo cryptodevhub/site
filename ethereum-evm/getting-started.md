@@ -6,6 +6,14 @@ description: >-
 
 # Getting Started
 
+## 0. Learn JavaScript Basics \(Optional\)
+
+A typical dApp is a combination of a Frontend \(what the user sees and interacts with\) and a Backend \(usually your Smart Contracts deployed on the Ethereum Blockchain\).
+
+Given that Frontends as well as the vast majority of Ethereum's Smart Contract development tooling is written in JavaScript it's a worthwhile endeavour to brush up your JavaScript skills before diving deeper into Solidity and dApp development. If you're new to JavaScript or need a quick refresher you'll find a good resource in the [Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) course by Codecademy.
+
+**Protip**: Don't spend too much time on intermediate and advanced topics. Knowing the basics of JavaScript should be more than enough to get you going.
+
 ## 1. Work through CryptoZombies
 
 The best way to learn something new is through a structured curriculum which walks you through the big ideas and major concepts in a guided fashion. Ideally as frictionless as possible.
