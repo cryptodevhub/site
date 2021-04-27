@@ -5,6 +5,7 @@
 * [General Resources](general-resources.md)
 * [Communities](communities.md)
 * [DeFi](defi.md)
+* [Token Economics](token-economics.md)
 * [Jobs](jobs.md)
 
 ## Ethereum / EVM
