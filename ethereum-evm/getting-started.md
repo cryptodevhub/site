@@ -36,19 +36,67 @@ Once you're familiar with both, pick your favorite development stack and stick w
 
 Given that you're now familiar with some basic Solidity / Vyper and the developer toolings in the Ethereum dApp space it's time to work on your first "real" project.
 
-If you're already familiar with Software- and JavaScript Development in general you might want to jump straight into your own project without any further guidance. 
+If you're already familiar with Software- and JavaScript development in general you might want to jump straight into your own first project without any further guidance. 
 
-For others it might be worthwhile to follow an online tutorial like [this one](https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial) from "Dapp University".
+For others, it might be worthwhile to follow an online tutorial like [this one](https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial) from "Dapp University".
 
 It isn't super important what you're building as long as you focus your efforts on writing code, rather than consuming more blog posts and YouTube videos.
 
-## 4. Learn to use OpenZeppelin's Smart Contracts
+## 4. Build more dApps
+
+Once done with your very first dApp you surely ran into various roadblocks you didn't anticipate beforehand. While having guardrails in the beginning is a necessity it's being on your own where true growth happens and the learnings materialize.
+
+Given that, you should spend some more time building dApps end-to-end. This time around **without any guardrails**. Start with a clean slate and work your way through the whole process. Start with the Smart Contract logic, connect it to a frontend and ensure that everything works by writing unit- and integration tests.
+
+It's absolutely ok to check references and existing code to get you unstuck but focus on trying to solve the problem on your own before consulting other resources.
+
+"What should I build?". That's a common and valid question given that we should be focusing on deliberate practice rather than rote repetition. The following is a list of dApp ideas you can draw from \(ordered by difficulty: Easy - Hard\):
+
+### Voting \(Easy\)
+
+A voting dApp where users can vote for candidates. Every user should only be able to vote once.
+
+### CRUD \(Easy\)
+
+A CRUD \(Create, Read, Update, Delete\) dApp where users can create posts, read posts, update existing posts and remove posts. You should track the ownership of posts such that only owners can update and remove posts.
+
+### Escrow \(Medium\)
+
+Write an escrow Smart Contract which helps users facilitate transactions. User A should be able to deposit funds in the Smart Contract while user B should be able to withdraw the previously deposited funds from user B.
+
+You can add a timelock-like feature where funds will be automatically sent back to the depositor after a certain number of blocks has been mined and then funds haven't been withdrawn by user B.
+
+### Lottery \(Medium\)
+
+Create a Lottery dApp where users can buy tickets to participate. The money they spent on the tickets is added to a pool. After a pre-defined number of blocks has been mined, a winner is chosen randomly who receives all the funds from the pool.
+
+**Note**: You can use a simple random number generation schemes derived from block hashes. There's no need to integrate a VRF via an Oracle \(although you might want to try that as well\).
+
+### Multi-Sig Wallet \(Hard\)
+
+Implement a Multi-Sig Wallet where multiple signatures are necessary to create a transaction and spend coins.
+
+### Payment Channel \(Hard\)
+
+Implement a payment channel which coordinates transactions between user A and user B off-chain and settles them on-chain. To keep it simple you can start with a Uni-directional Payment Channel and extend it later on to be Bi-directional.
+
+### Flash Loans \(Hard\)
+
+Implement a Flash Loan strategy in which you borrow funds, exploit an arbitrage opportunity and repay the borrowed funds while pocketing the difference, all within one transactions.
+
+To help you get started with this one you might want to read how Flash Loans work by reading through the [Money Legos](https://money-legos.studydefi.com/) project documentation for the [Aave](https://money-legos.studydefi.com/#/aave?id=flashloans) and [dYdX](https://money-legos.studydefi.com/#/dydx?id=flashloans-on-dydx) DeFi protocols.
+
+Also learn about "Mainnet Forking" capabilities of Ganache CLI and Hardhat Network. That way you don't need to continually re-deploy your Smart Contract on a testnet.
+
+**Protip**: It's more than enough to build 2-3 dApps end-to-end. Move on to the next step the minute "everything clicks".
+
+## 5. Learn to use OpenZeppelin's Smart Contracts
 
 Writing secure Solidity / Vyper code can be a tough endeavour. Luckily the folks at OpenZeppelin created and maintain a [GitHub repository](https://github.com/OpenZeppelin/openzeppelin-contracts) with audited Smart Contract building blocks you can incorporate in your projects.
 
 The full documentation for all the different Smart Contracts can be found [here](https://docs.openzeppelin.com/contracts).
 
-## 5. Get to know ERC standards
+## 6. Get to know ERC standards
 
 [ERC's](https://eips.ethereum.org/erc) are Ethereum Improvement Proposals in which different ideas to improve the Ethereum Blockchain are discussed. One of the most famous ERC's are ERC-20 and ERC-721, both of which describe Token standards.
 
@@ -56,11 +104,11 @@ Read through the ERC-20 and ERC-721 standards and build a dApp which leverages t
 
 **Protip**: OpenZeppelin's Smart Contracts package should help you in doing so.
 
-## 6. Learn about Smart Contract Security
+## 7. Learn about Smart Contract Security
 
 We already touched based on the importance of Smart Contract Security when it comes down to dApp and Blockchain development. Take some time to read through our [Security](https://wiki.cryptodevhub.io/ethereum-evm/security) page and learn more about recent hacks and potential pitfalls.
 
-## 7. Join Communities
+## 8. Join Communities
 
 Learning never stops and is best nurtured via thoughtful discussions and working with others. Our [Communities](https://wiki.cryptodevhub.io/ethereum-evm/communities) page will show you all the Ethereum communities you might want to join.
 
