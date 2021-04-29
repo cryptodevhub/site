@@ -22,6 +22,14 @@ The series covers topics such as game theory, the incentive design behind Bitcoi
 * [Part 2 - Towards a Practice of Token Engineering](https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca)
 * [Part 3 - Token Engineering Case Studies](https://blog.oceanprotocol.com/token-engineering-case-studies-b44267e68f4)
 
+## Yos Riady's Cryptoeconomics Articles
+
+Yos Riady has published a number of in-depth [blog posts](https://yos.io/tag/cryptoeconomics/) on a variety of Token Economics related topics such as Bonding Curves, the Howey Test, Token Utility Models and more.
+
+* [A Whirlwind Tour of Security Token Standards](https://yos.io/2018/10/31/security-token-standards/)
+* [Bonding Curves Explained](https://yos.io/2018/11/10/bonding-curves/)
+* [Utility Token Models](https://yos.io/2019/04/07/utility-token-models/)
+
 ## Sam Williams: Mechanism Design 101
 
 Sam Williams, the co-founder of Arweave held a lecture on incentive design in the context of the a16z Crypto Startup School.
