@@ -16,6 +16,12 @@ Given its playful nature it's one of the best best introductions to the EVM and 
 
 Solidity isn't the only EVM-compatible Smart Contract programming language. There's also Vyper, a language focused on security and simplicity. If you want to dip your toes into Vyper development you'll definitely don't want to miss [Vyper.fun](https://vyper.fun/). While working through this online course you'll build your own Pokémon Game written in Vyper and running on the EVM.
 
+## Ethereum Blockchain Developer Guide
+
+The [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.com/) is a massive collection of tutorials and resources to learn the ins and outs of practical Ethereum development.
+
+While working through the curriculum you'll learn how the Ethereum blockchain works, why transactions are structured the way they are and what the Smart Contract lifecycle is comprised of. Finally you'll apply everything you learned in various labs to test your hard earned knowledge and build up a portfolio of blockchain dApps.
+
 ## Ethereum Development Tutorials
 
 The Ethereum foundation has its own [curated list](https://ethereum.org/en/developers/tutorials/) of community tutorials.
