@@ -36,6 +36,12 @@ The official Solidity documentation has a dedicated section called "[Solidity by
 
 The "[Solidity by Example](https://solidity-by-example.org/)" website is a treasure trove of great outcome-focused tutorials. Do you want to create your own ERC-20 token or create Bi-directional payment channels? Whenever you get stuck you'll definitely want to check out this resource as it might list a tutorial which helps you solve your problem.
 
+## Best Practices for Smart Contract Development
+
+Yos Riady's [blog post](https://yos.io/2019/11/10/smart-contract-development-best-practices/) on Smart Contract development best practices is a stellar mini tutorial series which outlines how you can setup a professional development environment to streamline your dApp workflows.
+
+Working through his list you'll learn about static analysis, linters, runbooks, the usage of public testnets as well as best practices for building solid frontends and backends.
+
 ## Learn X in Y minutes - Solidity
 
 Learn X in Y minutes has a [dedicated site](https://learnxinyminutes.com/docs/solidity/) for Solidity development. In it you'll learn how to use the Remix Online IDE, how to work with testnets and how to setup MetaMask. The core focus however is on a huge example Smart Contract written in Solidity, showcasing various language features. While it might be hard for newcomers to work through this gigantic file, Learn X in Y minutes is definitely a good resources for intermediate developers to revisit every now and then.
