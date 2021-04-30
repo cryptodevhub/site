@@ -118,7 +118,9 @@ You should also consider contributing back to your favorite Open Source projects
 
 While Truffle and Hardhat help you getting up to speed there's more tooling you can leverage to streamline your overall workflow and Developer Experience.
 
-Paul Berg's [create-eth-app](https://github.com/PaulRBerg/create-eth-app) or Austin Griffith's [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) are great projects which will help you getting started even faster.
+Yos Riady's article "[Best Practices for Smart Contract Development](https://yos.io/2019/11/10/smart-contract-development-best-practices/)" is a treasure trove of great advice on how to setup a professional development environment.
+
+In addition to that you should also check out Paul Berg's [create-eth-app](https://github.com/PaulRBerg/create-eth-app) or Austin Griffith's [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) projects which will help you getting started even faster.
 
 You can find a more thorough list of useful tools on our [Tools](https://wiki.cryptodevhub.io/ethereum-evm/tools) page.
 
