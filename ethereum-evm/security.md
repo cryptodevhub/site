@@ -59,6 +59,12 @@ The team at [PeckShield](https://blog.peckshield.com/) does a great job at disse
 
 When reading such posts you'll learn about the big ideas behind the hacks, how they can be translated into code exploits \(and where to inject them\) and how you can be a forensic yourself by tracking them down in your favorite Block Explorer.
 
+## Common Smart Contract Vulnerabilities and How To Mitigate Them
+
+If you're looking for a concise overview of common Smart Contract vulnerabilities you should read through Yos Riady's [writeup](https://yos.io/2018/10/20/smart-contract-vulnerabilities-and-how-to-mitigate-them/) on his blog.
+
+In it, Yos walks you through the basics of Smart Contract security as well as common vulnerabilities such as the infamous reentrancy bug, bad randomness or integer overflows. Not only do you learn about the theoretical underpinnings of such exploits, you'll also see buggy code examples as well as the fixes necessary to mitigate attacks.
+
 ## 246 Findings From our Smart Contract Audits
 
 Trail of Bits published a [blog post](https://blog.trailofbits.com/2019/08/08/246-findings-from-our-smart-contract-audits-an-executive-summary/) outlining the 246 \(common\) findings they ran into while conducting Smart Contract audits.
