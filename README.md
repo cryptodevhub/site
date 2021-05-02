@@ -10,6 +10,8 @@ Welcome to the **CryptoDevHub** wiki, the central place where we collect and cat
 
 To the left you can find the main navigation which links various pages with useful resources for different topics. There's also the magnifying glass you can click on to search for specific content.
 
+Also make sure to [follow us on Twitter](https://twitter.com/cryptodevhub) to get frequent updates about the Blockchain and Crypto technology space.
+
 ## Let's Collaborate
 
 This is an open, community-driven wiki and living document which is updated frequently.
