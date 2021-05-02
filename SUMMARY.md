@@ -17,6 +17,7 @@
 * [Security](ethereum-evm/security.md)
 * [Communities](ethereum-evm/communities.md)
 * [Media](ethereum-evm/media.md)
+* [FAQ](ethereum-evm/faq.md)
 
 ## Cosmos
 
