@@ -20,7 +20,7 @@ Seasoned dApp developers and folks familiar with other Blockchain ecosystems can
 
 Generally speaking there are 2 popular solutions for running local Ethereum Blockchain Nodes.
 
-### 1. Ganache CLI
+### Ganache CLI
 
 The Ganache project is part of the Truffle Suite, a popular choice for Smart Contract- and dApp development on the Ethereum Blockchain. While Truffle provides a fully-fledged development environment which makes it simple to compile, test and deploy Smart Contracts and dApp, Ganache can be thought of an extension to Truffle which makes it possible to run your code locally.
 
@@ -32,7 +32,7 @@ Once installed you can start a local Ethereum Node via `npx ganache-cli`.
 
 Notice that Ganache CLI has a slew of [options](https://github.com/trufflesuite/ganache-cli#options) you can pass into the command. What we'd recommend is to e.g. use the `-d` / `--deterministic` flag such that deterministic accounts are generated: `npx ganache-cli --deterministic`.
 
-### 2. Hardhat Network
+### Hardhat Network
 
 If you're using Hardhat as your Ethereum dApp development framework you're already in possession of an Ethereum Node you can run locally.
 
@@ -79,7 +79,7 @@ provider.on("block", (blockNumber) => {
 
 **Note**: While you could achieve the same functionality by continously requesting new data from the Ethereum blockchain every X seconds \(called "pull"\), using subscriptions \(called "push"\) is way more compute- and bandwidth efficient.
 
-## How do I call a Smart Contracts deployed on mainnet?
+## How do I call a deployed Smart Contract?
 
 To call an already deployed Smart Contract you need 2 things:
 
@@ -137,11 +137,75 @@ const result = await instance.myFunc(arg1, arg2);
 console.log(result);
 ```
 
-* How / where do I get token X for testing?
+## Where do I get the testnet address of token X?
+
+The best resource to find the corresponding token addresses is in the projects documentation. Let's take a look at an example.
+
+If you're working on an integration with Kyber which is deployed on the Ropsten testnet and uses DAI behind the scenes you'd find the corresponding address [here](https://developer.kyber.network/docs/RopstenEnvGuide/#token-addresses). In this case the DAI address is `0xaD6D458402F60fD3Bd25163575031ACDce07538D`.
+
+Now let's say that you're extending your dApp's capabilities via an integration with Aave v1. Looking through their documentation you'll find the Ropsten testnet addresses [here](https://docs.aave.com/developers/v/1.0/deployed-contracts/deployed-contract-instances). DAI has the address `0xf80A32A835F79D7787E8a8ee5721D0fEaFd78108`.
+
+Now if you pay close attention you'll notice that bot addresses are different and this is important to remember when working with testnets. Given that DAI and other tokens have no value on testnets they're usually deployed multiple times. More often than not you'll encounter project's using different deployment, making it nearly impossible for your to test complex interactions based on tokenized assets.
+
+If you're running into this problem you should skip testnets and switch to a mainnet forking + account impersonating strategy, both of which are discussed in the following two questions.
+
+## Is there a way to simulate real transactions on mainnet?
+
+If you're using a local Ethereum Blockchain Node for development like Ganache CLI or Hardhat Network you can add an option which enables "mainnet forking".
+
+Forking mainnet means that your local Blockchain Node will take a snapshot of the Ethereum mainnet including account and Smart Contract state and save it offline. Any subsequent interaction with your local Blockchain Node will be based off of this snapshot without affecting the real Ethereum mainnet.
+
+Using "mainnet forking" you can then interact with all the protocols already deployed on Ethereum mainnet via their respective "real" addresses and Smart Contract ABIs. But instead doing "real" transactions you run them locally with fake ETH. This capability is super powerful as it makes it super simple and efficient to test real-world use cases.
+
+The following examples show you how you can do "mainnet forking" with Ganache CLI and Hardhat Network. For more information we'd encourage you to browse through their official docs about "mainnet forking" \([Ganache CLI](https://github.com/trufflesuite/ganache-cli#readme), [Hardhat Network](https://hardhat.org/guides/mainnet-forking.html)\).
+
+**Note**: You can also add another option to start the forking process at block X. This is very useful if you're relying on mainnet forking in your tests as it makes testing via the forking mechanism deterministic.
+
+### Ganache CLI
+
+```text
+npx ganache-cli --fork https://cloudflare-eth.com
+```
+
+### Hardhat Network
+
+```text
+npx hardhat node --fork https://cloudflare-eth.com
+```
+
+## How do I mint token X for testing?
+
+The easiest way to mint a token for testing is to not mint it at all but impersonate someone else's account. While this sounds ethical questionable it's a very powerful strategy with zero harm involved for the impersonated account holder.
+
+What you'd do in this case is you'd run a local Ethereum Blockchain Node via "mainnet forking" \(see above\) while also passing in a parameter to unlock an account of your choice. This account should hold some amount of the token you're interested in during your testing.
+
+You can then spend any token of the unlocked account in your local Blockchain Node instance without possessing its private key.
+
+The following are examples which show how you'd start a Ganache CLI as well as Hardhat Network instance with account impersonation enabled. Please consult the corresponding tooling documentation for more information \([Ganache CLI](https://github.com/trufflesuite/ganache-cli#readme), [Hardhat Network](https://hardhat.org/guides/mainnet-forking.html)\).
+
+### Ganache CLI
+
+```text
+npx ganache-cli --fork https://cloudflare-eth.com --unlock 0x1234567890
+```
+
+### Hardhat Network
+
+```text
+npx hardhat node --fork https://cloudflare-eth.com
+```
+
+```text
+await hre.network.provider.request({
+  method: "hardhat_impersonateAccount",
+  params: ["0x1234567890"]}
+)
+```
+
 * I'm getting an "Internal JSON RPC error" when working with Metamask
 * How do I setup Metamask for local development?
-* What are the available testnets?
 * How do I deploy to testnets?
+* What are the available testnets?
 * Where can I find testnet faucets?
 * How do I get a Job as an Ethereum developer?
 * How much does a Smart Contract audit cost?
