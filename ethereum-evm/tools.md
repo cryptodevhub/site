@@ -32,6 +32,14 @@ It has support for different Solidity compiler versions, various plugins such as
 
 **Protip**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
 
+## Infura
+
+Participating in the Ethereum Blockchain Network requires a connection to an Ethereum Node. With [Infura](https://infura.io/) you can get API access to a Node without running one yourself.
+
+Their generous free plan should be more than enough to get you started with your Smart Contract and dApp projects. Once outgrown, upgrading to the next tier is a matter of a few clicks.
+
+**Protip**: Infura allows you to connect to their network via WebSockets \(`wss://`\) which can help you save bandwidth and API credits with read- and write heavy operations.
+
 ## Scaffold Eth
 
 Starting a new project is oftentimes preceded by a time-consuming setup phase in which all the necessary tools are installed and configured. Luckily there are boilerplates and templates which will help you take shortcuts and get up to speed faster.
