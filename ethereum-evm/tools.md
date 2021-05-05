@@ -40,6 +40,12 @@ Their generous free plan should be more than enough to get you started with your
 
 **Protip**: Infura allows you to connect to their network via WebSockets \(`wss://`\) which can help you save bandwidth and API credits with read- and write heavy operations.
 
+## Cloudflare Ethereum Gateway
+
+Cloudflare's hosted [Ethereum Gateway](https://developers.cloudflare.com/distributed-web/ethereum-gateway) is a signup- and cost free option to connect to the Ethereum Blockchain Network without the need to run an Ethereum Node yourself.
+
+All you need to do is grab their JSON-RPC URL `https://cloudflare-eth.com` and use it to establish a connection with your Web 3 client of choice \(e.g. web3.js or ethers\).
+
 ## Scaffold Eth
 
 Starting a new project is oftentimes preceded by a time-consuming setup phase in which all the necessary tools are installed and configured. Luckily there are boilerplates and templates which will help you take shortcuts and get up to speed faster.
