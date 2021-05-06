@@ -32,6 +32,14 @@ It has support for different Solidity compiler versions, various plugins such as
 
 **Protip**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
 
+## Alchemy
+
+[Alchemy](https://www.alchemy.com/) is a Blockchain developer platform with a variety of different products to streamline the whole dApp lifecycle. From local development to running it in production.
+
+Their [Supernode API](https://www.alchemy.com/supernode) offering provides developers reliable access to the Ethereum Blockchain Network. Other solutions revolve around notifications as well as remote monitoring and debugging.
+
+While paid plans are an option they also offer a generous free plan which should be more than enough to get you started.
+
 ## Infura
 
 Participating in the Ethereum Blockchain Network requires a connection to an Ethereum Node. With [Infura](https://infura.io/) you can get API access to a Node without running one yourself.
