@@ -54,6 +54,12 @@ Cloudflare's hosted [Ethereum Gateway](https://developers.cloudflare.com/distrib
 
 All you need to do is grab their JSON-RPC URL `https://cloudflare-eth.com` and use it to establish a connection with your Web 3 client of choice \(e.g. web3.js or ethers\).
 
+## Tenderly
+
+[Tenderly](https://tenderly.co/) helps you troubleshoot your Smart Contracts through real-time monitoring, analytics and alerting. They offer a "free forever" plan which is suited for experimentation and smaller hobby projects.
+
+**Protip**: Their visual debugger and state inspector make it super simple to figure out why and where a transaction was reverted. Simply go to their [Blockchain Explorer](https://dashboard.tenderly.co/explorer), paste your failed transaction into the search box and hit enter. Next up you'll get detailed data as to what happened during the execution and at which point the transaction was reverted \(and why\).
+
 ## Scaffold Eth
 
 Starting a new project is oftentimes preceded by a time-consuming setup phase in which all the necessary tools are installed and configured. Luckily there are boilerplates and templates which will help you take shortcuts and get up to speed faster.
