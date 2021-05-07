@@ -30,7 +30,9 @@ The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online developme
 
 It has support for different Solidity compiler versions, various plugins such as debuggers or linters as well as an in-browser CLI.
 
-**Protip**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
+**Protip1**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
+
+**Protip 2**: The Remix Project offers a [Remix Desktop App](https://github.com/ethereum/remix-desktop) which helps you develop your Smart Contracts in an offline-ready IDE. No need to install and configure compilers, editors and plugins.
 
 ## Alchemy
 
