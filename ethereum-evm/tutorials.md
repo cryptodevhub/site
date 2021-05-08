@@ -22,6 +22,14 @@ The [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.
 
 While working through the curriculum you'll learn how the Ethereum blockchain works, why transactions are structured the way they are and what the Smart Contract lifecycle is comprised of. Finally you'll apply everything you learned in various labs to test your hard earned knowledge and build up a portfolio of blockchain dApps.
 
+## The Complete Guide to Full Stack Ethereum Development
+
+This [blog post](https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13) written by Nader Dabit gives an excellent overview and introduction to all the necessary tools for modern dApp development such as React, Hardhat, Ethers and The Graph.
+
+Once you've worked through the tutorial you've learned how to integrate Metamask into your application, how to deploy and test Smart Contracts on Ethereum testnets, how to connect the dApp to a client frontend and how you write and compile contracts written in Solidity.
+
+The code for the whole application can be found on this [GitHub repository](https://github.com/dabit3/full-stack-ethereum) and if you're a visual learner you can check out the accompanying 1 hour long [YouTube video](https://www.youtube.com/watch?v=a0osIaAOFSE).
+
 ## Ethereum Development Tutorials
 
 The Ethereum foundation has its own [curated list](https://ethereum.org/en/developers/tutorials/) of community tutorials.
