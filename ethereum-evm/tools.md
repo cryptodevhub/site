@@ -86,6 +86,12 @@ The team at DappHub created and maintains the [Dappsys project](http://dapp.tool
 
 A notable component for example is the DSProxy which will help you implement ways to roll out Smart Contracts updates without introducing breaking changes for your end users.
 
+## Multicall
+
+The [Multicall](https://github.com/makerdao/multicall) project by MakerDAO provides you the ability to aggregate multiple constant function call results into one single call. This is very useful if you have to perform dozens of read calls but don't want to send every call separately due to rate limits and increased usage of API credits from your Ethereum Node provider \(such as Infura or Alchemy\).
+
+Multicall is implemented as a Smart Contract, however there are also higher-level abstractions which make the interaction a whole lot simpler. Well known ones are [multicall.js](https://github.com/makerdao/multicall.js) and [ethcall](https://github.com/Destiner/ethcall).
+
 ## Solhint
 
 [Solhint](https://github.com/protofire/solhint) is a linting utility which helps you write more standardized and secure Solidity code. It's easy to install and configure and seamlessly integrates with other tools such as Prettier.
