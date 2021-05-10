@@ -202,13 +202,26 @@ await hre.network.provider.request({
 )
 ```
 
+## How much does a Smart Contract audit cost?
+
+As it's usually the case, this really depends on the size and complexity of your project. Most auditing firms charge per time spent inspecting the contract\(s\).
+
+Larger projects \(more lines-of-code\) usually take longer to audit. The same applies to complex projects. An ERC-20 contract for example is easier to audit compared to a new, non-standard custom token implementation.
+
+Here are some rough estimates taken from a [blog post](https://medium.com/iearn/things-i-wish-i-knew-before-building-ethereum-defi-dapps-cd6bf0f07a16) written by Andre Cronje. The code in question is 359 LOC written in Solidity:
+
+* trailofbits.com $16.000 1 week, 1 person
+* cryptomaniacs $10.000 2 weeks, 2 people
+* sigmaprime.io $27.500 11 days, 2 people
+
+Andre concludes that bigger projects usually cost in the range of $50.000 to audit.
+
 * I'm getting an "Internal JSON RPC error" when working with Metamask
 * How do I setup Metamask for local development?
 * How do I deploy to testnets?
 * What are the available testnets?
 * Where can I find testnet faucets?
 * How do I get a Job as an Ethereum developer?
-* How much does a Smart Contract audit cost?
 * Where do I get a Smart Contract audit?
 * How much does it cost to deploy my dApp / Smart Contract to mainnet?
 
