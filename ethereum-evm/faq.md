@@ -216,7 +216,14 @@ Here are some rough estimates taken from a [blog post](https://medium.com/iearn/
 
 Andre concludes that bigger projects usually cost in the range of $50.000 to audit.
 
-* I'm getting an "Internal JSON RPC error" when working with Metamask
+## I'm getting an "Internal JSON RPC error" when working with Metamask
+
+Are you running an Ethereum Node via Ganache CLI or Hardhat Network for local development? If true, you're very likely reusing an old network configuration via Metamask.
+
+Metamask keeps track of nonces which are auto-incrementing numbers assigned to every transaction. And while your new Node starts with nonces at 0, Metamask still stores the nonce state of the old Node configuration.
+
+To solve this problem all you have to do is [reset your Metamask account](https://metamask.zendesk.com/hc/en-us/articles/360015488891-How-to-reset-your-wallet). This has to be done every time you reuse an existing Metamask network configuration with a new Ethereum Node.
+
 * How do I setup Metamask for local development?
 * How do I deploy to testnets?
 * What are the available testnets?
