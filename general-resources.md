@@ -22,6 +22,12 @@ You definitely don't want to miss the [Tech Deep Dives](https://coinmarketcap.co
 
 The team at CoinMarketCap adds new content on a regular basis so be sure to visit their website on a regular basis.
 
+## a16z Crypto Canon
+
+Andreessen Horowitz \(a.k.a "a16z"\) created the [Crypto Canon](https://a16z.com/2018/02/10/crypto-readings-resources/) project which is an exhaustive list of Blockchain and Crypto resources. It's structured in a way of increasing complexity, meaning that the first readings are about Blockchain and Crypto basics whereas the later resources discuss topics such as Decentralized Exchanges, Consensus mechanisms and Governance.
+
+While it was originally published in 2018 it's updated regularly, so you might want to bookmark and revisit it from time to time.
+
 ## a16z Crypto Startup School
 
 The venture capital firm Andreessen Horowitz \(know as "a16z"\) did a great job putting together a whole curriculum for aspiring Crypto startup founders called [Crypto Startup School](https://a16z.com/crypto-startup-school/).
