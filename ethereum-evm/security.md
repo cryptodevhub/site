@@ -21,6 +21,12 @@ The structure the authors adhere to is very useful as they'll start by explainin
 
 If you're reading the GitHub version linked above you'll also benefit from updates contributed by the community.
 
+## Building Secure Smart Contracts
+
+The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) project by Trail of Bits is a hands-on resource with guidelines and training material to learn how to write secure Smart Contracts.
+
+It covers topics such as the setup of a secure development workflow, integration of tokens as well as program analysis via fuzzers, symbolic execution and static analysis.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
