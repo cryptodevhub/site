@@ -30,6 +30,12 @@ Once you've worked through the tutorial you've learned how to integrate Metamask
 
 The code for the whole application can be found on this [GitHub repository](https://github.com/dabit3/full-stack-ethereum) and if you're a visual learner you can check out the accompanying 1 hour long [YouTube video](https://www.youtube.com/watch?v=a0osIaAOFSE).
 
+## Building Secure Smart Contracts
+
+The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) tutorial by Trail of Bits is one of the best resources to learn about Smart Contract development best practices and toolings in a hands-on fashion.
+
+While working through it you'll learn how to setup a secure Smart Contract development workflow, ways to securely integrate tokens into your dApp and which tools you should use to statically analyze your code for potential bugs and undesired side-effects.
+
 ## Ethereum Development Tutorials
 
 The Ethereum foundation has its own [curated list](https://ethereum.org/en/developers/tutorials/) of community tutorials.
