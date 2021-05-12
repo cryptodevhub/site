@@ -44,6 +44,12 @@ It's content is updated regularly and various filters help you find the best con
 
 **Protip**: While obvious to spreadsheet power users, don't miss the tabs for the different sheets at the bottom!
 
+## Cryptoeconomics.Study
+
+[Cryptoeconomics.Study](https://cryptoeconomics.study/) is a free, Open Source course which teaches you the fundamentals of Blockchain protocols and their underlying Token Economics.
+
+Working through it you'll not only learn how Blockchains such as Bitcoin and Ethereum work, you'll also get introduced to the game theoretic aspects which will help you understand why consensus mechanisms such as Proof-of-Work \(PoW\) and Proof-of-Stake \(PoS\) can be used to secure the network.
+
 ## Economics Design and Engineering for Robust DLT Ecosystems
 
 If you're looking for a Token Economics design framework, you don't want to miss the "[Economics Design and Engineering for Robust DLT Ecosystems](https://www.economicsdesign.com/wp-content/uploads/2019/09/Economics-Design-and-Engineering-for-Robust-DLT-Ecosystems-.pdf)" white paper authored by Lisa JY Tan.
