@@ -22,7 +22,7 @@ Do you see a typo, found something useful online or want to add your dev-tooling
 
 ## CryptoDevHub Community
 
-The wiki is just one part of our [CryptoDevHub](https://cryptodevhub.io) community. If you haven't already you might also want to join our Discord server and subscribe to our E-Mail Newsletter "The Weekly Diff".
+The wiki is just one part of our [CryptoDevHub](https://cryptodevhub.io) community. If you haven't already you might also want to join our [Discord server](https://cryptodevhub.io/discord) and subscribe to our E-Mail Newsletter "The Weekly Diff".
 
 The links to such resources can be found on our [homepage](https://cryptodevhub.io).
 
