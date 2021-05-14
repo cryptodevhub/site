@@ -44,6 +44,12 @@ It's content is updated regularly and various filters help you find the best con
 
 **Protip**: While obvious to spreadsheet power users, don't miss the tabs for the different sheets at the bottom!
 
+## The Token Handbook
+
+[The Token Handbook](https://www.thetokenhandbook.com/) is a long-form essay which introduces the reader to various aspects of Token Engineering and Token Economics. Once read you should have a solid understanding of the concept of money, different token forms, the utility of tokens and how they're used in Blockchains today.
+
+The author also published a 1 hour long [video](https://www.brighttalk.com/webcast/16227/290481) which presents the blog post content in a format more applicable to visual learners.
+
 ## Cryptoeconomics.Study
 
 [Cryptoeconomics.Study](https://cryptoeconomics.study/) is a free, Open Source course which teaches you the fundamentals of Blockchain protocols and their underlying Token Economics.
