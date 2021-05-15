@@ -48,3 +48,9 @@ Did you every attempt to read a Blockchain or Crypto whitepaper but got stuck ha
 
 [Outlier Ventures](https://outlierventures.io), a "custom accelerator for Web 3" has a very helpful [YouTube channel](https://www.youtube.com/c/OutlierVentures) where Web 3 founders present and discuss concepts such as the Metaverse, DeFi or NFTs in great detail. While you're at it you might also want to subscribe to their [Podcast feed](https://podcasts.apple.com/gb/podcast/founders-of-web-3/id1511782129) which is updated regularly with enticing interviews about Web 3, Blockchain and Crypto technologies.
 
+## How does a Blockchain actually work?
+
+The video "[But how does bitcoin actually work](https://www.youtube.com/watch?v=bBC-nXj3Ng4)?" by Grant Sanderson \(a.k.a 3Blue1Brown\) is a great visual introduction to Blockchains and their inner workings.
+
+In it, Grant builds up the intuition behind Blockchains by slowly introducing and explaining the individual constituents and the math governing them and the whole system. Once you've watched it you should have a solid understanding how real world projects like Bitcoin, Ethereum or Cosmos work behind the scenes.
+
