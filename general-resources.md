@@ -54,3 +54,13 @@ The video "[But how does bitcoin actually work](https://www.youtube.com/watch?v=
 
 In it, Grant builds up the intuition behind Blockchains by slowly introducing and explaining the individual constituents and the math governing them and the whole system. Once you've watched it you should have a solid understanding how real world projects like Bitcoin, Ethereum or Cosmos work behind the scenes.
 
+## Blockchain Demo
+
+The [Blockchain Demo](https://blockchaindemo.io/) project by Sean Han is an interactive website which teaches you how a Blockchain works in an intuitive, bite-sized fashion.
+
+Working through the tutorial you start with the genesis block to which you slowly add more data and hence blocks to the Blockchain. You'll explore why the chain forms a tamper-proof ledger, how a Peer-to-Peer network is formed to exchange blocks and how consensus is reached within such network based on protocols like Proof-of-Work.
+
+With every step of the way you can look into the code underlying the implementation. The full [source code](https://github.com/seanjameshan/blockchain) can be found at GitHub.
+
+There's also another, interactive [Blockchain tutorial](https://andersbrownworth.com/blockchain/) by Anders Brownworth you might want to look into as well. The implementation of such project is also [available at GitHub](https://github.com/anders94/blockchain-demo).
+
