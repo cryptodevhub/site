@@ -36,6 +36,12 @@ Sam Williams, the co-founder of Arweave held a lecture on incentive design in th
 
 In his [presentation](https://www.youtube.com/watch?v=gCFlGLbI_kE), Sam deconstructs the underlying game theoretic constructs of Bitcoin and talks about Arweave's Tokenomics and the design decisions they had to take into account while implementing their protocol.
 
+## **A Crash Course in Mechanism Design for Cryptoeconomic Applications** <a id="ef31"></a>
+
+This [long-form article](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976) by BlockChannel is a great introduction into the world of Mechanism Design and Game Theory. It teaches the avid reader about different concepts and ideas on how to design an incentivized system around a token economy.
+
+The discussed theories are applied by analyzing Namecoin and the challenges of the Ethereum Foundation to better understand the big ideas and further solidify the learnings.
+
 ## Token Economics Resources List
 
 The [Token Economics Resources List](https://docs.google.com/spreadsheets/d/1_py70Ic2u91VILJWCA7AMOXVZmmTv-zGo-LPr3PhDvM/edit) is a massive Google Document with tons of useful links to dive deeper into the ins- and outs of Token Economics and Incentive Engineering.
