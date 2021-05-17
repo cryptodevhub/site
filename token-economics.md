@@ -44,6 +44,16 @@ It's content is updated regularly and various filters help you find the best con
 
 **Protip**: While obvious to spreadsheet power users, don't miss the tabs for the different sheets at the bottom!
 
+## CoinFund - Cryptoeconomics is Hard Series
+
+The folks at CoinFunc wrote a 3 part series on Cryptoeconomics which teaches the reader everything there is to know about the economics behind Blockchain-based systems.
+
+Reading through it you'll learn about cryptoasset valuations, the pricing principles of cryptocurrencies and the Tokenomics of Blockchains such as Bitcoin or Ethereum.
+
+* [Part 1- Cryptoeconomics Is Hard](https://blog.coinfund.io/cryptoeconomics-is-hard-ad401b2428b9)
+* [Part 2 - Cryptoeconomics is hard, part 2](https://blog.coinfund.io/cryptoeconomics-is-hard-part-2-4d522cb3d3a4)
+* [Part 3 - Cryptoeconomics is hard: Market Cap](https://blog.coinfund.io/cryptoeconomics-is-hard-market-cap-4833c378a3e0)
+
 ## The Token Handbook
 
 [The Token Handbook](https://www.thetokenhandbook.com/) is a long-form essay which introduces the reader to various aspects of Token Engineering and Token Economics. Once read you should have a solid understanding of the concept of money, different token forms, the utility of tokens and how they're used in Blockchains today.
