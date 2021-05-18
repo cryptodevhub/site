@@ -27,6 +27,12 @@ The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-
 
 It covers topics such as the setup of a secure development workflow, integration of tokens as well as program analysis via fuzzers, symbolic execution and static analysis.
 
+## Rekt
+
+The mission of [Rekt](https://www.rekt.news/) is to catalog and analyze major Smart Contract hacks with the goal to educate readers about the exploited security vulnerabilities. Using this knowledge, builders as well as traders should be more equipped to evaluate new projects in the future.
+
+While you're there you should also look into their [Leaderboard](https://www.rekt.news/leaderboard/) which lists all analyzed hacks sorted by USD lost.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
