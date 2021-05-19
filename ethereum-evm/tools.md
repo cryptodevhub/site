@@ -126,3 +126,15 @@ Navigating the DeFi space is hard. The [DeFi-Map](https://github.com/YutaSugimur
 
 Their repository consolidates all the important project information such as links to Whitepapers, Documentation, Source Code and Smart Contract addresses.
 
+## Manticore
+
+[Manticore](https://github.com/trailofbits/manticore) is a security tool which helps you uncover security vulnerabilities and unintended behavior by analyzing your Smart Contract and binary code.
+
+It is a very powerful tool with lots of useful features such as:
+
+* Automatic input generation to emulate a wide variety of real-world usage
+* Program exploration which executes your code in various ways to reach any potential state it can be in
+* Error discovery to uncover errors in development rather than production
+
+**Protip**: Check out the [Manticore Examples](https://github.com/trailofbits/manticore-examples) repository for more involved, real-world CTF examples.
+
