@@ -144,3 +144,9 @@ It is a very powerful tool with lots of useful features such as:
 
 During execution it prints helpful, visual information to guide you through the bug-fixing process. It also comes with a programmable API so you can prototype and implement your own custom analyses.
 
+## Enchida
+
+[Enchida](https://github.com/crytic/echidna) is a fuzzing / property-based testing tool for Ethereum Smart Contracts. With Enchida you can generate random input data according to your Smart Contract ABIs.
+
+This is very useful for automated tests as you don't have to come up with the assertions but Enchida does. Once a problem is found, Enchida lets you further shrink down the input domain to find an exact way to reproduce the issue.
+
