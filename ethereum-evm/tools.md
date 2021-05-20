@@ -24,6 +24,12 @@ If you need some help getting the Blockchain data for your frontend you should a
 
 Hardhat core also ships with the [Hardhat Network](https://hardhat.org/hardhat-network/), a local Ethereum Network designed for fast iterations.
 
+## Embark
+
+[Embark](https://github.com/embarklabs/embark) is a framework which helps you build and deploy decentralized applications on EVM-based Blockchains like Ethereum or Binance Smart Chain. It seamlessly integrates with other technologies like IPFS, Swarm, Whisper and Orbit to offer decentralized file storage and communication capabilities.
+
+**Protip**: Embark can be extended via plugins. If you're tackling a complex problem the core framework doesn't solve, be sure to head over to the [plugins registry](https://framework.embarklabs.io/plugins/) and look if others faced the same issue. If not, it's simple to [author your own](https://framework.embarklabs.io/docs/creating_plugins.html).
+
 ## Remix IDE
 
 The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online development environment which lets you write, test, deploy and invoke Smart Contracts right from the comfort of your browser.
