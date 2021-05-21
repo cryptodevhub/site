@@ -108,6 +108,12 @@ When working in a professional environment it's useful to agree on one specific 
 
 Thanks to its configurability you can change the formatting rules to your liking. To streamline your workflow further you might also want to look into Editor and IDE integrations for Prettier. That way your code can be auto-formatted when saving files.
 
+## Solidity Coverage
+
+Whenever you're testing code you want to ensure that you cover all critical code paths. Test / Code coverage tools help you in figuring that out.
+
+The [solidity-coverage](https://github.com/sc-forks/solidity-coverage) project is a code coverage tool for Smart Contracts written in Solidity. Simply install the package and add it to your Truffle / Hardhat config to get detailed code coverage reports every time you run your tests.
+
 ## TypeChain
 
 While Smart Contracts act as your "backend" you'll also often want to wire them up with your frontend. [TypeChain](https://github.com/ethereum-ts/TypeChain) helps you auto-generate TypeScript type definitions for your Smart Contracts.
