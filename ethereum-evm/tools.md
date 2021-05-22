@@ -138,6 +138,12 @@ Navigating the DeFi space is hard. The [DeFi-Map](https://github.com/YutaSugimur
 
 Their repository consolidates all the important project information such as links to Whitepapers, Documentation, Source Code and Smart Contract addresses.
 
+## Mythril
+
+[Mythril](https://github.com/ConsenSys/mythril) is a tool to analyze the security properties of EVM bytecode. Given that it only expects EVM bytecode as input, Mythril can be used to check the output produced by Solidity, Vyper or any other language targeting the Ethereum Virtual Machine.
+
+**Protip**: Given that Mythril's only requirement is EVM bytecode you can also use it to check your Smart Contracts for EVM compatible platforms such as the Binance Smart Chain, Avalanche, Hedera or Tron.
+
 ## Manticore
 
 [Manticore](https://github.com/trailofbits/manticore) is a security tool which helps you uncover security vulnerabilities and unintended behavior by analyzing your Smart Contract and binary code.
