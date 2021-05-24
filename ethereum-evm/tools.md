@@ -68,6 +68,12 @@ All you need to do is grab their JSON-RPC URL `https://cloudflare-eth.com` and u
 
 **Protip**: Their visual debugger and state inspector make it super simple to figure out why and where a transaction was reverted. Simply go to their [Blockchain Explorer](https://dashboard.tenderly.co/explorer), paste your failed transaction into the search box and hit enter. Next up you'll get detailed data as to what happened during the execution and at which point the transaction was reverted \(and why\).
 
+## WalletLink
+
+In order to use your application, users need to connect their wallets to your dApp. This is usually done via Browser extensions such as MetaMask.
+
+[WalletLink](https://github.com/walletlink/walletlink) is an open protocol that is built on top of standards such as EIP-1102 to make the integration effortless, platform independent and extensible. With less than 15 lines of JavaScript code you can offer your users the ability to connect their wallets without installing any additional desktop software or Browser extension.
+
 ## Scaffold Eth
 
 Starting a new project is oftentimes preceded by a time-consuming setup phase in which all the necessary tools are installed and configured. Luckily there are boilerplates and templates which will help you take shortcuts and get up to speed faster.
