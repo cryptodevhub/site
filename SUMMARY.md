@@ -18,6 +18,7 @@
 * [Communities](ethereum-evm/communities.md)
 * [Media](ethereum-evm/media.md)
 * [FAQ](ethereum-evm/faq.md)
+* [Testnet Faucets](ethereum-evm/testnet-faucets.md)
 
 ## Cosmos
 
