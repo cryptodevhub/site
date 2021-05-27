@@ -40,6 +40,12 @@ It has support for different Solidity compiler versions, various plugins such as
 
 **Protip 2**: The Remix Project offers a [Remix Desktop App](https://github.com/ethereum/remix-desktop) which helps you develop your Smart Contracts in an offline-ready IDE. No need to install and configure compilers, editors and plugins.
 
+## EthFiddle
+
+[EthFiddle](https://ethfiddle.com/) is an online IDE which lets you write, compile and deploy Smart Contracts written in Solidity right from the comfort of your browser. This is a great resource if you're looking for a fast and simple way to play around with new ideas without setting up a whole new development environment.
+
+**Protip**: Make sure to check out the [recent fiddles](https://ethfiddle.com/recent_fiddles) by clicking on "Recent Fiddles" in the footer of the page to explore what others worked on using EthFiddle.
+
 ## Alchemy
 
 [Alchemy](https://www.alchemy.com/) is a Blockchain developer platform with a variety of different products to streamline the whole dApp lifecycle. From local development to running it in production.
