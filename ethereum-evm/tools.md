@@ -30,6 +30,14 @@ Hardhat core also ships with the [Hardhat Network](https://hardhat.org/hardhat-n
 
 **Protip**: Embark can be extended via plugins. If you're tackling a complex problem the core framework doesn't solve, be sure to head over to the [plugins registry](https://framework.embarklabs.io/plugins/) and look if others faced the same issue. If not, it's simple to [author your own](https://framework.embarklabs.io/docs/creating_plugins.html).
 
+## Dapp
+
+[Dapp](http://dapp.tools/dapp/) is a framework for dApp development on Ethereum and EVM-based Blockchains. It ships with everything important to get from idea to deployment on mainnet smoothly. Dapp is designed in an opinionated way to make onboarding and usage fast, robust and enjoyable.
+
+**Protip 1**: There are a bunch of premade [DappSys Components](http://dapp.tools/dappsys/) you can add to your Dapp project to iterate even faster.
+
+**Protip 2**: When you're using Dapp you might also want to join the [DappHub Collective](http://dapphub.com/), a self-organizing group of likeminded people who work with and on Dapp and Blockchain development in general.
+
 ## Remix IDE
 
 The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online development environment which lets you write, test, deploy and invoke Smart Contracts right from the comfort of your browser.
