@@ -146,6 +146,12 @@ While Smart Contracts act as your "backend" you'll also often want to wire them 
 
 Using TypeChain your frontend code is automatically checked for compatibility with your Smart Contract code, plus you get features such as autocomplete in modern IDEs.
 
+## Brownie
+
+[Brownie](https://github.com/eth-brownie/brownie) is a development and testing framework for Smart Contracts targeting the Ethereum Virtual Machine. It has full support for languages like Solidity and Vyper, powerful debugging tools as well as a package manager.
+
+**Protip**: Brownie also ships with a built-in console you can use to quickly interact with and iterate on your project.
+
 ## Solc Select
 
 Not every project you're working necessarily uses the same Solidity compiler. With [solc-select](https://github.com/crytic/solc-select) you can easily switch between different Solidity compiler versions without breaking your existing development environment
