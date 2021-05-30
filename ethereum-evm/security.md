@@ -13,6 +13,14 @@ If you're looking for a resource which catalogs and discusses common security pi
 
 Working through it you'll learn about Software Engineering best practices, useful developer tools for security as well as known attacks \(such as the DAO Hack\) and what code weaknesses made them possible.
 
+## Sigma Prime - Solidity Security
+
+This long-form [blog post](https://blog.sigmaprime.io/solidity-security.html) written by Sigma Prime walks the reader through all of the known attack vectors an EVM-based Smart Contract can expose.
+
+Every vulnerability is described and discussed in a structured, 3-part writeup. At first the vulnerability is explained in great detail, next up preventative techniques are shown, followed by examples where the discussed security hole has been exploited in the past.
+
+**Note**: The blog post was turned into a [GitHub repository](https://github.com/sigp/solidity-security-blog) which welcomes contributions to keep the document as up-to-date as possible.
+
 ## Mastering Ethereum - Smart Contract Security
 
 The book "Mastering Ethereum" has a dedicated [chapter about Smart Contract security](https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidoc). It's a very thorough examination of all the different security breaches that happened in the Ethereum ecosystem during the time of writing.
