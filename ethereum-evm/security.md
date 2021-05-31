@@ -67,6 +67,12 @@ If you want to learn how the infamous DeFi hacks worked and how you can take out
 
 **Protip:** If you get stuck, not making any significant progress you should check out the [OpenZeppelin Forum](https://forum.openzeppelin.com/) where community members share and discuss their solutions.
 
+## EtherHack
+
+[EtherHack](https://etherhack.positive.com/) is CTF / Wargame in which your goal it is to break into various Smart Contracts written in the Solidity programming language.
+
+There are 6 level in total you can work through. The difficulty increases every time you reach the next level.
+
 ## OpenZeppelin Blog
 
 Staying on top of the fast moving Smart Contract security landscape is as important as learning the basics through books, blog posts and tutorials.
