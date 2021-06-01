@@ -85,6 +85,12 @@ The team at [PeckShield](https://blog.peckshield.com/) does a great job at disse
 
 When reading such posts you'll learn about the big ideas behind the hacks, how they can be translated into code exploits \(and where to inject them\) and how you can be a forensic yourself by tracking them down in your favorite Block Explorer.
 
+## \(Not So\) Smart Contracts
+
+The [\(Not So\) Smart Contracts repository](https://github.com/crytic/not-so-smart-contracts) is a collection of Smart Contract implementations showcasing the most prominent security vulnerabilities like "reentrancy", "forced ether reception" or "denial of service".
+
+Every directory contains a README describing the exploit and mitigation strategies in great detail as well as an implementation of a vulnerable Smart Contract.
+
 ## Common Smart Contract Vulnerabilities and How To Mitigate Them
 
 If you're looking for a concise overview of common Smart Contract vulnerabilities you should read through Yos Riady's [writeup](https://yos.io/2018/10/20/smart-contract-vulnerabilities-and-how-to-mitigate-them/) on his blog.
