@@ -41,6 +41,12 @@ The mission of [Rekt](https://www.rekt.news/) is to catalog and analyze major Sm
 
 While you're there you should also look into their [Leaderboard](https://www.rekt.news/leaderboard/) which lists all analyzed hacks sorted by USD lost.
 
+## ETHSecurity
+
+The [ETHSecurity](https://www.ethsecurity.org/) project is an effort to facilitate an open and collaborative community where bast practices on authoring secure Smart Contracts are shared.
+
+Browsing through its content you'll find a lot of useful resources such as blog posts, talks, audits and security information as well as tools and developer resources.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
