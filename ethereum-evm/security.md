@@ -91,6 +91,12 @@ The team at [PeckShield](https://blog.peckshield.com/) does a great job at disse
 
 When reading such posts you'll learn about the big ideas behind the hacks, how they can be translated into code exploits \(and where to inject them\) and how you can be a forensic yourself by tracking them down in your favorite Block Explorer.
 
+## SWC Registry
+
+The [SWC Registry](https://swcregistry.io/) \(Smart Contract Weakness Classification\) is an effort to catalog and categorize Smart Contract Weaknesses. Browsing through it you'll learn about various Smart Contract vulnerabilities which have been used to exploit projects in the past.
+
+If applicable the relationships to CWEs \(Common Weakness Enumeration\) are shown. There are also test cases you can use to check if your project is vulnerable to be exploited via the security hole in question.
+
 ## \(Not So\) Smart Contracts
 
 The [\(Not So\) Smart Contracts repository](https://github.com/crytic/not-so-smart-contracts) is a collection of Smart Contract implementations showcasing the most prominent security vulnerabilities like "reentrancy", "forced ether reception" or "denial of service".
