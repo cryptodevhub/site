@@ -47,6 +47,12 @@ The [ETHSecurity](https://www.ethsecurity.org/) project is an effort to facilita
 
 Browsing through its content you'll find a lot of useful resources such as blog posts, talks, audits and security information as well as tools and developer resources.
 
+## SecurEth
+
+[SecurEth](https://secureth.org/) is a community-driven resource to educate the public as well as developers about the importance of Smart Contract security. While their main focus is on EVM-based systems, their resources are also applicable to other Blockchains.
+
+**Protip**: The official [SecurEth Guidelines](https://guidelines.secureth.org/) are a great place to lean more about audits, project planning, toolings and security vulnerabilities.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
