@@ -85,6 +85,12 @@ If you want to learn how the infamous DeFi hacks worked and how you can take out
 
 There are 6 level in total you can work through. The difficulty increases every time you reach the next level.
 
+## Security Innovation Blockchain CTF
+
+[Security Innovation Blockchain CTF](https://blockchain-ctf.securityinnovation.com/) is a dApp which is built based on vulnerable Smart Contracts the contestant has to exploit.
+
+The different levels are modeled based on real-life use cases, ranging from lotteries to ICOs to automated royalty agreements.
+
 ## OpenZeppelin Blog
 
 Staying on top of the fast moving Smart Contract security landscape is as important as learning the basics through books, blog posts and tutorials.
