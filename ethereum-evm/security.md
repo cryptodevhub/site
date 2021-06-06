@@ -53,6 +53,12 @@ Browsing through its content you'll find a lot of useful resources such as blog 
 
 **Protip**: The official [SecurEth Guidelines](https://guidelines.secureth.org/) are a great place to lean more about audits, project planning, toolings and security vulnerabilities.
 
+## Blockchain Security Database
+
+The [Blockchain Security Database](https://consensys.github.io/blockchainSecurityDB/) by ConsenSys Diligence is an Open Source database which catalogs security information for popular dApp projects and their underlying Smart Contracts.
+
+Browsing through it you'll find a project's audits as well as bug bounty payouts one receives when finding new security vulnerabilities.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
