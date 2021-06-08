@@ -46,6 +46,8 @@ The also have a [YouTube Channel](https://www.youtube.com/c/Bankless/) where you
 
 While on their YouTube Channel page definitely check out their "Playlists" where you'll find content such as "DeFi 101", "Quick Takes" or "De-F.I.R.E" \(Financial Independence, Retire Early\).
 
+**Protip**: The Defiant also has a very thorough "[Definitive Guide to DeFi](https://newsletter.thedefiant.io/p/the-defiants-definitive-guide-to)" which is a great introduction to all the important DeFi concepts and projects. In it you'll find tons of links to resources such as YouTube videos, Blog posts, Newsletters and Podcasts you might want to study further.
+
 ## DeFi Weekly by Kerman Kohli
 
 If you're looking for a resource which breaks the complexities of DeFi down into easy to understand and digest pieces you're in for a treat watching Kerman Kohli's "DeFi Weekly" videos.
