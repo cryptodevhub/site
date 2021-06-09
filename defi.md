@@ -40,6 +40,8 @@ If you're into the DeFi and Open Finance movement there's no way around the [Ban
 
 The also have a [YouTube Channel](https://www.youtube.com/c/Bankless/) where you can use the "Playlists" feature to filter the content by category such as Tutorials, AMAs or "Weekly Rollups".
 
+**Protip**: The team at Bankless created "[Going Bankless: The Ultimate Guide](https://newsletter.banklesshq.com/p/-guide-1-starting-with-bankless)", a great resources to onboard you into the world of Decentralized Finance. Reading through it you'll learn about all the important concepts and projects used in the DeFi ecosystem. No prior knowledge required. At the end of every section there are links to even more in-depth Blog Posts, Newsletters, Podcasts and YouTube videos you can dive into to learn even more.
+
 ## The Defiant
 
 [The Defiant](https://thedefiant.io/) was one of earliest news outlets focused on Decentralized- and Open Finance. While you should definitely check out their well known Podcast and Newsletter, their [YouTube Channel](https://www.youtube.com/c/TheDefiant) is the hidden gem with carefully crafted videos covering the latest and most important topics in DeFi.
