@@ -12,6 +12,12 @@ The [CryptoJobList](https://cryptojobslist.com/) is one of the web's largest agg
 
 Other than job postings you can also find realtime data and statistics on the Blockchain industry as well as a very useful overview of salaries which will help you benchmark your compensation against others.
 
+## Web3 Board
+
+The [Web3 Board](https://www.web3board.io/) is a job board which aggregates job postings related to areas in the Web3 space such as DAOs, DeFi, NFTs and the Metaverse. One can filter jobs by tags and their respective roles such as Design, Engineering or Product.
+
+There's also a free Newsletter you can sign up for to get notified when new jobs are added.
+
 ## Blocktribe
 
 [Blocktribe](https://blocktribe.com/) is a Blockchain and Cryptocurrency job search engine with a constantly updated index of job opportunities in the space.
