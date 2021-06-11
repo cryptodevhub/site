@@ -18,6 +18,14 @@ The [Know Ethereum](https://knowethereum.com/)'s project goal is to catalog and 
 
 Browsing through it you'll find beginner resources to start your learning journey, the most active subreddits, Twitter accounts you might want to follow, useful books, podcasts and more.
 
+## Ethereum Beigepaper
+
+The [Ethereum Beigepaper](https://github.com/chronaeon/beigepaper) is a rewrite of the original, highly technical and mathematical Ethereum Yellowpaper which serves as the technical specification for the EVM, Ethereum's underlying virtual machine.
+
+The Beigepaper's goal is to make the Yellowpaper more accessible to a broader audience by rephrasing the technicalities in a more approachable format.
+
+Reading through it you'll not only learn how Ethereum compares to other projects in the Blockchain space but also how the Ethereum Virtual Machine \(EVM\) works under the hood.
+
 ## How does Ethereum work, anyway?
 
 The blog post "[How does Ethereum work, anyway?](https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway)" is one of the best reads if you want to get a deep understanding of everything that's involved when interacting with the Ethereum Blockchain. When reading it you'll learn \(among other things\) how Blocks are created, how logs are stored and how transactions cause state transitions to be carried out by the Ethereum Virtual Machine \(EVM\). It'll definitely take some time to read through it and grok everything but once you're done you should be in a better position to build decentralized applications on top of Ethereum and the EVM.
