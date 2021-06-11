@@ -64,9 +64,9 @@ While paid plans are an option they also offer a generous free plan which should
 
 ## Tatum
 
-[Tatum] (https://www.tatum.io/) is the fastest and most effective way to develop blockchain apps on 20+ blockchains. With a powerful unified API that streamlines complex blockchain operations into single API calls, lightning-fast infrastructure, and an abstraction layer with advanced built-in functionality, Tatum gives developers everything they need to build full-fledged blockchain apps, even without any blockchain development experience.
+[Tatum](https://www.tatum.io/) is the fastest and most effective way to develop blockchain apps on 20+ blockchains. With a powerful unified API that streamlines complex blockchain operations into single API calls, lightning-fast infrastructure, and an abstraction layer with advanced built-in functionality, Tatum gives developers everything they need to build full-fledged blockchain apps, even without any blockchain development experience.
 
-Tatum features a full-featured free plan and cost-effective paid plans with significantly more requests per second than any other provider. With an emphasis on [comprehensive documentation] (https://docs.tatum.io/) and highly responsive [developer support] (https://t.me/tatumio), Tatum is the go-to platform of choice for over 8,000 developers.
+Tatum features a full-featured free plan and cost-effective paid plans with significantly more requests per second than any other provider. With an emphasis on [comprehensive documentation](https://docs.tatum.io/) and highly responsive [developer support](https://t.me/tatumio), Tatum is the go-to platform of choice for over 8,000 developers.
 
 ## Infura
 
@@ -166,7 +166,7 @@ Not every project you're working necessarily uses the same Solidity compiler. Wi
 
 Are you working on DeFi projects and want to integrate with our existing DeFi projects in the space? The [Money Legos](https://github.com/studydefi/money-legos) project might be exactly what you're looking for.
 
-Installing Money Legos to your projects gives you access to Smart Contracts and their ABIs for various DeFi projects such as Aave, Compound or Uniswap. Also make sure to study their [documentation](https://money-legos.studydefi.com/) which includes a lot of examples and showcases how powerful the concept of "Money Legos" really is. 
+Installing Money Legos to your projects gives you access to Smart Contracts and their ABIs for various DeFi projects such as Aave, Compound or Uniswap. Also make sure to study their [documentation](https://money-legos.studydefi.com/) which includes a lot of examples and showcases how powerful the concept of "Money Legos" really is.
 
 **Aside**: Even if you're not actively building a DeFi project with Money Legos it's worthwhile to browse through their documentation just to learn how e.g. Flash Loans work.
 
