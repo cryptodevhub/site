@@ -62,6 +62,12 @@ Their [Supernode API](https://www.alchemy.com/supernode) offering provides devel
 
 While paid plans are an option they also offer a generous free plan which should be more than enough to get you started.
 
+## Tatum
+
+[Tatum] (https://www.tatum.io/) is the fastest and most effective way to develop blockchain apps on 20+ blockchains. With a powerful unified API that streamlines complex blockchain operations into single API calls, lightning-fast infrastructure, and an abstraction layer with advanced built-in functionality, Tatum gives developers everything they need to build full-fledged blockchain apps, even without any blockchain development experience.
+
+Tatum features a full-featured free plan and cost-effective paid plans with significantly more requests per second than any other provider. With an emphasis on [comprehensive documentation] (https://docs.tatum.io/) and highly responsive [developer support] (https://t.me/tatumio), Tatum is the go-to platform of choice for over 8,000 developers.
+
 ## Infura
 
 Participating in the Ethereum Blockchain Network requires a connection to an Ethereum Node. With [Infura](https://infura.io/) you can get API access to a Node without running one yourself.
