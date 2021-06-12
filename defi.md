@@ -52,9 +52,9 @@ While on their YouTube Channel page definitely check out their "Playlists" where
 
 ## DeFi Weekly by Kerman Kohli
 
-If you're looking for a resource which breaks the complexities of DeFi down into easy to understand and digest pieces you're in for a treat watching Kerman Kohli's "DeFi Weekly" videos.
+If you're looking for a resource which breaks the complexities of DeFi down into easy to understand and digest pieces you're in for a treat subscribing to Kerman Kohli's Newsletter "[DeFi Weekly](https://defiweekly.substack.com/)".
 
-On his [YouTube Channel](https://www.youtube.com/c/DeFiWeekly), Kerman sits down with his iPad to decompose and explain the most complex DeFi protocols out there. Starting with a blank page he'll walk you through the protocol designs, tokenomics and usage of products like Maker DAO, Compound and Synthetix.
+For folks looking for videos, there's also his [YouTube Channel](https://www.youtube.com/c/DeFiWeekly). In his videos, Kerman sits down with his iPad to decompose and explain the most complex DeFi protocols out there. Starting with a blank page he'll walk you through the protocol designs, tokenomics and usage of products like Maker DAO, Compound and Synthetix.
 
 ## DeFi Dad
 
