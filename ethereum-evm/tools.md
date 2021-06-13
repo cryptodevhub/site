@@ -112,6 +112,19 @@ The team at OpenZeppelin maintain the widely used [openzeppelin-contracts](https
 
 Not only do you save an enormous amount of time using OpenZeppelin Smart Contracts as dependencies, you'll also benefit from code that is battle-tested and has been audited several times in the past.
 
+## OpenZeppelin Defender 
+
+A security operations (SecOps) platform for Ethereum with built-in best practices. It offers the following components: 
+
+- Admin: automate and secure all your smart contract administration.
+- Relay: build with private and secure transaction infrastructure.
+- Sentinel: monitor smart contracts and send notifications.
+- Autotask: create automated scripts to call your smart contracts.
+- Advisor: learn and implement security best practices.
+
+Useful for shipping faster while minimizing security risks.
+
+
 ## DappHub Dappsys
 
 The team at DappHub created and maintains the [Dappsys project](http://dapp.tools/dappsys/) which offers composable and sage building-blocks for Smart Contract systems.
