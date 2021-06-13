@@ -18,6 +18,14 @@ The [Web3 Board](https://www.web3board.io/) is a job board which aggregates job 
 
 There's also a free Newsletter you can sign up for to get notified when new jobs are added.
 
+## CryptoJobs
+
+The [CryptoJobs](https://crypto.jobs/) job aggregator is an easy to browse job search engine which lists job opportunities from various companies working in the Blockchain space.
+
+You can subscribe to their Newsletter to receive weekly updates about the job market straight to your inbox.
+
+**Protip**: Use the toggle next to the search box to switch from "All jobs" to "Remote" to search specifically for remote jobs.
+
 ## Blocktribe
 
 [Blocktribe](https://blocktribe.com/) is a Blockchain and Cryptocurrency job search engine with a constantly updated index of job opportunities in the space.
