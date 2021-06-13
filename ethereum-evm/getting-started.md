@@ -44,7 +44,7 @@ It isn't super important what you're building as long as you focus your efforts 
 
 ## 4. Build more dApps
 
-Once done with your very first dApp you surely ran into various roadblocks you didn't anticipate beforehand. While having guardrails in the beginning is a necessity it's being on your own where true growth happens and the learnings materialize.
+Once done with your very first dApp, you surely ran into various roadblocks you didn't anticipate beforehand. While having guardrails in the beginning is a necessity, it's being on your own where true growth happens and the learnings materialize.
 
 Given that, you should spend some more time building dApps end-to-end. This time around **without any guardrails**. Start with a clean slate and work your way through the whole process. Start with the Smart Contract logic, connect it to a frontend and ensure that everything works by writing unit- and integration tests.
 
@@ -62,9 +62,9 @@ A CRUD \(Create, Read, Update, Delete\) dApp where users can create posts, read 
 
 ### Escrow \(Medium\)
 
-Write an escrow Smart Contract which helps users facilitate transactions. User A should be able to deposit funds in the Smart Contract while user B should be able to withdraw the previously deposited funds from user B.
+Write an escrow Smart Contract which helps users facilitate transactions. User A should be able to deposit funds in the Smart Contract while user B should be able to withdraw the previously deposited funds from user A.
 
-You can add a timelock-like feature where funds will be automatically sent back to the depositor after a certain number of blocks has been mined and then funds haven't been withdrawn by user B.
+You can add a timelock-like feature where funds will be automatically sent back to the depositor after a certain number of blocks has been mined and the funds haven't been withdrawn by user B.
 
 ### Lottery \(Medium\)
 
@@ -104,9 +104,9 @@ Read through the ERC-20 and ERC-721 standards and build a dApp which leverages t
 
 **Protip**: OpenZeppelin's Smart Contracts package should help you in doing so.
 
-## 7. Learn about Smart Contract Security
+## 7. Learn about Smart Contract security
 
-We already touched based on the importance of Smart Contract Security when it comes down to dApp and Blockchain development. Take some time to read through our [Security](https://wiki.cryptodevhub.io/ethereum-evm/security) page and learn more about recent hacks and potential pitfalls.
+We already touched on the importance of Smart Contract security when it comes to dApp and Blockchain development. Take some time to read through our [Security](https://wiki.cryptodevhub.io/ethereum-evm/security) page and learn more about recent hacks and potential pitfalls.
 
 ## 8. Join Communities
 
