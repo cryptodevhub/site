@@ -68,6 +68,12 @@ The [DeFi Safety](https://defisafety.com/) project was started to address such i
 
 **Protip**: You can also request reviews if a project you're interested in is missing in their list. Simply click on the "Request Reviews" link in the top navigation.
 
+## RugDoc
+
+The [RugDoc ](https://rugdoc.io/)project's goal is to catalog and assess DeFi protocols and Yield Farming opportunities for their potential risks. Their interface makes is easy to filter by Blockchain Network, Audits and overall risk.
+
+There's also a Farms Calendar one can use to find out when new Farms will launch.
+
 ## Money Legos
 
 If you're a Blockchain developer looking for a way to leverage the DeFi ecosystem and build upon existing protocols you should definitely check out the [Money Legos project](https://github.com/studydefi/money-legos) by the StudyDefi team.
