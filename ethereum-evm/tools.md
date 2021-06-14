@@ -194,6 +194,11 @@ It is a very powerful tool with lots of useful features such as:
 
 **Protip**: Check out the [Manticore Examples](https://github.com/trailofbits/manticore-examples) repository for more involved, real-world CTF examples.
 
+## Securify
+
+[Securify](https://github.com/eth-sri/securify2) is a security scanner supported by the Ethereum Foundation and ChainSecurity. 
+Currently it supports the automatic verification of 38 vulnerabilities from [SWC Registry](https://swcregistry.io/) (Smart Contract Weakness Classification and Test Cases).
+
 ## Slither
 
 [Slither](https://github.com/crytic/slither) is a static analysis framework which lets you run vulnerability detectors to find exploitable code paths before deploying your Smart Contracts to production.
