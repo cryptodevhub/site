@@ -14,9 +14,9 @@ Modify `docusaurus.config.js` to add support for the `fr` locale:
 module.exports = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
+    locales: ['en', 'fr']
+  }
+}
 ```
 
 ## Translate a doc
@@ -60,13 +60,13 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: 'localeDropdown',
-        },
+          type: 'localeDropdown'
+        }
         // highlight-end
-      ],
-    },
-  },
-};
+      ]
+    }
+  }
+}
 ```
 
 The locale dropdown now appears in your navbar:
