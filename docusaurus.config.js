@@ -3,33 +3,30 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'CryptoDevHub',
+  tagline: 'The place where Blockchain- and Crypto developers learn, meet and grow',
+  url: 'https://cryptodevhub.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/logo.svg',
+  organizationName: 'cryptodevhub',
+  projectName: 'site',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CryptoDevHub',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CryptoDevHub Logo',
         src: 'img/logo.svg'
       },
       items: [
+        { type: 'doc', docId: 'intro', position: 'left', label: 'Wiki' },
+        { to: '/blockchain-development-tutorials', label: 'Tutorials', position: 'left' },
+        { to: '/blockchain-development-tools', label: 'Tools', position: 'left' },
+        { to: '/blockchain-developer-jobs', label: 'Jobs', position: 'left' },
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial'
-        },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://cryptodevhub.io/discord',
+          label: 'Discord',
           position: 'right'
         }
       ]
@@ -38,11 +35,27 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Wiki',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro'
+              label: 'Solidity Tutorial',
+              to: '/wiki/solidity-tutorial'
+            },
+            {
+              label: 'Tutorials',
+              to: '/blockchain-development-tutorials'
+            },
+            {
+              label: 'Tools',
+              to: '/blockchain-development-tools'
+            },
+            {
+              label: 'Jobs',
+              to: '/blockchain-developer-jobs'
+            },
+            {
+              label: 'Testnet Faucets',
+              to: '/blockchain-testnet-faucets'
             }
           ]
         },
@@ -50,16 +63,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus'
+              href: 'https://cryptodevhub.io/discord'
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus'
+              href: 'https://twitter.com/cryptodevhub'
             }
           ]
         },
@@ -67,17 +76,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog'
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus'
+              href: 'https://github.com/cryptodevhub'
             }
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} CryptoDevHub`
     },
     prism: {
       theme: lightCodeTheme,
@@ -89,14 +94,13 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/wiki',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/'
+          editUrl: 'https://github.com/cryptodevhub/site/edit/master/docs/'
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/'
+          editUrl: 'https://github.com/cryptodevhub/site/edit/master/blog/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
