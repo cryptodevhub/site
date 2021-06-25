@@ -1,49 +1,61 @@
 import React from 'react'
 import clsx from 'clsx'
+import Link from '@docusaurus/Link'
 import styles from './HomepageFeatures.module.css'
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Learn Blockchain Development',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your
-        website up and running quickly.
+        Follow our step-by-step &quot;Getting Started&quot; guide to go from absolute beginner to
+        proficient Smart Contract developer.
       </>
-    )
+    ),
+    emoji: '⛓️',
+    link: 'wiki/solidity-tutorial',
+    cta: 'Go to "Getting Started" Guide'
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Browse Development Resources',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your
-        docs into the <code>docs</code> directory.
+        Browse our community-maintained Wiki to discover useful Tutorials, Tools and other Resources
+        which will help you sharpen your development skills.
       </>
-    )
+    ),
+    emoji: '✍️',
+    link: '/wiki',
+    cta: 'Go to Wiki'
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Connect with other Developers',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while
-        reusing the same header and footer.
+        Join our Discord and talk to other Blockchain developers. Ask questions, team up or simply
+        hang out and chat about all things Crypto.
       </>
-    )
+    ),
+    emoji: '💬',
+    link: '/discord',
+    cta: 'Open Discord'
   }
 ]
 
-function Feature({ Svg, title, description }) {
+function Feature({ title, description, emoji, link, cta }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <span className="feature-emoji">{emoji}</span>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--md" to={link}>
+            {cta}
+          </Link>
+        </div>
       </div>
     </div>
   )
@@ -53,6 +65,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <h2 className="text--center">What do you want to do today?</h2>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -1,7 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
 import Layout from '@theme/Layout'
-import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import HomepageFeatures from '../components/HomepageFeatures'
@@ -11,16 +10,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <svg width="80" height="80">
+          <image xlinkHref="/img/logo.svg" src="/img/logo.svg" width="80" height="80" />
+        </svg>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            Docusaurus Tutorial - 5min
-            <span role="img" aria-label="Clock">
-              ⏱️
-            </span>
-          </Link>
-        </div>
+        <p className="hero__subsubtitle">
+          We&apos;re a community-driven effort to unite like-minded people interested in Blockchain-
+          and Crypto Technologies
+        </p>
       </div>
     </header>
   )
@@ -30,8 +28,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={siteConfig.title}
+      description="The one-stop-shop for Blockchain- and Crypto developers. Learn Blockchain development, meet fellow enthusiasts, grow your career."
     >
       <HomepageHeader />
       <main>

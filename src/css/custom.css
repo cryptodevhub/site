@@ -17,6 +17,23 @@
   --ifm-code-font-size: 95%;
 }
 
+.hero--primary {
+  background-color: var(--ifm-color-gray-100);
+  color: var(--collapse-button-bg-color-dark);
+}
+
+.feature-emoji {
+  font-size: 50px;
+}
+
+.hero__subsubtitle {
+  margin-bottom: 0;
+}
+
+main > .features_src-components-HomepageFeatures-module {
+  padding-bottom: 8rem;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
