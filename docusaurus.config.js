@@ -94,6 +94,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'wiki',
           routeBasePath: '/wiki',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/cryptodevhub/site/edit/master/docs/'
