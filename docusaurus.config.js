@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'The place where Blockchain- and Crypto developers learn, meet and grow',
   url: 'https://cryptodevhub.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'cryptodevhub',
