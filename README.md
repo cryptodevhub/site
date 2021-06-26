@@ -1,33 +1,17 @@
-# Website
-
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-## Installation
-
-```console
-yarn install
-```
+# CryptoDevHub - Site
 
 ## Local Development
 
-```console
+1. `git clone` the repository
+2. `yarn install`
+3. `yarn start`
+
+## Useful commands
+
+```sh
 yarn start
-```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
 yarn build
+
+npx vercel [--prod] [--force]
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
