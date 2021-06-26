@@ -99,10 +99,6 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/cryptodevhub/site/edit/master/docs/'
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/cryptodevhub/site/edit/master/blog/'
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         }
