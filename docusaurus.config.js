@@ -20,7 +20,7 @@ module.exports = {
         src: 'img/logo.svg'
       },
       items: [
-        { type: 'doc', docId: 'intro', position: 'left', label: 'Wiki' },
+        { type: 'doc', docId: 'welcome', position: 'left', label: 'Wiki' },
         { to: '/blockchain-development-tutorials', label: 'Tutorials', position: 'left' },
         { to: '/blockchain-development-tools', label: 'Tools', position: 'left' },
         { to: '/blockchain-developer-jobs', label: 'Jobs', position: 'left' },
