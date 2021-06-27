@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/logo.svg',
   organizationName: 'cryptodevhub',
   projectName: 'site',
+  titleDelimiter: '-',
   themeConfig: {
     navbar: {
       title: 'CryptoDevHub',
