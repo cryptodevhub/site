@@ -116,5 +116,12 @@ module.exports = {
         docsRouteBasePath: '/wiki'
       }
     ]
+  ],
+  scripts: [
+    {
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      defer: true,
+      'data-cf-beacon': '{"token": "792c3446689844a497532f469b2d394b"}'
+    }
   ]
 }
