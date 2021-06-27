@@ -7,19 +7,19 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #6b7280;
-  --ifm-color-primary-dark: #4b5563;
-  --ifm-color-primary-darker: #374151;
-  --ifm-color-primary-darkest: #1f2937;
-  --ifm-color-primary-light: #9ca3af;
-  --ifm-color-primary-lighter: #d1d5db;
-  --ifm-color-primary-lightest: #e5e7eb;
+  --ifm-color-primary: #7c3aed;
+  --ifm-color-primary-dark: #6d28d9;
+  --ifm-color-primary-darker: #5b21b6;
+  --ifm-color-primary-darkest: #4c1d95;
+  --ifm-color-primary-light: #8b5cf6;
+  --ifm-color-primary-lighter: #a78bfa;
+  --ifm-color-primary-lightest: #c4b5fd;
   --ifm-code-font-size: 95%;
 }
 
-.hero--primary {
-  background-color: var(--ifm-color-gray-100);
-  color: var(--collapse-button-bg-color-dark);
+/* See: https://codepen.io/sosuke/pen/Pjoqqp */
+.hero--primary svg > image {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(193deg) brightness(104%) contrast(103%);
 }
 
 .feature-emoji {
