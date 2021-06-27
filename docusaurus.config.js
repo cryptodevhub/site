@@ -98,7 +98,7 @@ module.exports = {
           path: 'wiki',
           routeBasePath: '/wiki',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/cryptodevhub/site/edit/master/docs/'
+          editUrl: 'https://github.com/cryptodevhub/site/edit/master/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
