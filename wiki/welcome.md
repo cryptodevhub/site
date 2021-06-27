@@ -2,7 +2,7 @@
 id: welcome
 title: Welcome to the CryptoDevHub Wiki
 description: The community-driven wiki for Blockchain developers and Crypto technologists.
-slug: /welcome
+slug: /
 sidebar_position: 1
 sidebar_label: Welcome
 ---
