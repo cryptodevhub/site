@@ -38,7 +38,7 @@ const FeatureList = [
     ),
     emoji: '💬',
     link: '/discord',
-    cta: 'Open Discord'
+    cta: 'Join Discord'
   }
 ]
 
