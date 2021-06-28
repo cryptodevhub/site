@@ -39,8 +39,8 @@ module.exports = {
           title: 'Wiki',
           items: [
             {
-              label: 'Solidity Tutorial',
-              to: '/wiki/solidity-tutorial'
+              label: 'Blockchain Development Tutorial',
+              to: '/wiki/blockchain-development-tutorial'
             },
             {
               label: 'Tutorials',

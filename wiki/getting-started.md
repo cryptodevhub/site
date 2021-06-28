@@ -1,8 +1,8 @@
 ---
-id: solidity-tutorial
+id: blockchain-development-tutorial
 title: Solidity Tutorial
 description: The following is an opinionated guide on how to get started with Ethereum dApp development.
-slug: /solidity-tutorial
+slug: /blockchain-development-tutorial
 sidebar_position: 2
 sidebar_label: Getting Started
 ---

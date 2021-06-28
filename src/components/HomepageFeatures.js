@@ -13,7 +13,7 @@ const FeatureList = [
       </>
     ),
     emoji: '⛓️',
-    link: 'wiki/solidity-tutorial',
+    link: 'wiki/blockchain-development-tutorial',
     cta: 'Go to "Getting Started" Guide'
   },
   {
