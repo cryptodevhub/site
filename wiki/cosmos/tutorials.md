@@ -1,5 +1,5 @@
 ---
-id: cosmos-tutorials
+id: tutorials
 title: Cosmos Tutorials
 description: Helpful tutorials to learn how to get the most out of the Cosmos SDK.
 slug: /cosmos-tutorials

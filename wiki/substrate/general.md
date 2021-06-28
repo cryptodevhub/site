@@ -1,5 +1,5 @@
 ---
-id: substrate-development-resources
+id: development-resources
 title: Substrate Development Resources
 description: General resources for aspiring Substrate developers.
 slug: /substrate-development-resources

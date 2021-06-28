@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-tools
+id: tools
 title: Ethereum Virtual Machine Tools
 description: Useful tools and projects to help you streamline your Ethereum / EVM workflow.
 slug: /ethereum-virtual-machine-tools

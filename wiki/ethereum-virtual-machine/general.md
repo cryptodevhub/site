@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-development-resources
+id: development-resources
 title: Ethereum Virtual Machine Development Resources
 description: Useful resources to help you navigating the Ethereum development landscape.
 slug: /ethereum-virtual-machine-development-resources

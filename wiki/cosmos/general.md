@@ -1,5 +1,5 @@
 ---
-id: cosmos-development-resources
+id: development-resources
 title: Cosmos Development Resources
 description: Work through the following resources to learn more about Cosmos and Tendermint.
 slug: /cosmos-development-resources

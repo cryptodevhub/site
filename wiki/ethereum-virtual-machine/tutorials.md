@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-tutorials
+id: tutorials
 title: Ethereum Virtual Machine Tutorials
 description: Tutorials for building on the Ethereum Virtual Machine (EVM). Blockchains supporting the EVM are (among others) Ethereum and Binance Smart Chain.
 slug: /ethereum-virtual-machine-tutorials

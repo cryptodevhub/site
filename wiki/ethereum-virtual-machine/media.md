@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-media
+id: media
 title: Ethereum Virtual Machine Media
 description: All the Blogs, YouTube channels, Podcasts which cover development on Ethereum Virtual Machine Blockchains.
 slug: /ethereum-virtual-machine-media

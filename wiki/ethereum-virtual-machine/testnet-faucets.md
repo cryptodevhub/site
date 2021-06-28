@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-testnet-faucets
+id: testnet-faucets
 title: Ethereum Virtual Machine Testnet Faucets
 description: The following is a list with Ethereum testnets and faucets. Testnets closely resemble the Ethereum mainnet so that you can take your Smart Contract or dApp for a spin before deploying to production.
 slug: /ethereum-virtual-machine-testnet-faucets

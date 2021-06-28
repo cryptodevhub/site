@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-security
+id: security
 title: Ethereum Virtual Machine Security
 description: Smart Contracts are immutable and "code is law". Therefore you want to arm yourself with some security chops to avoid pushing code with bugs which can be exploited.
 slug: /ethereum-virtual-machine-security

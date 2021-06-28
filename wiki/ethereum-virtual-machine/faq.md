@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-faq
+id: faq
 title: Ethereum Virtual Machine Frequently Asked Questions
 description: Frequently Asked Questions (FAQ) about the Ethereum Blockchain as well as Smart Contract and dApp development on the EVM.
 slug: /ethereum-virtual-machine-faq

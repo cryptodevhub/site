@@ -1,5 +1,5 @@
 ---
-id: ethereum-virtual-machine-developer-communities
+id: developer-communities
 title: Ethereum Virtual Machine Developer Communities
 description: Are you looking for fellow Ethereum / EVM developers? Browse through the following list to find other places to discuss all-things Solidity, Vyper and co.
 slug: /ethereum-virtual-machine-developer-communities

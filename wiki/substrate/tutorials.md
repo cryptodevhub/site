@@ -1,5 +1,5 @@
 ---
-id: substrate-tutorials
+id: tutorials
 title: Substrate   Tutorials
 description: Work through some of the following tutorials to learn the ins and outs of Substrate, a Blockchain framework based on the Rust programming language.
 slug: /substrate-tutorials
