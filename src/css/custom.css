@@ -29,11 +29,11 @@ html[data-theme='dark'] .navbar__brand > img {
   filter: var(--filter-white);
 }
 
-html[data-theme='light'] .hero--primary svg > image {
+html[data-theme='light'] .hero--primary svg {
   filter: var(--filter-white);
 }
 
-html[data-theme='dark'] .hero--primary svg > image {
+html[data-theme='dark'] .hero--primary svg {
   filter: var(--filter-black);
 }
 
