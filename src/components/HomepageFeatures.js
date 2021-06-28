@@ -37,7 +37,7 @@ const FeatureList = [
       </>
     ),
     emoji: '💬',
-    link: '/discord',
+    link: 'https://cryptodevhub.io/discord',
     cta: 'Join Discord'
   }
 ]
