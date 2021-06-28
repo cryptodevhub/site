@@ -1,0 +1,89 @@
+{
+  "redirects": [
+    {
+      "source": "/discord",
+      "destination": "https://discord.com/invite/x3ybcKbQC9",
+      "permanent": false
+    },
+    {
+      "source": "/wiki/general-resources",
+      "destination": "/wiki/blockchain-learning-resources",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/communities",
+      "destination": "/wiki/blockchain-developer-communities",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/jobs",
+      "destination": "/blockchain-developer-jobs",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/getting-started",
+      "destination": "/wiki/blockchain-development-tutorial",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/general",
+      "destination": "/wiki/ethereum-virtual-machine-development-resources",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/tutorials",
+      "destination": "/wiki/ethereum-virtual-machine-tutorials",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/tools",
+      "destination": "/wiki/ethereum-virtual-machine-tools",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/security",
+      "destination": "/wiki/ethereum-virtual-machine-security",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/communities",
+      "destination": "/wiki/ethereum-virtual-machine-developer-communities",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/media",
+      "destination": "/wiki/ethereum-virtual-machine-media",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/faq",
+      "destination": "/wiki/ethereum-virtual-machine-faq",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/ethereum-evm/testnet-faucets",
+      "destination": "/wiki/ethereum-virtual-machine-testnet-faucets",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cosmos/general",
+      "destination": "/wiki/cosmos-development-resources",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cosmos/tutorials",
+      "destination": "/wiki/cosmos-tutorials",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/substrate/general",
+      "destination": "/wiki/substrate-development-resources",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/substrate/tutorials",
+      "destination": "/wiki/substrate-tutorials",
+      "permanent": true
+    }
+  ]
+}
