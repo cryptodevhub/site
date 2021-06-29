@@ -45,8 +45,22 @@ html[data-theme='dark'] .hero--primary svg {
   margin-bottom: 0;
 }
 
-main > .features_src-components-HomepageFeatures-module {
+main > section.features {
   padding-bottom: 8rem;
+}
+
+main > section.features h2 {
+  margin-bottom: 0;
+}
+
+main > section.features .row .col {
+  margin-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  header > .container > h1 {
+    font-size: 2rem;
+  }
 }
 
 .docusaurus-highlight-code-line {

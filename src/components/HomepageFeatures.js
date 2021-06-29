@@ -63,7 +63,7 @@ function Feature({ title, description, emoji, link, cta }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
+    <section className={`${styles.features} features`}>
       <div className="container">
         <h2 className="text--center">What do you want to do today?</h2>
         <div className="row">
