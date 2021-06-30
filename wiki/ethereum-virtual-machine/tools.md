@@ -262,3 +262,9 @@ This is very useful for automated tests as you don't have to come up with the as
 [Rattle](https://github.com/crytic/rattle) is a binary static analysis framework which works on Smart Contracts deployed on EVM-compatible Blockchains.
 
 With Rattle you can recover the Smart Contract's original control flow graph to get an easier to read overview of the code you're about to interact with. When using Rattle, functions, their arguments as well as memory- and storage locations are recovered.
+
+## Pyevmasm
+
+[pyevmasm](https://github.com/crytic/pyevmasm) is an assembler and disassembler library for the EVM (Ethereum Virtual Machine) written in Python. Using it you can assemble EVM instructions to opscode or disassemble opcodes back into EVM instructions.
+
+The project includes the `evmasm` CLI as well as an API you can tap into via Python.
