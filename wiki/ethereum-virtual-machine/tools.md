@@ -35,6 +35,12 @@ Hardhat core also ships with the [Hardhat Network](https://hardhat.org/hardhat-n
 
 **Protip**: Embark can be extended via plugins. If you're tackling a complex problem the core framework doesn't solve, be sure to head over to the [plugins registry](https://framework.embarklabs.io/plugins/) and look if others faced the same issue. If not, it's simple to [author your own](https://framework.embarklabs.io/docs/creating_plugins.html).
 
+## 0xcert Framework
+
+The [0xcert Framework](https://github.com/0xcert/framework/) is a JavaScript-based development platform which helps you quickly build and deploy decentralized applications (dApps). Using the framework you'll benefit from its opinionated design and the established conventions which come in handy when integrating with other dApps.
+
+**Protip**: You can extend the frameworks functionality via plugins which are listed in the projects [README](https://github.com/0xcert/framework/blob/master/README.md).
+
 ## Dapp
 
 [Dapp](http://dapp.tools/dapp/) is a framework for dApp development on Ethereum and EVM-based Blockchains. It ships with everything important to get from idea to deployment on mainnet smoothly. Dapp is designed in an opinionated way to make onboarding and usage fast, robust and enjoyable.
