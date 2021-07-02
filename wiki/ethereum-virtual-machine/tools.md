@@ -274,3 +274,7 @@ With Rattle you can recover the Smart Contract's original control flow graph to 
 [pyevmasm](https://github.com/crytic/pyevmasm) is an assembler and disassembler library for the EVM (Ethereum Virtual Machine) written in Python. Using it you can assemble EVM instructions to opscode or disassemble opcodes back into EVM instructions.
 
 The project includes the `evmasm` CLI as well as an API you can tap into via Python.
+
+## Oyente
+
+The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance helps you analyze local and remote Smart Contracts. Using it you can verify contract assertions, generate the contracts function graphs, compute various statistics and scrape up-to-date transaction information.
