@@ -99,6 +99,12 @@ All you need to do is grab their JSON-RPC URL `https://cloudflare-eth.com` and u
 
 **Protip**: Their visual debugger and state inspector make it super simple to figure out why and where a transaction was reverted. Simply go to their [Blockchain Explorer](https://dashboard.tenderly.co/explorer), paste your failed transaction into the search box and hit enter. Next up you'll get detailed data as to what happened during the execution and at which point the transaction was reverted \(and why\).
 
+## EthereumJS
+
+The [EthereumJS](https://github.com/ethereumjs/ethereumjs-monorepo) project is an effort to provide a reference implementation of the Ethereum Virtual Machine (EVM) in TypeScript. The repository is split up into several packages one can use to access low-level primitives such as Merkle-Patricia-Trees, Peer-to-peer (P2P) connectivity, Blocks, Transactions, Hashes and more.
+
+To learn more about the different building blocks one can browse through the official [EthereumJS Documentation](https://ethereumjs.readthedocs.io/en/latest/).
+
 ## WalletLink
 
 In order to use your application, users need to connect their wallets to your dApp. This is usually done via Browser extensions such as MetaMask.
