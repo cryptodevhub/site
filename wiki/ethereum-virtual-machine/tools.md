@@ -153,6 +153,15 @@ The team at DappHub created and maintains the [Dappsys project](http://dapp.tool
 
 A notable component for example is the DSProxy which will help you implement ways to roll out Smart Contracts updates without introducing breaking changes for your end users.
 
+## Flex Ether
+
+[flex-ether](https://github.com/merklejerk/flex-ether) is a library designed to simplify the creation and sending of Ethereum transactions. Using it in your project you'll benefit from features such as:
+
+- Minimal setup to interact with different networks (mainnet, testnets, local networks)
+- Signing and sending of transactions from arbitrary wallets
+- Automatic ENS resolutions
+- Automatic gas estimations and calculations
+
 ## Multicall
 
 The [Multicall](https://github.com/makerdao/multicall) project by MakerDAO provides you the ability to aggregate multiple constant function call results into one single call. This is very useful if you have to perform dozens of read calls but don't want to send every call separately due to rate limits and increased usage of API credits from your Ethereum Node provider \(such as Infura or Alchemy\).
