@@ -162,6 +162,16 @@ A notable component for example is the DSProxy which will help you implement way
 - Automatic ENS resolutions
 - Automatic gas estimations and calculations
 
+## Flex Contract
+
+[flex-contract](https://github.com/merklejerk/flex-contract) is a library which offers a more ergonomic Smart Contract abstraction. Some of its main benefits compared to other solutions are:
+
+- Simplistic setup with minimal configuration
+- Easy event filtering and monitoring
+- ENS resolutions
+- ABIEncoderV2 support
+- Automatic gas and gas price calculations
+
 ## Multicall
 
 The [Multicall](https://github.com/makerdao/multicall) project by MakerDAO provides you the ability to aggregate multiple constant function call results into one single call. This is very useful if you have to perform dozens of read calls but don't want to send every call separately due to rate limits and increased usage of API credits from your Ethereum Node provider \(such as Infura or Alchemy\).
