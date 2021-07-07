@@ -153,6 +153,12 @@ The team at DappHub created and maintains the [Dappsys project](http://dapp.tool
 
 A notable component for example is the DSProxy which will help you implement ways to roll out Smart Contracts updates without introducing breaking changes for your end users.
 
+## Nethereum
+
+[Nethereum](https://nethereum.com/) is the .NET integration library which aims to simplify Ethereum node access and Smart Contract interaction. It can be used on both, public and permissioned Ethereum nodes running e.g. Geth, Parity or Quorum. You can find guides, examples and in-depth explanations in the [official documentation](https://nethereum.readthedocs.io/en/latest/).
+
+**Protip**: Head over to the [playground](http://playground.nethereum.com/) to try different Nethereum examples interactively right from within your browser. No setup required.
+
 ## Flex Ether
 
 [flex-ether](https://github.com/merklejerk/flex-ether) is a library designed to simplify the creation and sending of Ethereum transactions. Using it in your project you'll benefit from features such as:
