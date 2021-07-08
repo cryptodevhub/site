@@ -212,6 +212,12 @@ While Smart Contracts act as your "backend" you'll also often want to wire them 
 
 Using TypeChain your frontend code is automatically checked for compatibility with your Smart Contract code, plus you get features such as autocomplete in modern IDEs.
 
+## useMetamask
+
+Connecting from a frontend to your dApp backend usually involves integrating MetaMask, the Browser- and Smartphone friendly crypto wallet. Depending on the frontend framework you're using this can result in complex code to ensure proper functionality.
+
+React users can use the [`useMetamask`](https://github.com/mdtanrikulu/use-metamask) hook which greatly simplifies this setup while covering all the major edge cases one usually has to handle manually.
+
 ## Solidity Visual Developer
 
 [Solidity Visual Developer](https://github.com/ConsenSys/vscode-solidity-auditor) by ConsenSys is an extension which adds Solidity language and visual security auditor support to your Visual Studio Code installation.
