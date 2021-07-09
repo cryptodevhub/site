@@ -49,6 +49,12 @@ The [0xcert Framework](https://github.com/0xcert/framework/) is a JavaScript-bas
 
 **Protip 2**: When you're using Dapp you might also want to join the [DappHub Collective](http://dapphub.com/), a self-organizing group of likeminded people who work with and on Dapp and Blockchain development in general.
 
+## useDapp
+
+[useDapp](https://usedapp.io/) is an opinionated, yet extensible framework for rapid dApp development. Its main focus is to provide a "batteries included" developer experience by combining frequently used features like React hooks and the Multicall library with software engineering best practices such as integration testing and modularity.
+
+An example which demonstrates the frameworks simplicity can be found in the projects [README](https://github.com/EthWorks/useDApp). The official documentation can be found [here](https://usedapp.readthedocs.io).
+
 ## Remix IDE
 
 The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online development environment which lets you write, test, deploy and invoke Smart Contracts right from the comfort of your browser.
