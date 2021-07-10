@@ -55,6 +55,12 @@ The [0xcert Framework](https://github.com/0xcert/framework/) is a JavaScript-bas
 
 An example which demonstrates the frameworks simplicity can be found in the projects [README](https://github.com/EthWorks/useDApp). The official documentation can be found [here](https://usedapp.readthedocs.io).
 
+## web3-react
+
+The [web3-react](https://github.com/NoahZinsmeister/web3-react) project is a simple but easily extensible framework to build modern Ethereum dApps. At its core is the package system which lets you configure various connectors and low-level primitives to optimize the developer experience while minimizing the reliance on external dependencies.
+
+Famous projects built on top of web3-react include the [Uniswap Exchange Interface](https://github.com/Uniswap/uniswap-interface), [Aave](https://app.aave.com) and the [Eth2 Launchpad](https://launchpad.ethereum.org).
+
 ## Remix IDE
 
 The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online development environment which lets you write, test, deploy and invoke Smart Contracts right from the comfort of your browser.
