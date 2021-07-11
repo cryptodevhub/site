@@ -327,3 +327,7 @@ The project includes the `evmasm` CLI as well as an API you can tap into via Pyt
 ## Oyente
 
 The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance helps you analyze local and remote Smart Contracts. Using it you can verify contract assertions, generate the contracts function graphs, compute various statistics and scrape up-to-date transaction information.
+
+## Seth
+
+[Seth](http://dapp.tools/seth/) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
