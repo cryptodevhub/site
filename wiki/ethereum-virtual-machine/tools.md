@@ -331,3 +331,7 @@ The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance hel
 ## Seth
 
 [Seth](http://dapp.tools/seth/) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
+
+## Hevm
+
+[Hevm](http://dapp.tools/hevm/) is an EVM (Ethereum Virtual Machine) evaluator that helps you verify, test and debug Smart Contracts from the command-line. Hevm can run unit tests, property tests, debug Smart Contracts interactively and execute arbitrary EVM code against local or remote nodes.
