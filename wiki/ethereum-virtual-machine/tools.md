@@ -248,6 +248,12 @@ By using this extension you'll get access to rich, visualized source code explor
 
 **Protip**: You should definitely spend some time to read through their [documentation](https://ethereum-waffle.readthedocs.io/en/latest/). The [Chai matchers docs](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html) in particular explain how you can make use of their custom matchers to e.g. check for BigNumbers or events emitted by your contracts.
 
+## Ethereum Tester
+
+The [eth-tester](https://github.com/ethereum/eth-tester) project is a tool suite which provides high-level abstractions to test Ethereum dApps. It's written in Python and can be used programmatically as a project dependency or interactively via the CLI.
+
+Ethereum Tester's implementation focuses on modularity which makes it possible to use different backends for different test scenarios.
+
 ## Solc Select
 
 Not every project you're working necessarily uses the same Solidity compiler. With [solc-select](https://github.com/crytic/solc-select) you can easily switch between different Solidity compiler versions without breaking your existing development environment
