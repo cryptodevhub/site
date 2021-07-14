@@ -218,6 +218,14 @@ The Solidity programming language supports the usage of inline documentation whi
 
 The [Solidity Docgen](https://github.com/OpenZeppelin/solidity-docgen) tool uses such comments to auto-generate a self-contained documentation for the project in question. Simply run one command to get the content for your projects docs website or the onboarding guide for your teammates.
 
+## solpp
+
+[solpp](https://github.com/merklejerk/solpp) is a preprocessor and flattener for Solidity source files. Its preprocessor directives are inspired by the C programming language and let you perform conditional code renderings (via `#if`, `#elif` and `#else`) as well as code block repetitions (via `#for`).
+
+Using solpp you can also flatten your source files for easy contract verification via Etherscan.
+
+**Protip**: You can browse through the [example](https://github.com/merklejerk/solpp#example) to see all of solpp's powerful features at a glance.
+
 ## TypeChain
 
 While Smart Contracts act as your "backend" you'll also often want to wire them up with your frontend. [TypeChain](https://github.com/ethereum-ts/TypeChain) helps you auto-generate TypeScript type definitions for your Smart Contracts.
