@@ -99,6 +99,12 @@ There are 6 level in total you can work through. The difficulty increases every 
 
 The different levels are modeled based on real-life use cases, ranging from lotteries to ICOs to automated royalty agreements.
 
+## Cipher Shastra
+
+The [Cipher Shastra](https://ciphershastra.com/) project is an effort to help you sharpen your security skills by solving CTF-like challenges from the fields of Blockchain Security, Smart Contract Exploitation and Cryptography.
+
+**Protip**: Some of the challenges have writeups listed at the bottom of the page you can use if you ever get stuck.
+
 ## OpenZeppelin Blog
 
 Staying on top of the fast moving Smart Contract security landscape is as important as learning the basics through books, blog posts and tutorials.
