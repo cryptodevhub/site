@@ -25,6 +25,16 @@ You definitely don't want to miss the [Tech Deep Dives](https://coinmarketcap.co
 
 The team at CoinMarketCap adds new content on a regular basis so be sure to visit their website on a regular basis.
 
+## Gemini Cryptopedia
+
+[Gemini Cryptopedia](https://www.gemini.com/cryptopedia) aims to be the Wikipedia of Crypto content. It's a great place to learn more about topics such as DeFi, NFTs, Security, Trading & Investing as well as Blockchains, Cryptocurrencies and Protocols in general.
+
+Every article was written and reviewed by [authoritative experts](https://www.gemini.com/cryptopedia/authors) to ensure high quality.
+
+The [Glossary](https://www.gemini.com/cryptopedia/glossary) is another resource you can use to lookup Crypto terms and better understand the industry's lingo.
+
+**Protip**: The [Explore page](https://www.gemini.com/cryptopedia/explore) gives you a structured overview of all the available content you can browse through.
+
 ## a16z Crypto Canon
 
 Andreessen Horowitz \(a.k.a "a16z"\) created the [Crypto Canon](https://a16z.com/2018/02/10/crypto-readings-resources/) project which is an exhaustive list of Blockchain and Crypto resources. It's structured in a way of increasing complexity, meaning that the first readings are about Blockchain and Crypto basics whereas the later resources discuss topics such as Decentralized Exchanges, Consensus mechanisms and Governance.
