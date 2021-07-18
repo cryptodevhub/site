@@ -129,6 +129,12 @@ The [\(Not So\) Smart Contracts repository](https://github.com/crytic/not-so-sma
 
 Every directory contains a README describing the exploit and mitigation strategies in great detail as well as an implementation of a vulnerable Smart Contract.
 
+## Solidity Best Practices for Smart Contract Security
+
+This [blog post](https://media.consensys.net/solidity-best-practices-for-smart-contract-security-54d309a622c2) written by the ConsenSys team is a great read if you're looking for general security advice when authoring Smart Contracts in the Solidity programming language.
+
+Reading through it you'll learn about the most common development pitfalls as well as considerations one has to take into account when using timestamps, multiple inheritance, state- and function visibility and more.
+
 ## Common Smart Contract Vulnerabilities and How To Mitigate Them
 
 If you're looking for a concise overview of common Smart Contract vulnerabilities you should read through Yos Riady's [writeup](https://yos.io/2018/10/20/smart-contract-vulnerabilities-and-how-to-mitigate-them/) on his blog.
