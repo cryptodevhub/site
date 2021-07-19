@@ -61,6 +61,12 @@ The [Blockchain Security Database](https://consensys.github.io/blockchainSecurit
 
 Browsing through it you'll find a project's audits as well as bug bounty payouts one receives when finding new security vulnerabilities.
 
+## Security Checklists for Ethereum Smart Contract Development
+
+The [white paper](https://arxiv.org/abs/2008.04761) written by researchers from the Mathematics and Computer Science department of the University of Cagliari does a deep dive into various security considerations one has to take into account when working on Ethereum Smart Contracts and dApps.
+
+The table at the end of the paper which lists abstract security patterns can be used as a checklist to perform a project's initial security audit.
+
 ## Parity's Checklist for Secure Smart Contract Development
 
 Parity published a [checklist](https://www.parity.io/paritys-checklist-for-secure-smart-contract-development/) of 14 different best practices you might want to follow when working on your Smart Contract projects.
