@@ -262,6 +262,12 @@ The [eth-tester](https://github.com/ethereum/eth-tester) project is a tool suite
 
 Ethereum Tester's implementation focuses on modularity which makes it possible to use different backends for different test scenarios.
 
+## Cliquebait
+
+Using [cliquebait](https://github.com/f-o-a-m/cliquebait) you can spin up an easy to use single-node Proof-of-Authority Blockchain via Geth running in Docker. Cliquebait also automatically generates accounts with ETH you can unlock to easily deploy and test your Smart Contracts.
+
+Cliquebait's main goals is to simplify integration- and acceptance testing of dApps by offering an ephemeral testing environment that closely resembles a real Blockchain network.
+
 ## Solc Select
 
 Not every project you're working necessarily uses the same Solidity compiler. With [solc-select](https://github.com/crytic/solc-select) you can easily switch between different Solidity compiler versions without breaking your existing development environment
