@@ -49,6 +49,12 @@ In it you'll learn everything you need to know to build, launch and grow your pr
 
 In conjunction to that they also published an article called "[The State of Crypto](https://a16z.com/2020/12/28/crypto-users-guide/)" which acts as a kind of TL;DR version of the Crypto Startup School content.
 
+## Whiteboard Crypto
+
+The Whiteboard Crypto [YouTube channel](https://www.youtube.com/c/WhiteboardCrypto) is a great place for newcomers to learn everything there is to know about the big ideas behind Blockchains and Cryptocurrencies. One of the channel's main focus is to use stories and analogies to explain Crypto concepts in an easy to understand way.
+
+For a more structured overview of all the available videos take a look at the [playlists](https://www.youtube.com/c/WhiteboardCrypto/playlists).
+
 ## Encode Club
 
 The [Encode Club](https://www.encode.club) has some great [YouTube videos](https://www.youtube.com/channel/UC8MwfizU_2GYh_LugWJom6A) in which various aspects of Blockchain Development and Crypto technologies are explained by industry experts. They consolidate all the resources via different tracks such as "DeFi Club" or "Hack the System". Simply click on the [playlists](https://www.youtube.com/channel/UC8MwfizU_2GYh_LugWJom6A/playlists) tab to get a sorted overview of their videos.
