@@ -135,6 +135,12 @@ The [create-eth-app](https://github.com/PaulRBerg/create-eth-app) project helps 
 
 By running one command you'll create an opinionated project structure with example code for your dApp's frontend and backend. Make sure to read through the projects README to learn all the different options and configurations you use to customize the app creation process further.
 
+## Solidity Template
+
+The [solidity-template](https://github.com/paulrberg/solidity-template) project is an effort to provide a solid foundation for professional, secure and efficient Smart Contract development. By leveraging well-known tools such as Hardhat, TypeChain, Ethers, Waffle, Solhint, Solcover and Prettier you can stay focused on your code without having to deal with configuration files and project setups.
+
+Using the template is as simple as running `git clone` or clicking the "Use this template" button on the GitHub web interface.
+
 ## OpenZeppelin Contracts
 
 The team at OpenZeppelin maintain the widely used [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) repository which is the "Golden Standard" when it comes to standards, helpers and security in the industry. No matter what you're trying to build, definitely check the OpenZeppelin contracts [documentation](https://docs.openzeppelin.com/contracts/) to see if it was already built before.
