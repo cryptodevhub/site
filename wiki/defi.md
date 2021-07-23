@@ -53,6 +53,12 @@ While on their YouTube Channel page definitely check out their "Playlists" where
 
 **Protip**: The Defiant also has a very thorough "[Definitive Guide to DeFi](https://newsletter.thedefiant.io/p/the-defiants-definitive-guide-to)" which is a great introduction to all the important DeFi concepts and projects. In it you'll find tons of links to resources such as YouTube videos, Blog posts, Newsletters and Podcasts you might want to study further.
 
+## Modern Finance
+
+[Modern Finance](https://modern.finance/) by Kevin Rose is a Podcast which covers all things Cryptocurrency, DeFi, Yield Farming, NFTs and more. Every episode Kevin interviews Blockchain and Crypto entrepreneurs to learn more about their projects and the space they operate in. The special "MoFi Consensus" episodes keep you in the loop about the recent developments in the DeFi ecosystem.
+
+**Protip**: You can also subscribe to the Modern Finance Newsletter to get the latest news straight to your inbox.
+
 ## Fast DeFi Tutorial
 
 The "[Fastest DeFi Tutorial on Earth](https://fastdefitutorial.com/)" is a collection of links, resources and tutorials to learn everything important there is to know about DeFi and its concepts.
