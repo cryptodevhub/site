@@ -117,6 +117,10 @@ The [EthereumJS](https://github.com/ethereumjs/ethereumjs-monorepo) project is a
 
 To learn more about the different building blocks one can browse through the official [EthereumJS Documentation](https://ethereumjs.readthedocs.io/en/latest/).
 
+## Web3Modal
+
+[Web3Modal](https://github.com/Web3Modal/web3modal) is a single Ethereum / Web 3 provider solution for all wallets. Using Web3Modal you can easily add support for providers like MetaMask, Dapper, Gnosis Safe, Frame, Portis, Fortmatic and more.
+
 ## WalletLink
 
 In order to use your application, users need to connect their wallets to your dApp. This is usually done via Browser extensions such as MetaMask.
