@@ -33,12 +33,6 @@ Once you've worked through the tutorial you've learned how to integrate Metamask
 
 The code for the whole application can be found on this [GitHub repository](https://github.com/dabit3/full-stack-ethereum) and if you're a visual learner you can check out the accompanying 1 hour long [YouTube video](https://www.youtube.com/watch?v=a0osIaAOFSE).
 
-## Solidity Patterns
-
-The [Solidity Patterns](https://fravoll.github.io/solidity-patterns/) project is an effort to consolidate the best design- and programming patterns for Smart Contract projects written in Solidity. Browsing through it you'll find patterns from categories such as behavior, security, upgradeability and economics.
-
-**Note**: While the document refers to Solidity version 0.4 most of the patterns can be applied without any strict version requirement.
-
 ## Building Secure Smart Contracts
 
 The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) tutorial by Trail of Bits is one of the best resources to learn about Smart Contract development best practices and toolings in a hands-on fashion.

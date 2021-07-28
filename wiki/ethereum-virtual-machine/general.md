@@ -31,6 +31,12 @@ The Beigepaper's goal is to make the Yellowpaper more accessible to a broader au
 
 Reading through it you'll not only learn how Ethereum compares to other projects in the Blockchain space but also how the Ethereum Virtual Machine \(EVM\) works under the hood.
 
+## Solidity Patterns
+
+The [Solidity Patterns](https://fravoll.github.io/solidity-patterns/) project is an effort to consolidate the best design- and programming patterns for Smart Contract projects written in Solidity. Browsing through it you'll find patterns from categories such as behavior, security, upgradeability and economics.
+
+**Note**: While the document refers to Solidity version 0.4 most of the patterns can be applied without any strict version requirement.
+
 ## Solidity Cheatsheet
 
 Having all the different topics, concepts and language specifics top of mind when working with Solidity can be quite challenging.
