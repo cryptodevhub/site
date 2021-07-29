@@ -365,3 +365,9 @@ The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance hel
 ## Hevm
 
 [Hevm](http://dapp.tools/hevm/) is an EVM (Ethereum Virtual Machine) evaluator that helps you verify, test and debug Smart Contracts from the command-line. Hevm can run unit tests, property tests, debug Smart Contracts interactively and execute arbitrary EVM code against local or remote nodes.
+
+## Yul
+
+[Yul](https://docs.soliditylang.org/en/latest/yul.html) is an intermediate language that can be compiled to different backends such as the Ethereum Virtual Machine (EVM 1.0 and EVM 1.5) as well as Ethereum WebAssembly (ewasm).
+
+Yul's goal is to be the common denominator for all three platforms. It's a good target for high-level optimization stages that benefit all target platforms. Yul can be used in stand-alone mode as well as "inline assembly" inside Solidity.
