@@ -43,11 +43,11 @@ The [0xcert Framework](https://github.com/0xcert/framework/) is a JavaScript-bas
 
 ## Dapp
 
-[Dapp](http://dapp.tools/dapp/) is a framework for dApp development on Ethereum and EVM-based Blockchains. It ships with everything important to get from idea to deployment on mainnet smoothly. Dapp is designed in an opinionated way to make onboarding and usage fast, robust and enjoyable.
+[Dapp](https://github.com/dapphub/dapptools/tree/master/src/dapp#readme) is a framework for dApp development on Ethereum and EVM-based Blockchains. It ships with everything important to get from idea to deployment on mainnet smoothly. Dapp is designed in an opinionated way to make onboarding and usage fast, robust and enjoyable.
 
-**Protip 1**: There are a bunch of premade [DappSys Components](http://dapp.tools/dappsys/) you can add to your Dapp project to iterate even faster.
+**Protip 1**: There are a bunch of premade DappSys Components (see "Smart Contracts" section [here](http://dapp.tools/)) you can add to your Dapp project to iterate even faster.
 
-**Protip 2**: When you're using Dapp you might also want to join the [DappHub Collective](http://dapphub.com/), a self-organizing group of likeminded people who work with and on Dapp and Blockchain development in general.
+**Protip 2**: When you're using Dapp you might also want to join the [DappHub Chat](https://dapphub.chat/), a self-organizing group of likeminded people who work with and on Dapp and Blockchain development in general.
 
 ## useDapp
 
@@ -168,12 +168,6 @@ Not only do you save an enormous amount of time using OpenZeppelin Smart Contrac
 - Advisor: learn and implement security best practices.
 
 Useful for shipping faster while minimizing security risks.
-
-## DappHub Dappsys
-
-The team at DappHub created and maintains the [Dappsys project](http://dapp.tools/dappsys/) which offers composable and sage building-blocks for Smart Contract systems.
-
-A notable component for example is the DSProxy which will help you implement ways to roll out Smart Contracts updates without introducing breaking changes for your end users.
 
 ## Nethereum
 
@@ -360,11 +354,11 @@ The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance hel
 
 ## Seth
 
-[Seth](http://dapp.tools/seth/) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
+[Seth](https://github.com/dapphub/dapptools/tree/master/src/seth#readme) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
 
 ## Hevm
 
-[Hevm](http://dapp.tools/hevm/) is an EVM (Ethereum Virtual Machine) evaluator that helps you verify, test and debug Smart Contracts from the command-line. Hevm can run unit tests, property tests, debug Smart Contracts interactively and execute arbitrary EVM code against local or remote nodes.
+[Hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm#readme) is an EVM (Ethereum Virtual Machine) evaluator that helps you verify, test and debug Smart Contracts from the command-line. Hevm can run unit tests, property tests, debug Smart Contracts interactively and execute arbitrary EVM code against local or remote nodes.
 
 ## Yul
 
