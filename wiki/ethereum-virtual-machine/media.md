@@ -19,6 +19,12 @@ The [Week in Ethereum News](https://weekinethereumnews.com/) Newsletter is one o
 
 Blockchain technology enthusiasts will definitely enjoy the summaries of the core dev calls whereas dApp and Smart Contract developers find hidden gems in the "Stuff for developers" section.
 
+## Smart Contract Programmer
+
+The Smart Contract Programmer [YouTube Channel](https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA) is a hands-on resource that teaches you everything you need to know to become a proficient Smart Contract developer.
+
+Topics covered are Solidity- and Vyper basics, Smart Contract security and hacks, dApp development, engineering best practices and Smart Contract composability (via DeFi protocol integrations).
+
 ## Dapp University
 
 The DappUniversity [YouTube Channel](https://www.youtube.com/c/DappUniversity/) is a great place to find useful video tutorials for full-stack dApp development on Ethereum. Simply click on the "Playlists" tab to find curated lists with videos on topics such Solidity, Web3.js, Ethereum + React and more.
