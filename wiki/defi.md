@@ -59,6 +59,14 @@ While on their YouTube Channel page definitely check out their "Playlists" where
 
 **Protip**: You can also subscribe to the Modern Finance Newsletter to get the latest news straight to your inbox.
 
+## Let's do DeFi
+
+The goal of the [Let's do DeFi](https://letsdodefi.com) effort is to provide DeFi education "your grandma can follow".
+
+Browsing through the homepage you'll find DeFi tutorials, DeFi Protocol guides, a DeFi dApp wiki, links to useful DeFi resources and more.
+
+**Protip**: Make sure to follow the "Monthly Monkey News" which is a monthly summary about the latest trends in all-things DeFi.
+
 ## Fast DeFi Tutorial
 
 The "[Fastest DeFi Tutorial on Earth](https://fastdefitutorial.com/)" is a collection of links, resources and tutorials to learn everything important there is to know about DeFi and its concepts.
