@@ -43,6 +43,14 @@ The mission of [Rekt](https://www.rekt.news/) is to catalog and analyze major Sm
 
 While you're there you should also look into their [Leaderboard](https://www.rekt.news/leaderboard/) which lists all analyzed hacks sorted by USD lost.
 
+## Blockchain Graveyard
+
+The [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/) project consolidates and categorizes various Blockchain and Cryptocurrency exploits found in the wild.
+
+Every report consists of a short description of the root cause as well as optional links to block explorers and accompanying resources.
+
+**Protip**: The homepage features a graphic with root cause estimates which shows what kind of vulnerabilities were used most during exploitations.
+
 ## ETHSecurity
 
 The [ETHSecurity](https://www.ethsecurity.org/) project is an effort to facilitate an open and collaborative community where bast practices on authoring secure Smart Contracts are shared.
