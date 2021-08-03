@@ -169,6 +169,12 @@ Not only do you save an enormous amount of time using OpenZeppelin Smart Contrac
 
 Useful for shipping faster while minimizing security risks.
 
+## OpenZeppelin - List of Solidity Libraries
+
+The goal of [this thread](https://forum.openzeppelin.com/t/list-of-solidity-libraries-in-the-wild/2250) from the OpenZeppelin Forum is to gather and categorize important Solidity Libraries one can reuse in their own projects.
+
+Browsing through the thread you can find Solidity Libraries from categories such as Math, Randomness, Proxies, Wallets, Data Structures, Cryptography and more.
+
 ## Nethereum
 
 [Nethereum](https://nethereum.com/) is the .NET integration library which aims to simplify Ethereum node access and Smart Contract interaction. It can be used on both, public and permissioned Ethereum nodes running e.g. Geth, Parity or Quorum. You can find guides, examples and in-depth explanations in the [official documentation](https://nethereum.readthedocs.io/en/latest/).
