@@ -85,6 +85,12 @@ The team at Zapper.fi created a collection of educational [DeFi learning resourc
 
 Browsing through them you'll learn DeFi basics, work through tutorials and get exposed to various "Alpha Leaks" which will show you how you can increase your APY \(alongside associated risks\).
 
+## Justin Bram
+
+Justin Bram's [YouTube Channel](https://www.youtube.com/c/JustinBram) is a great way to stay on top of the latest developments in the DeFi ecosystem. Browsing through the videos you'll find in-depth DeFi Protocol reviews, interviews with builders in the space, DeFi news and more.
+
+**Protip**: There's also the [DeFi Innovation Discord](https://discord.gg/e8pQZWF485) you can join to get access to a vibrant community of DeFi enthusiast.
+
 ## DeFi Dad
 
 Watching DeFi Dad's videos on his [YouTube Channel](https://www.youtube.com/channel/UCatItl6C7wJp9txFMbXbSTg/) gives you the opportunity to peek over ones shoulder to see how DeFi products and protocols are used by end users. His Tutorial-style videos cover a wide range of topics with a focus on the Ethereum ecosystem.
