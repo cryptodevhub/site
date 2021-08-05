@@ -51,6 +51,12 @@ Every report consists of a short description of the root cause as well as option
 
 **Protip**: The homepage features a graphic with root cause estimates which shows what kind of vulnerabilities were used most during exploitations.
 
+## DeFi Threat Matrix
+
+The goal of the [DeFi Threat Matrix](https://github.com/freight-trust/defi-threat) project is to consolidate all known attack vectors for DeFi focused dApps in one place.
+
+Browsing through the GitHub repository you'll learn about potential vulnerabilities in Protocols, Blockchains as well as Token Economics / Mechanism Design. The repository also includes resources and pointers to in-depth guides which will help you understand and mitigate such attacks.
+
 ## ETHSecurity
 
 The [ETHSecurity](https://www.ethsecurity.org/) project is an effort to facilitate an open and collaborative community where bast practices on authoring secure Smart Contracts are shared.
