@@ -35,6 +35,12 @@ The [Glossary](https://www.gemini.com/cryptopedia/glossary) is another resource 
 
 **Protip**: The [Explore page](https://www.gemini.com/cryptopedia/explore) gives you a structured overview of all the available content you can browse through.
 
+## Kraken Learn
+
+[Kraken Learn](https://www.kraken.com/learn) is an educational effort by the Kraken team to teach everyone about Blockchains and Cryptocurrencies. Their knowledge hub has tons of resources on topics such as Crypto- and Blockchain basics, Crypto Security, DeFi, NFTs and more.
+
+**Protip**: If you're completely new to Crypto you should definitely check out the "[Crypto 101](https://www.kraken.com/learn/videos/crypto-101)" video series taught by Kraken CEO Jesse Powell.
+
 ## a16z Crypto Canon
 
 Andreessen Horowitz \(a.k.a "a16z"\) created the [Crypto Canon](https://a16z.com/2018/02/10/crypto-readings-resources/) project which is an exhaustive list of Blockchain and Crypto resources. It's structured in a way of increasing complexity, meaning that the first readings are about Blockchain and Crypto basics whereas the later resources discuss topics such as Decentralized Exchanges, Consensus mechanisms and Governance.
