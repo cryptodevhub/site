@@ -302,6 +302,14 @@ Navigating the DeFi space is hard. The [DeFi-Map](https://github.com/YutaSugimur
 
 Their repository consolidates all the important project information such as links to Whitepapers, Documentation, Source Code and Smart Contract addresses.
 
+## EtherVM
+
+The [EtherVM](https://ethervm.io/) project is a collection of resources for everything related to the Ethereum Virtual Machine (EVM).
+
+Browsing through it you'll find an opcode reference, documentation about the EVM stack, info about the EVM storage- and memory layout and more.
+
+**Protip**: There's also an [Online Solidity Decompiler](https://ethervm.io/decompile) you can use to decompile Solidity bytecode into more readable Solidity-like source code.
+
 ## EVM Opcode Database
 
 The [Ethereum Virtual Machine \(EVM\) Opcodes and Instruction Reference](https://github.com/crytic/evm-opcodes) repository is an effort by Trail of Bits to consolidate EVM opcode information from various different sources into one central place.
