@@ -75,6 +75,12 @@ The [Blockchain Security Database](https://consensys.github.io/blockchainSecurit
 
 Browsing through it you'll find a project's audits as well as bug bounty payouts one receives when finding new security vulnerabilities.
 
+## Smart Contract Security Verification Standard
+
+The [Smart Contract Security Verification Standard](https://github.com/securing/SCSVS) is a 14-part checklist which was created to standardize the security of Smart Contracts. It can be used by developers, software architects, vendors as well as auditors.
+
+Browsing through the repository you'll find descriptions and mitigation strategies for well-known security problems and vulnerabilities found in real world projects.
+
 ## Security Checklists for Ethereum Smart Contract Development
 
 The [white paper](https://arxiv.org/abs/2008.04761) written by researchers from the Mathematics and Computer Science department of the University of Cagliari does a deep dive into various security considerations one has to take into account when working on Ethereum Smart Contracts and dApps.
