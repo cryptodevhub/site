@@ -33,6 +33,12 @@ Once you've worked through the tutorial you've learned how to integrate Metamask
 
 The code for the whole application can be found on this [GitHub repository](https://github.com/dabit3/full-stack-ethereum) and if you're a visual learner you can check out the accompanying 1 hour long [YouTube video](https://www.youtube.com/watch?v=a0osIaAOFSE).
 
+## All About Solidity
+
+The "[All About Solidity](https://jeancvllr.medium.com/all-about-solidity-article-series-f57be7bf6746)" article series is a collection of in-depth blog posts on various aspects of Solidity and the Ethereum Virtual Machine (EVM). Reading through it you'll learn everything there is to know about addresses, assembly, comments, contracts, functions, libraries and more.
+
+**Protip**: Browse through the corresponding [GitHub repository](https://github.com/CJ42/All-About-Solidity) to find more writeups which haven't been published yet.
+
 ## Building Secure Smart Contracts
 
 The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) tutorial by Trail of Bits is one of the best resources to learn about Smart Contract development best practices and toolings in a hands-on fashion.
