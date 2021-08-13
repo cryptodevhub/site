@@ -27,6 +27,12 @@ You can subscribe to their Newsletter to receive weekly updates about the job ma
 
 **Protip**: Use the toggle next to the search box to switch from "All jobs" to "Remote" to search specifically for remote jobs.
 
+## Crypto Jobs & Careers
+
+[Crypto Jobs & Careers](https://cryptojobs.careers) is a job aggregator that lists employment opportunities in various sectors within the Blockchain- and Crypto space. Using it you can find jobs in Engineering, Human Resources, Community Management, Business Development and more.
+
+**Protip**: Use the advanced search to further narrow down your search results.
+
 ## Blocktribe
 
 [Blocktribe](https://blocktribe.com/) is a Blockchain and Cryptocurrency job search engine with a constantly updated index of job opportunities in the space.
