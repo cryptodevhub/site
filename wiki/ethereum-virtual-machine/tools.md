@@ -358,6 +358,13 @@ During execution it prints helpful, visual information to guide you through the 
 
 This is very useful for automated tests as you don't have to come up with the assertions but Enchida does. Once a problem is found, Echidna lets you further shrink down the input domain to find an exact way to reproduce the issue.
 
+## VerX
+
+[VerX](https://verx.ch/) is an automated verifier able to prove custom functional properties of Ethereum smart contracts. 
+
+The functional properties for the contract are formalized in VerX specification language, and by feeding VerX with the contract and the specification, VerX either verifies the property, outputs a sequence of transactions that may result in the property violation, or indicates that additional predicates are needed. 
+
+
 ## Rattle
 
 [Rattle](https://github.com/crytic/rattle) is a binary static analysis framework which works on Smart Contracts deployed on EVM-compatible Blockchains.
