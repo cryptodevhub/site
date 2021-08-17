@@ -360,10 +360,9 @@ This is very useful for automated tests as you don't have to come up with the as
 
 ## VerX
 
-[VerX](https://verx.ch/) is an automated verifier able to prove custom functional properties of Ethereum smart contracts. 
+[VerX](http://verx.ch/) is an automated verifier able to prove custom functional properties of Ethereum Smart Contracts.
 
-The functional properties for the contract are formalized in VerX specification language, and by feeding VerX with the contract and the specification, VerX either verifies the property, outputs a sequence of transactions that may result in the property violation, or indicates that additional predicates are needed. 
-
+The functional properties for the contract are formalized in VerX specification language. By supplying VerX with the contract and the specification, VerX either verifies the property, outputs a sequence of transactions that may result in the property violation, or indicates that additional predicates are needed.
 
 ## Rattle
 
