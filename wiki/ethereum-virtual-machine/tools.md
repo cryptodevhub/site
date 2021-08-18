@@ -230,6 +230,12 @@ Whenever you're testing code you want to ensure that you cover all critical code
 
 The [solidity-coverage](https://github.com/sc-forks/solidity-coverage) project is a code coverage tool for Smart Contracts written in Solidity. Simply install the package and add it to your Truffle / Hardhat config to get detailed code coverage reports every time you run your tests.
 
+## Eth Gas Reporter
+
+[eth-gas-reporter](https://github.com/cgewecke/eth-gas-reporter) is a Mocha reporter for Ethereum test suites which provides you insights into your Smart Contract's gas usage. Using it you can see a breakdown of gas usage per unit test, metrics for method calls and deployments as well as costs of deploying and using your Smart Contract system.
+
+**Protip**: If you're using Truffle or Hardhat you can find more information about official support and proper setup in the [README](https://github.com/cgewecke/eth-gas-reporter/blob/master/README.md).
+
 ## Solidity Docgen
 
 The Solidity programming language supports the usage of inline documentation which is a special form of code comments to explain the intent of a given Smart Contract functionality. Using this is especially helpful when working on larger projects with a \(potential\) larger team of engineers.
