@@ -330,6 +330,12 @@ The [Ethereum Virtual Machine \(EVM\) Opcodes and Instruction Reference](https:/
 
 It's a great resources if you're looking for Opcode descriptions, links and references to EIPs which influenced its behavior and the associated gas costs.
 
+## EthTx
+
+[EthTx](https://ethtx.info/) is a decoder for Ethereum mainnet and testnet transactions. Using it you get a breakdown of the transaction's individual components such as the transaction cost, account balances, token transfers and the execution trace.
+
+**Protip**: You can use the execution trace to identify the root cause of a failed transaction.
+
 ## Mythril
 
 [Mythril](https://github.com/ConsenSys/mythril) is a tool to analyze the security properties of EVM bytecode. Given that it only expects EVM bytecode as input, Mythril can be used to check the output produced by Solidity, Vyper or any other language targeting the Ethereum Virtual Machine.
