@@ -27,6 +27,12 @@ You can subscribe to their Newsletter to receive weekly updates about the job ma
 
 **Protip**: Use the toggle next to the search box to switch from "All jobs" to "Remote" to search specifically for remote jobs.
 
+## DeFi Jobs
+
+[DeFi Jobs](https://www.defi.jobs) is a job board that aggregates employment opportunities in the Decentralized Finance (DeFi) space. Browsing through it you'll find jobs in Engineering, Design, Marketing, HR and more.
+
+**Protip**: Follow the official [Twitter Account](https://twitter.com/defijobs) or subscribe to their Newsletter to get notified about new job listings.
+
 ## Crypto Jobs & Careers
 
 [Crypto Jobs & Careers](https://cryptojobs.careers) is a job aggregator that lists employment opportunities in various sectors within the Blockchain- and Crypto space. Using it you can find jobs in Engineering, Human Resources, Community Management, Business Development and more.
