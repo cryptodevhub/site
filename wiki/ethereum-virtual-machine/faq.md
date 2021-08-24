@@ -219,6 +219,8 @@ Here are some rough estimates taken from a [blog post](https://medium.com/iearn/
 
 Andre concludes that bigger projects usually cost in the range of $50.000 to audit.
 
+**Note**: There's projects such as [Immunefi](https://immunefi.com/) which will help you set up and coordinate a bug bounty program for your Smart Contract project. It's not the same as an audit but lets you work together with white hat hackers to uncover security vulnerabilities.
+
 ## I'm getting an "Internal JSON RPC error" when working with Metamask
 
 Are you running an Ethereum Node via Ganache CLI or Hardhat Network for local development? If true, you're very likely reusing an old network configuration via Metamask.
