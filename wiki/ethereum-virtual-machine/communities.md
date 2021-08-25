@@ -39,6 +39,12 @@ If you're really deep into bleeding edge Blockchain and Crypto technologies you'
 
 While it can be overwhelming to navigate the sheer amount of information on the forum you can start by narrowing your search down through filters and categories. Both of which you can find at the top.
 
+## Ethereum Magicians
+
+The [Ethereum Magicians](https://ethereum-magicians.org/) forum is a place for Ethereum users and developers to gather and connect. Discussions are mainly focused on technical difficulties of the Ethereum ecosystem as well as EIPs.
+
+Anyone can join and contribute by attending discussions, providing feedback, starting or joining a working group or sharing code and prototypical ideas.
+
 ## ETHGlobal Discord
 
 Joining the [ETHGlobal Discord](https://discord.com/invite/EMgs6sN) server you'll get access to a welcoming community of developers working on and with Ethereum technologies. Use this Discord to discuss the current development of the Ethereum Blockchain, ask questions regarding Smart Contract and dApp development or find your next developer job in the space.
