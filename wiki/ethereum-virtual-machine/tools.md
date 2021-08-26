@@ -330,6 +330,14 @@ The [Ethereum Virtual Machine \(EVM\) Opcodes and Instruction Reference](https:/
 
 It's a great resources if you're looking for Opcode descriptions, links and references to EIPs which influenced its behavior and the associated gas costs.
 
+## EVM Opcodes
+
+The [EVM Opcodes](https://github.com/wolflo/evm-opcodes) repository is an effort to list and categorize all the available EVM opcodes in an easy to browse table-based format.
+
+The opcode table includes information about gas usage, stack layout, memory / storage specifics and additional notes.
+
+**Protip**: There's also an appendix which explains the ins and outs of [dynamic gas costs](https://github.com/wolflo/evm-opcodes/blob/main/gas.md).
+
 ## EthTx
 
 [EthTx](https://ethtx.info/) is a decoder for Ethereum mainnet and testnet transactions. Using it you get a breakdown of the transaction's individual components such as the transaction cost, account balances, token transfers and the execution trace.
