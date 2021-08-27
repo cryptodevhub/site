@@ -43,6 +43,12 @@ The mission of [Rekt](https://www.rekt.news/) is to catalog and analyze major Sm
 
 While you're there you should also look into their [Leaderboard](https://www.rekt.news/leaderboard/) which lists all analyzed hacks sorted by USD lost.
 
+## Immunefi
+
+[Immunefi](https://immunefi.com) is a bug bounty program which helps you harden your Smart Contracts and dApps. The way it works is that projects create bounties which are paid out once security researches and hackers successfully exploited the project in question.
+
+Immunefi's bug bounty program is a good alternative and complement to the traditional Smart Contract security audit.
+
 ## Blockchain Graveyard
 
 The [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/) project consolidates and categorizes various Blockchain and Cryptocurrency exploits found in the wild.
