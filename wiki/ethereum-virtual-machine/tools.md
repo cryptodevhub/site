@@ -356,6 +356,8 @@ Using the database you can get a better understanding as to what a transaction d
 
 **Protip**: Given that Mythril's only requirement is EVM bytecode you can also use it to check your Smart Contracts for EVM compatible platforms such as the Binance Smart Chain, Avalanche, Hedera or Tron.
 
+**Protip 2**: For more advanced security analyzes, you can use the paid tool [MythX](https://mythx.io/), which include a run of Mythril, the fuzzer Harvey, and the static analysis engine Maru and has some false-positive filtering only possible by combining the tool capabilities. You can do the [MythX Apprentice tutorial](https://mythx.io/mythxperts/apprentice/) and be rewarded with NFTs.
+
 ## Manticore
 
 [Manticore](https://github.com/trailofbits/manticore) is a security tool which helps you uncover security vulnerabilities and unintended behavior by analyzing your Smart Contract and binary code.
