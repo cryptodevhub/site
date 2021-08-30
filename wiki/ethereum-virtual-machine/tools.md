@@ -344,6 +344,12 @@ The opcode table includes information about gas usage, stack layout, memory / st
 
 **Protip**: You can use the execution trace to identify the root cause of a failed transaction.
 
+## Ethereum Signature Database
+
+Function signatures in the Ethereum Virtual Machine (EVM) are specified by the first 4 bytes of the data sent within a transaction. The [Ethereum Signature Database](https://www.4byte.directory/) is a collection of function- and event signatures which makes it possible to recover the function- or event name based on its hex signature.
+
+Using the database you can get a better understanding as to what a transaction did if you only have access to the transaction data and not the source code of the Smart Contract in question.
+
 ## Mythril
 
 [Mythril](https://github.com/ConsenSys/mythril) is a tool to analyze the security properties of EVM bytecode. Given that it only expects EVM bytecode as input, Mythril can be used to check the output produced by Solidity, Vyper or any other language targeting the Ethereum Virtual Machine.
