@@ -67,7 +67,7 @@ The [Remix IDE](https://remix.ethereum.org/) is a fully fledged online developme
 
 It has support for different Solidity compiler versions, various plugins such as debuggers or linters as well as an in-browser CLI.
 
-**Protip1**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
+**Protip 1**: Did you stumble upon an interesting dApp project on GitHub you'd like to play around with? Simply use the "Import from GitHub" functionality and start coding within in seconds.
 
 **Protip 2**: The Remix Project offers a [Remix Desktop App](https://github.com/ethereum/remix-desktop) which helps you develop your Smart Contracts in an offline-ready IDE. No need to install and configure compilers, editors and plugins.
 
@@ -366,8 +366,9 @@ It is a very powerful tool with lots of useful features such as:
 - Program exploration which executes your code in various ways to reach any potential state it can be in
 - Error discovery to uncover errors in development rather than production
 
-**Protip**: Check out the [Manticore Examples](https://github.com/trailofbits/manticore-examples) repository for more involved, real-world CTF examples.
-**Protip 2**: Use [ethno](https://github.com/crytic/etheno) for easing the setup of Manticore on large multi-contract projects.
+**Protip 1**: Check out the [Manticore Examples](https://github.com/trailofbits/manticore-examples) repository for more involved, real-world CTF examples.
+
+**Protip 2**: Use [ethno](https://github.com/crytic/etheno) for simplify the setup of Manticore on large multi-contract projects.
 
 ## Securify
 
