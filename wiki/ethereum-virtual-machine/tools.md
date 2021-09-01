@@ -368,7 +368,7 @@ It is a very powerful tool with lots of useful features such as:
 
 **Protip 1**: Check out the [Manticore Examples](https://github.com/trailofbits/manticore-examples) repository for more involved, real-world CTF examples.
 
-**Protip 2**: Use [ethno](https://github.com/crytic/etheno) for simplify the setup of Manticore on large multi-contract projects.
+**Protip 2**: Use [Etheno](https://github.com/crytic/etheno) to simplify the setup of Manticore in large multi-contract projects.
 
 ## Securify
 
@@ -386,7 +386,7 @@ During execution it prints helpful, visual information to guide you through the 
 
 This is very useful for automated tests as you don't have to come up with the assertions but Enchida does. Once a problem is found, Echidna lets you further shrink down the input domain to find an exact way to reproduce the issue.
 
-**Protip**: Use [ethno](https://github.com/crytic/etheno) for easing the setup of Echidna on large multi-contract projects.
+**Protip**: Use [Etheno](https://github.com/crytic/etheno) to simplify the setup of Manticore in large multi-contract projects.
 
 ## VerX
 
