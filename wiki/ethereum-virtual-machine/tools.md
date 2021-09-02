@@ -354,9 +354,9 @@ Using the database you can get a better understanding as to what a transaction d
 
 [Mythril](https://github.com/ConsenSys/mythril) is a tool to analyze the security properties of EVM bytecode. Given that it only expects EVM bytecode as input, Mythril can be used to check the output produced by Solidity, Vyper or any other language targeting the Ethereum Virtual Machine.
 
-**Protip**: Given that Mythril's only requirement is EVM bytecode you can also use it to check your Smart Contracts for EVM compatible platforms such as the Binance Smart Chain, Avalanche, Hedera or Tron.
+**Protip 1**: Given that Mythril's only requirement is EVM bytecode you can also use it to check your Smart Contracts for EVM compatible platforms such as the Binance Smart Chain, Avalanche, Hedera or Tron.
 
-**Protip 2**: For more advanced security analyzes, you can use the paid tool [MythX](https://mythx.io/), which include a run of Mythril, the fuzzer Harvey, and the static analysis engine Maru and has some false-positive filtering only possible by combining the tool capabilities. You can do the [MythX Apprentice tutorial](https://mythx.io/mythxperts/apprentice/) and be rewarded with NFTs.
+**Protip 2**: For more advanced security analyses you can use the paid tool [MythX](https://mythx.io/). It includes Mythril, the fuzzer Harvey and the static analysis engine Maru. Work through the [MythX Apprentice Tutorial](https://mythx.io/mythxperts/apprentice/) to learn more about MythX and get rewarded with NFTs.
 
 ## Manticore
 
