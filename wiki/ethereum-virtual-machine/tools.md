@@ -372,6 +372,24 @@ It is a very powerful tool with lots of useful features such as:
 
 **Protip 2**: Use [Etheno](https://github.com/crytic/etheno) to simplify the setup of Manticore in large multi-contract projects.
 
+## Echidna
+
+[Echidna](https://github.com/crytic/echidna) is a fuzzing / property-based testing tool for Ethereum Smart Contracts. With Echidna you can generate random input data according to your Smart Contract ABIs.
+
+This is very useful for automated tests as you don't have to come up with the assertions but Enchida does. Once a problem is found, Echidna lets you further shrink down the input domain to find an exact way to reproduce the issue.
+
+**Protip**: Use [Etheno](https://github.com/crytic/etheno) to simplify the setup of Echidna in large multi-contract projects.
+
+## Etheno
+
+The [Etheno](https://github.com/crytic/etheno) project helps you integrate analysis tools such as Manticore and Echidna in large, multi-contract projects.
+
+Its features include:
+
+- JSON RPC Multiplexing
+- Analysis Tool Wrapping
+- Test Framework Integration
+
 ## Securify
 
 [Securify](https://github.com/eth-sri/securify2) is a security scanner supported by the Ethereum Foundation and ChainSecurity. Currently it supports the automatic verification of 38 vulnerabilities from [SWC Registry](https://swcregistry.io/) \(Smart Contract Weakness Classification and Test Cases\).
@@ -381,14 +399,6 @@ It is a very powerful tool with lots of useful features such as:
 [Slither](https://github.com/crytic/slither) is a static analysis framework which lets you run vulnerability detectors to find exploitable code paths before deploying your Smart Contracts to production.
 
 During execution it prints helpful, visual information to guide you through the bug-fixing process. It also comes with a programmable API so you can prototype and implement your own custom analyses.
-
-## Echidna
-
-[Echidna](https://github.com/crytic/echidna) is a fuzzing / property-based testing tool for Ethereum Smart Contracts. With Echidna you can generate random input data according to your Smart Contract ABIs.
-
-This is very useful for automated tests as you don't have to come up with the assertions but Enchida does. Once a problem is found, Echidna lets you further shrink down the input domain to find an exact way to reproduce the issue.
-
-**Protip**: Use [Etheno](https://github.com/crytic/etheno) to simplify the setup of Manticore in large multi-contract projects.
 
 ## VerX
 
