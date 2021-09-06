@@ -157,6 +157,10 @@ Not only do you save an enormous amount of time using OpenZeppelin Smart Contrac
 
 **Protip**: With the help of Test Helpers you can emulate the [passing of time](https://docs.openzeppelin.com/test-helpers/0.5/api#time) which comes in handy if you have functionality which depends on a certain block height.
 
+## BoringSolidity
+
+[BoringSolidity](https://github.com/boringcrypto/BoringSolidity) is a collection of Solidity Smart Contracts optimized for gas savings, code readability and security. Using it you get access to a gas optimized version of an ERC-20 implementation, a utility to claim and track ownership, a functionality to call multiple contract functions in a batch as well as other useful helpers.
+
 ## Eth95.exe
 
 [Eth95.exe](https://eth95.dev/) is a browser-based interface which helps you interact with Smart Contracts. It's especially useful if you're dealing with Smart Contracts and dApps that don't have an official frontend.
