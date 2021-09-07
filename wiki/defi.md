@@ -73,6 +73,12 @@ The "[Fastest DeFi Tutorial on Earth](https://fastdefitutorial.com/)" is a colle
 
 Working through it you'll start with the basics like setting up a wallet to transition into mini tutorials which will teach you how to earn interest, swap tokens, the implications of impermanent loss and more.
 
+## Decentralized Finance MOOC
+
+The [Decentralized Finance MOOC](https://defi-learning.org/) is an online course that teaches you everything you need to know about DeFi from an economics as well as computer science point of view. The curriculum includes topics such as Blockchain technology, Stablecoins, Decentralized Exchanges (DEXs), Lending & Borrowing, Oracles, Privacy and more.
+
+**Protip**: Ensure that you take the quizzes and attend the labs to get the most out of this course.
+
 ## DeFi Weekly by Kerman Kohli
 
 If you're looking for a resource which breaks the complexities of DeFi down into easy to understand and digest pieces you're in for a treat subscribing to Kerman Kohli's Newsletter "[DeFi Weekly](https://defiweekly.substack.com/)".
