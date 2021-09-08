@@ -145,6 +145,12 @@ The [solidity-template](https://github.com/paulrberg/solidity-template) project 
 
 Using the template is as simple as running `git clone` or clicking the "Use this template" button on the GitHub web interface.
 
+## HardHat Foundation
+
+[HardHat Foundation](https://github.com/sushiswap/hardhat-foundation) is Sushi's official Hardhat development template which powers projects like SushiSwap, BentoBox, Kashi, Shoyu and more. It ships with sane defaults and additional tooling such as Ethers, Waffle, Solhint, Tenderly, TypeChain, Prettier, etc.
+
+You can get started with the template by running `git clone` in your terminal or clicking the "Use this template" button on GitHub.
+
 ## OpenZeppelin Contracts
 
 The team at OpenZeppelin maintain the widely used [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) repository which is the "Golden Standard" when it comes to standards, helpers and security in the industry. No matter what you're trying to build, definitely check the OpenZeppelin contracts [documentation](https://docs.openzeppelin.com/contracts/) to see if it was already built before.
