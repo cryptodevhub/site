@@ -260,6 +260,12 @@ Using solpp you can also flatten your source files for easy contract verificatio
 
 **Protip**: You can browse through the [example](https://github.com/merklejerk/solpp#example) to see all of solpp's powerful features at a glance.
 
+## solidity-flattener
+
+[solidity-flattener](https://github.com/poanetwork/solidity-flattener) is a tool that helps you combine multiple Solidity Smart Contracts into one flat file. It does so by resolving the imports and inlining their contents.
+
+Flattening your source files is especially useful once you decide to deploy to mainnet as they're easier to verify via tools like Etherscan.
+
 ## TypeChain
 
 While Smart Contracts act as your "backend" you'll also often want to wire them up with your frontend. [TypeChain](https://github.com/ethereum-ts/TypeChain) helps you auto-generate TypeScript type definitions for your Smart Contracts.
