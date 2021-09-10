@@ -438,6 +438,12 @@ The project includes the `evmasm` CLI as well as an API you can tap into via Pyt
 
 The [oyente](https://github.com/enzymefinance/oyente) tool by Enzyme Finance helps you analyze local and remote Smart Contracts. Using it you can verify contract assertions, generate the contracts function graphs, compute various statistics and scrape up-to-date transaction information.
 
+## EVM Toolkit (etk)
+
+The [etk](https://github.com/quilt/etk) project is a collection of tools for writing, reading and analyzing EVM (Ethereum Virtual Machine) bytecode. It ships with an assembler and disassembler which lets you write and explore EVM-based Smart Contract code.
+
+**Protip**: The [etk book](https://quilt.github.io/etk/) teaches you everything you need to know to get up to speed with etk.
+
 ## Seth
 
 [Seth](https://github.com/dapphub/dapptools/tree/master/src/seth#readme) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
