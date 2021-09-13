@@ -33,6 +33,12 @@ Once you've worked through the tutorial you've learned how to integrate Metamask
 
 The code for the whole application can be found on this [GitHub repository](https://github.com/dabit3/full-stack-ethereum) and if you're a visual learner you can check out the accompanying 1 hour long [YouTube video](https://www.youtube.com/watch?v=a0osIaAOFSE).
 
+## Solidity, Blockchain and Smart Contract Course – Beginner to Expert Python Tutorial
+
+This massive ~16 hours [video course](https://www.youtube.com/watch?v=M576WGiDBdQ) teaches you everything you need to know about Blockchain technology, Smart Contracts, Solidity, NFTs, DeFi, Chainlink and full stack dApp development.
+
+The course's code repository can be found [on GitHub](https://github.com/smartcontractkit/full-blockchain-solidity-course-py).
+
 ## All About Solidity
 
 The "[All About Solidity](https://jeancvllr.medium.com/all-about-solidity-article-series-f57be7bf6746)" article series is a collection of in-depth blog posts on various aspects of Solidity and the Ethereum Virtual Machine (EVM). Reading through it you'll learn everything there is to know about addresses, assembly, comments, contracts, functions, libraries and more.
