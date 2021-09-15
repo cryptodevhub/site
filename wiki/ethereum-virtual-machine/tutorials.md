@@ -71,6 +71,12 @@ Yos Riady's [blog post](https://yos.io/2019/11/10/smart-contract-development-bes
 
 Working through his list you'll learn about static analysis, linters, runbooks, the usage of public testnets as well as best practices for building solid frontends and backends.
 
+## Solidity Workshop
+
+The [Solidity Workshop](https://github.com/androlo/solidity-workshop) project is a collection of guides and resources for Ethereum- and Smart Contract development. It covers topics such as Solidity language concepts, Contract-oriented programming as well as deep dives into advanced Solidity and Ethereum Virtual Machine (EVM) principles concerning inline assembly, memory- and storage layout, the EVM stack and more.
+
+While the repository has been tagged as "legacy" the core concepts still hold true today.
+
 ## Learn X in Y minutes - Solidity
 
 Learn X in Y minutes has a [dedicated site](https://learnxinyminutes.com/docs/solidity/) for Solidity development. In it you'll learn how to use the Remix Online IDE, how to work with testnets and how to setup MetaMask. The core focus however is on a huge example Smart Contract written in Solidity, showcasing various language features. While it might be hard for newcomers to work through this gigantic file, Learn X in Y minutes is definitely a good resources for intermediate developers to revisit every now and then.
