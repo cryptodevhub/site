@@ -109,6 +109,12 @@ The [DeFi Safety](https://defisafety.com/) project was started to address such i
 
 **Protip**: You can also request reviews if a project you're interested in is missing in their list. Simply click on the "Request Reviews" link in the top navigation.
 
+## DeFi Yield Databases
+
+The team at DeFi Yield maintains two separate databases focused on [audits](https://defiyield.app/audit-database) and [hacks](https://defiyield.app/rekt-database).
+
+Both database explorers allow you to search for projects and filter down results by chains, auditors, types, etc.
+
 ## DeFi Score
 
 The [DeFi Score](https://defiscore.io/) project by ConsenSys is a an effort to establish a consistently comparable value for measuring platform risk. The score is calculated based on the existence of Bug Bounty Programs, Audits as well as a project's Time-, Centralization-, Utilization- and Liquidity Index.
