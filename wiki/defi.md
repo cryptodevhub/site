@@ -19,6 +19,14 @@ While it's written with the Ethereum ecosystem in mind, it teaches you the core 
 
 The team at [Finematics](http://finematics.com) does a great job breaking down complex DeFi subject matters into easily digestible formats like blog posts and YouTube videos. It doesn't matter whether you're new to DeFi, trying to navigate the landscape or if you're just looking for a great resource to keep you up to date, the Finematics [YouTube Channel](https://www.youtube.com/c/Finematics) got you covered.
 
+## DeFi Llama
+
+[DeFi Llama](https://defillama.com) is a DeFi Dashboard which aggregates Blockchain- and DeFi Protocol data like TVL (Total Value Locked), Market Cap, Changes in percentage and more.
+
+The leaderboard on the homepage summarizes the current state of DeFi Protocol usage across various Blockchains and Layer 2 Rollups.
+
+**Protip**: Use the navigation on the left to find data on specific DeFi categories.
+
 ## DeFi Prime
 
 [DeFi Prime](https://defiprime.com/) is a news portal, discussion forum and content aggregator for all things DeFi and Open Finance. Their "Projects" site and its categories helps you navigate the DeFi ecosystem on chains such as Ethereum, Binance Smart Chain or Tron.
