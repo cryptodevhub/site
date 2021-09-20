@@ -284,6 +284,12 @@ Connecting from a frontend to your dApp backend usually involves integrating Met
 
 React users can use the [`useMetamask`](https://github.com/mdtanrikulu/use-metamask) hook which greatly simplifies this setup while covering all the major edge cases one usually has to handle manually.
 
+## useWallet
+
+[`useWallet`](https://github.com/aragon/use-wallet) is a React hook which makes it possible to connect any dApp with any Ethereum provider.
+
+Using `useWallet` one gets access to a library agnostic implementation (works with e.g. Ethers, Web3, ...) which provides features such as a simple wallet integration, access to the user's current account balance, tracking of transactions and more.
+
 ## Solidity Visual Developer
 
 [Solidity Visual Developer](https://github.com/ConsenSys/vscode-solidity-auditor) by ConsenSys is an extension which adds Solidity language and visual security auditor support to your Visual Studio Code installation.
