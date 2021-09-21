@@ -173,6 +173,10 @@ Not only do you save an enormous amount of time using OpenZeppelin Smart Contrac
 
 [BoringSolidity](https://github.com/boringcrypto/BoringSolidity) is a collection of Solidity Smart Contracts optimized for gas savings, code readability and security. Using it you get access to a gas optimized version of an ERC-20 implementation, a utility to claim and track ownership, a functionality to call multiple contract functions in a batch as well as other useful helpers.
 
+## solmate
+
+The [solmate](https://github.com/Rari-Capital/solmate) project by Rari Captial offers a collection of opinionated Smart Contracts optimized for gas savings and security. Once installed you can use contracts that help you handle authorization, protect against reentrancy and create tokens such as ERC-20s.
+
 ## Eth95.exe
 
 [Eth95.exe](https://eth95.dev/) is a browser-based interface which helps you interact with Smart Contracts. It's especially useful if you're dealing with Smart Contracts and dApps that don't have an official frontend.
