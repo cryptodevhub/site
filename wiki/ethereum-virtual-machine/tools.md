@@ -139,6 +139,12 @@ The [create-eth-app](https://github.com/PaulRBerg/create-eth-app) project helps 
 
 By running one command you'll create an opinionated project structure with example code for your dApp's frontend and backend. Make sure to read through the projects README to learn all the different options and configurations you use to customize the app creation process further.
 
+## Create React Native dApp
+
+[create-react-native-dapp](https://github.com/cawfree/create-react-native-dapp) is an npx utility which helps you bootstrap React Native mobile applications that interface with the Ethereum Blockchain.
+
+The tight integration with projects such as Expo, Hardhat, WalletConnect and Prettier ensures a great developer experience so you can focus on your Smartphone dApp's features rather than tooling.
+
 ## Solidity Template
 
 The [solidity-template](https://github.com/paulrberg/solidity-template) project is an effort to provide a solid foundation for professional, secure and efficient Smart Contract development. By leveraging well-known tools such as Hardhat, TypeChain, Ethers, Waffle, Solhint, Solcover and Prettier you can stay focused on your code without having to deal with configuration files and project setups.
