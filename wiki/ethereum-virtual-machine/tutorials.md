@@ -65,6 +65,12 @@ The official Solidity documentation has a dedicated section called "[Solidity by
 
 The "[Solidity by Example](https://solidity-by-example.org/)" website is a treasure trove of great outcome-focused tutorials. Do you want to create your own ERC-20 token or create Bi-directional payment channels? Whenever you get stuck you'll definitely want to check out this resource as it might list a tutorial which helps you solve your problem.
 
+## Clean Contracts
+
+The [Clean Contracts](https://www.wslyvh.com/clean-contracts/) blog post by Wesley van Heije is a long-form articles which walks you through everything you need to know to write maintainable, secure and gas optimized Smart Contracts.
+
+**Protip**: Also make sure to check out the accompanying [GitHub Repository](https://github.com/wslyvh/clean-contracts) which has supporting code examples.
+
 ## Best Practices for Smart Contract Development
 
 Yos Riady's [blog post](https://yos.io/2019/11/10/smart-contract-development-best-practices/) on Smart Contract development best practices is a stellar mini tutorial series which outlines how you can setup a professional development environment to streamline your dApp workflows.
