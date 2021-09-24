@@ -145,6 +145,10 @@ By running one command you'll create an opinionated project structure with examp
 
 The tight integration with projects such as Expo, Hardhat, WalletConnect and Prettier ensures a great developer experience so you can focus on your Smartphone dApp's features rather than tooling.
 
+## Next Web3 Boilerplate
+
+The [Next Web3 Boilerplate](https://github.com/mirshko/next-web3-boilerplate) is an opinionated project template based on Next.js and SWR. It comes prepackaged with support for fetching and caching Smart Contract data, auto-generated types for Smart Contract ABIs via TypeChain as well as simple user onboarding through browser extensions such as MetaMask.
+
 ## Solidity Template
 
 The [solidity-template](https://github.com/paulrberg/solidity-template) project is an effort to provide a solid foundation for professional, secure and efficient Smart Contract development. By leveraging well-known tools such as Hardhat, TypeChain, Ethers, Waffle, Solhint, Solcover and Prettier you can stay focused on your code without having to deal with configuration files and project setups.
