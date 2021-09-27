@@ -483,3 +483,7 @@ The [etk](https://github.com/quilt/etk) project is a collection of tools for wri
 [Yul](https://docs.soliditylang.org/en/latest/yul.html) is an intermediate language that can be compiled to different backends such as the Ethereum Virtual Machine (EVM 1.0 and EVM 1.5) as well as Ethereum WebAssembly (ewasm).
 
 Yul's goal is to be the common denominator for all three platforms. It's a good target for high-level optimization stages that benefit all target platforms. Yul can be used in stand-alone mode as well as "inline assembly" inside Solidity.
+
+## Octopus
+
+[Octopus](https://github.com/pventuzelo/octopus) is a security tool that helps with analyzing closed-source bytecode of Blockchain Smart Contracts and WebAssembly (WASM) modules. Octopus ships with tools like an Explorer, Disassembler, Control- and Call Flow Analyzer, IR Converter, Symbolic Executor and more.
