@@ -392,6 +392,12 @@ Function signatures in the Ethereum Virtual Machine (EVM) are specified by the f
 
 Using the database you can get a better understanding as to what a transaction did if you only have access to the transaction data and not the source code of the Smart Contract in question.
 
+## Vertigo
+
+The [Vertigo](https://github.com/JoranHonig/vertigo) project is a CLI tool to run mutation tests against EVM-based Smart Contracts written via development frameworks such as Hardhat or Truffle.
+
+**Protip**: If you're new to mutation testing you might want to read through the author's introductory [blog post](https://medium.com/swlh/introduction-into-mutation-testing-d6512dc702b0).
+
 ## Mythril
 
 [Mythril](https://github.com/ConsenSys/mythril) is a tool to analyze the security properties of EVM bytecode. Given that it only expects EVM bytecode as input, Mythril can be used to check the output produced by Solidity, Vyper or any other language targeting the Ethereum Virtual Machine.
