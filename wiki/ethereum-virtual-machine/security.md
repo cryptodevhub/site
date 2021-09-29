@@ -137,6 +137,12 @@ The [Cipher Shastra](https://ciphershastra.com/) project is an effort to help yo
 
 **Protip**: Some of the challenges have writeups listed at the bottom of the page you can use if you ever get stuck.
 
+## Paradigm CTF
+
+The [Paradigm CTF](https://ctf.paradigm.xyz/) is an Ethereum-focused security competition organized by the crypto asset investment firm Paradigm. When participating one needs to solve CTF-like challenges focused on EVM- and Smart Contract security.
+
+**Protip**: Paradigm usually shares solutions in the form of a GitHub repository once the competition is over.
+
 ## OpenZeppelin Blog
 
 Staying on top of the fast moving Smart Contract security landscape is as important as learning the basics through books, blog posts and tutorials.
