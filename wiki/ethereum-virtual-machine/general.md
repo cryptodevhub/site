@@ -9,6 +9,14 @@ sidebar_label: General
 
 # General
 
+## Ethereum Wiki
+
+The official [Ethereum Wiki](https://eth.wiki/) is one of the best places to learn everything about Ethereum as well as related technologies and protocols such as IPFS, Whisper, Swarm, etc.
+
+Browsing through the wiki you'll find plenty of resources on topics like governance, scaling, sharding, Eth1 vs. Eth2, the official roadmap as well as general research related to Blockchains and Smart Contracts.
+
+**Protip**: The wiki is community-driven which means that you can contribute by joining the discussions and proposing changes.
+
 ## EthHub
 
 [EthHub](https://ethhub.io/) is the single source for essential Ethereum information. Browsing through it you can learn [what Ethereum is](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/), how the upcoming [Ethereum 2.0](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) will work and what types of [applications](https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/) there are on the Ethereum Blockchain.
