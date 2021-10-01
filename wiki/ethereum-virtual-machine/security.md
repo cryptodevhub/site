@@ -49,6 +49,11 @@ While you're there you should also look into their [Leaderboard](https://www.rek
 
 Immunefi's bug bounty program is a good alternative and complement to the traditional Smart Contract security audit.
 
+## Solidified
+
+[Solidified](https://www.solidified.io/) is a community with over 250+ Blockchain security experts and Smart Contract auditors.
+You can tap into this expertise via service offerings such as technical due diligence, bug bounty programs or Smart Contract audits.
+
 ## Blockchain Graveyard
 
 The [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/) project consolidates and categorizes various Blockchain and Cryptocurrency exploits found in the wild.
