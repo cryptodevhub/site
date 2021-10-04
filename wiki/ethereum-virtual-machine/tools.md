@@ -167,6 +167,12 @@ You can get started with the template by running `git clone` in your terminal or
 
 You can use the template by running `git clone` in your terminal or clicking on the "Use this template" button on the GitHub web interface.
 
+## DappTools Template
+
+The [DappTools Template](https://github.com/gakonst/dapptools-template) project is an effort to provide an easy to use template for developers working with the DappTools tool suite. It ships with thorough test examples, configurations for testnet and mainnet deployments and integrations with Prettier and Solhint.
+
+You can use the template by cloning it via `git clone` or clicking on the "Use this template" button on the GitHub web interface.
+
 ## OpenZeppelin Contracts
 
 The team at OpenZeppelin maintain the widely used [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) repository which is the "Golden Standard" when it comes to standards, helpers and security in the industry. No matter what you're trying to build, definitely check the OpenZeppelin contracts [documentation](https://docs.openzeppelin.com/contracts/) to see if it was already built before.
