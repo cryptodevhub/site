@@ -490,6 +490,12 @@ The [etk](https://github.com/quilt/etk) project is a collection of tools for wri
 
 [Hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm#readme) is an EVM (Ethereum Virtual Machine) evaluator that helps you verify, test and debug Smart Contracts from the command-line. Hevm can run unit tests, property tests, debug Smart Contracts interactively and execute arbitrary EVM code against local or remote nodes.
 
+## Universal CLI
+
+[Universal CLI](https://github.com/skalenetwork/universal-cli) is a tool to instantly execute any Solidity Smart Contract based solely on its ABI. It comes in handy for experimentation, scripting and automation.
+
+Given that Universal CLI is written in Python it can be added as a Python project dependency or installed globally as a command line interface (CLI) tool.
+
 ## Yul
 
 [Yul](https://docs.soliditylang.org/en/latest/yul.html) is an intermediate language that can be compiled to different backends such as the Ethereum Virtual Machine (EVM 1.0 and EVM 1.5) as well as Ethereum WebAssembly (ewasm).
