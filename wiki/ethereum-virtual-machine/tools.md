@@ -310,6 +310,12 @@ React users can use the [`useMetamask`](https://github.com/mdtanrikulu/use-metam
 
 Using `useWallet` one gets access to a library agnostic implementation (works with e.g. Ethers, Web3, ...) which provides features such as a simple wallet integration, access to the user's current account balance, tracking of transactions and more.
 
+## MetaMask JSON-RPC API Playground
+
+The [MetaMask JSON-RPC API Playground](https://metamask.github.io/api-playground/api-documentation/) is MetaMask's interactive documentation which lets you view, test and debug MetaMask JSON-RPC API calls. It comes in handy if you're e.g. integrating your frontend with the MetaMask API.
+
+**Protip**: Click on the "Inspector" tab at the bottom right to intercept and inspect HTTP, WebSocket and MetaMask calls.
+
 ## Solidity Visual Developer
 
 [Solidity Visual Developer](https://github.com/ConsenSys/vscode-solidity-auditor) by ConsenSys is an extension which adds Solidity language and visual security auditor support to your Visual Studio Code installation.
