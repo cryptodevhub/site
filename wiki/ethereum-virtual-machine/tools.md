@@ -133,6 +133,12 @@ Starting a new project is oftentimes preceded by a time-consuming setup phase in
 
 Using the [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) project you'll get access to an opinionated Ethereum development stack focused on fast iterations.
 
+## TypeScript Eth Starter
+
+The [TypeScript Eth Starter](https://github.com/nezz0746/typescript-eth-starter) project is an effort to help you get started with dApp development via an opinionated boilerplate.
+
+Once downloaded and installed you can leverage pre-configured tools like TypeScript, Next.js, Hardhat, useDapp and Tailwind CSS to build your full stack dApp in record time.
+
 ## Create Eth App
 
 The [create-eth-app](https://github.com/PaulRBerg/create-eth-app) project helps you get up to speed faster by adding a scaffolding command to your CLI.
