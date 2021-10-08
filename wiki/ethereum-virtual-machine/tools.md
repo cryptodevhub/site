@@ -316,6 +316,10 @@ React users can use the [`useMetamask`](https://github.com/mdtanrikulu/use-metam
 
 Using `useWallet` one gets access to a library agnostic implementation (works with e.g. Ethers, Web3, ...) which provides features such as a simple wallet integration, access to the user's current account balance, tracking of transactions and more.
 
+## Chainlist
+
+The [Chainlist](https://chainlist.org/) website is a collection of EVM network configurations necessary to connect wallets like MetaMask to EVM-compatible Blockchains. Using Chainlist you can help your users during the onboarding process if you dApps and Smart Contracts are deployed on Blockchains the user's wallet hasn't configured already.
+
 ## MetaMask JSON-RPC API Playground
 
 The [MetaMask JSON-RPC API Playground](https://metamask.github.io/api-playground/api-documentation/) is MetaMask's interactive documentation which lets you view, test and debug MetaMask JSON-RPC API calls. It comes in handy if you're e.g. integrating your frontend with the MetaMask API.
