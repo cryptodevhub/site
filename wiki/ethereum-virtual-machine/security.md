@@ -31,6 +31,12 @@ The structure the authors adhere to is very useful as they'll start by explainin
 
 If you're reading the GitHub version linked above you'll also benefit from updates contributed by the community.
 
+## Smart Contract Attack Vectors
+
+The [Smart Contract Attack Vectors](https://github.com/KadenZipfel/smart-contract-attack-vectors) repository is a collection of security vulnerabilities and mitigation strategies for EVM-based Smart Contract projects.
+
+Browsing through the various writeups one can learn about attacks and vulnerabilities such as reentrancy, honeypots, signature malleability, incorrect inheritance order and more.
+
 ## Building Secure Smart Contracts
 
 The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) project by Trail of Bits is a hands-on resource with guidelines and training material to learn how to write secure Smart Contracts.
