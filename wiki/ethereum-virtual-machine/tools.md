@@ -482,6 +482,12 @@ The functional properties for the contract are formalized in VerX specification 
 
 With Rattle you can recover the Smart Contract's original control flow graph to get an easier to read overview of the code you're about to interact with. When using Rattle, functions, their arguments as well as memory- and storage locations are recovered.
 
+## Ethereum Security Toolbox
+
+The [Ethereum Security Toolbox](https://github.com/trailofbits/eth-security-toolbox) is a project that provides a Docker container with preinstalled and preconfigured security tools such as Echidna, Etheno, Manticore, Slither, Rattle and more.
+
+**Protip**: The Docker container also ships with the [\(Not So\) Smart Contracts](https://github.com/crytic/not-so-smart-contracts) repository so you can play around with the tools in a sandbox environment.
+
 ## Pyevmasm
 
 [pyevmasm](https://github.com/crytic/pyevmasm) is an assembler and disassembler library for the EVM (Ethereum Virtual Machine) written in Python. Using it you can assemble EVM instructions to opscode or disassemble opcodes back into EVM instructions.
