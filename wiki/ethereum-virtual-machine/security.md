@@ -37,6 +37,12 @@ The [Smart Contract Attack Vectors](https://github.com/KadenZipfel/smart-contrac
 
 Browsing through the various writeups one can learn about attacks and vulnerabilities such as reentrancy, honeypots, signature malleability, incorrect inheritance order and more.
 
+## Weird ERC-20 Tokens
+
+[Weird ERC-20 Tokens](https://github.com/d-xo/weird-erc20) is an effort to collect and categorize implementations of ERC-20 tokens with behavior that is surprising or otherwise unexpected.
+
+Given that the ERC-20 specification is so loosely defined there are plenty of token variations out there. One can use this repository to test code against such ERC-20 implementations that don't fully follow the official specification or have potential attack surfaces like reentrant calls, code injection via token name and more.
+
 ## Building Secure Smart Contracts
 
 The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) project by Trail of Bits is a hands-on resource with guidelines and training material to learn how to write secure Smart Contracts.
