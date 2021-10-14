@@ -104,6 +104,12 @@ The [Smart Contract Security Verification Standard](https://github.com/securing/
 
 Browsing through the repository you'll find descriptions and mitigation strategies for well-known security problems and vulnerabilities found in real world projects.
 
+## Solcurity
+
+[Solcurity](https://github.com/Rari-Capital/solcurity) is an opinionated security and code quality standard for Smart Contracts written in Solidity. It lists various security vulnerabilities and questions one should consider when reviewing and auditing projects.
+
+**Protip**: Use the Solcurity identifiers in your code comments to link the code to the respective Solcurity topic.
+
 ## Security Checklists for Ethereum Smart Contract Development
 
 The [white paper](https://arxiv.org/abs/2008.04761) written by researchers from the Mathematics and Computer Science department of the University of Cagliari does a deep dive into various security considerations one has to take into account when working on Ethereum Smart Contracts and dApps.
