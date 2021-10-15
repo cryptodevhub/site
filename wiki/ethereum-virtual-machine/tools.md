@@ -504,6 +504,12 @@ The [etk](https://github.com/quilt/etk) project is a collection of tools for wri
 
 **Protip**: The [etk book](https://quilt.github.io/etk/) teaches you everything you need to know to get up to speed with etk.
 
+## Solidity Shell
+
+[Solidity Shell](https://github.com/tintinweb/solidity-shell) is an interactive Solidity shell implementation with lightweight session recording and remote compiler support. It's written in JavaScript and requires Node.js and Ganache CLI to be installed on your local machine.
+
+**Protip**: Read through the "Hints" and "Advanced usage" sections in the project's [README](https://github.com/tintinweb/solidity-shell/blob/master/README.md) to learn about various productivity hacks.
+
 ## Seth
 
 [Seth](https://github.com/dapphub/dapptools/tree/master/src/seth#readme) is a CLI tool which makes it possible to interact with Ethereum-based Blockchains from the command-line. Using Seth you can inspect transactions, query the Blockchain, perform remote calls, convert between data formats and more.
