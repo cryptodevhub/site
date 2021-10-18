@@ -39,7 +39,7 @@ Sam Williams, the co-founder of Arweave held a lecture on incentive design in th
 
 In his [presentation](https://www.youtube.com/watch?v=gCFlGLbI_kE), Sam deconstructs the underlying game theoretic constructs of Bitcoin and talks about Arweave's Tokenomics and the design decisions they had to take into account while implementing their protocol.
 
-## **A Crash Course in Mechanism Design for Cryptoeconomic Applications** <a id="ef31"></a>
+## A Crash Course in Mechanism Design for Cryptoeconomic Applications
 
 This [long-form article](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976) by BlockChannel is a great introduction into the world of Mechanism Design and Game Theory. It teaches the avid reader about different concepts and ideas on how to design an incentivized system around a token economy.
 
@@ -59,7 +59,7 @@ The folks at CoinFunc wrote a 3 part series on Cryptoeconomics which teaches the
 
 Reading through it you'll learn about cryptoasset valuations, the pricing principles of cryptocurrencies and the Tokenomics of Blockchains such as Bitcoin or Ethereum.
 
-- [Part 1- Cryptoeconomics Is Hard](https://blog.coinfund.io/cryptoeconomics-is-hard-ad401b2428b9)
+- [Part 1 - Cryptoeconomics Is Hard](https://blog.coinfund.io/cryptoeconomics-is-hard-ad401b2428b9)
 - [Part 2 - Cryptoeconomics is hard, part 2](https://blog.coinfund.io/cryptoeconomics-is-hard-part-2-4d522cb3d3a4)
 - [Part 3 - Cryptoeconomics is hard: Market Cap](https://blog.coinfund.io/cryptoeconomics-is-hard-market-cap-4833c378a3e0)
 
