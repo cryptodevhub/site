@@ -55,6 +55,12 @@ The mission of [Rekt](https://www.rekt.news/) is to catalog and analyze major Sm
 
 While you're there you should also look into their [Leaderboard](https://www.rekt.news/leaderboard/) which lists all analyzed hacks sorted by USD lost.
 
+## RugDoc Wiki
+
+The [RugDoc Wiki](https://wiki.rugdoc.io/) which describes itself as "The DeFi Wikipedia" is an all-encompassing collection of DeFi- and DeFi Security related resources. Browsing through it you'll find various guides, definitions, network-related articles and more.
+
+**Protip**: Use the navigation at the top to filter articles by topic and network.
+
 ## Immunefi
 
 [Immunefi](https://immunefi.com) is a bug bounty program which helps you harden your Smart Contracts and dApps. The way it works is that projects create bounties which are paid out once security researches and hackers successfully exploited the project in question.
