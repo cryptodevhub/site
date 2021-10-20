@@ -350,6 +350,12 @@ The [eth-tester](https://github.com/ethereum/eth-tester) project is a tool suite
 
 Ethereum Tester's implementation focuses on modularity which makes it possible to use different backends for different test scenarios.
 
+## cadCAD
+
+The [cadCAD](https://cadcad.org/) project is an Open Source tool that helps you design, simulate, validate and operate complex systems. Using cadCAD one can find answers to the "what if?" questions that arise when exploring the design space of such systems.
+
+**Protip**: Watch the official [tutorials on YouTube](https://www.youtube.com/playlist?list=PLmWm8ksQq4YKtdRV-SoinhV6LbQMgX1we) to learn how you can use cadCAD in your projects.
+
 ## Cliquebait
 
 Using [cliquebait](https://github.com/f-o-a-m/cliquebait) you can spin up an easy to use single-node Proof-of-Authority Blockchain via Geth running in Docker. Cliquebait also automatically generates accounts with ETH you can unlock to easily deploy and test your Smart Contracts.
