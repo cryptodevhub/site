@@ -3,7 +3,7 @@ id: blockchain-developer-communities
 title: Blockchain Developer Communities
 description: In the following list you'll find various places to discuss Blockchain development and Crypto technologies.
 slug: /blockchain-developer-communities
-sidebar_position: 4
+sidebar_position: 6
 sidebar_label: Developer Communities
 ---
 

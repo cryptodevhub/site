@@ -3,7 +3,7 @@ id: token-economics
 title: Token Economics
 description: Read through these resources to learn how Token Engineering and Tokenomics can help you incentivize your network participants.
 slug: /token-economics
-sidebar_position: 6
+sidebar_position: 7
 sidebar_label: Token Economics
 ---
 

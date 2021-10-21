@@ -3,7 +3,7 @@ id: defi
 title: DeFi
 description: Read through the following resources to learn what Decentralized Finance (DeFi) is and how you can build your own DeFi Protocols and dApps.
 slug: /defi
-sidebar_position: 5
+sidebar_position: 4
 sidebar_label: Decentralized Finance
 ---
 
