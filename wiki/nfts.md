@@ -20,3 +20,9 @@ During the course of this ~1 hour tutorial you will write your own ERC-721 contr
 OpenSea's [Non-Fungible Token Bible](https://opensea.io/blog/guides/non-fungible-tokens/) is a long-form blog post that covers everything you need to know about NFTs.
 
 Reading through it you'll learn the basics of NFTs, differences between token standards like ERC-721 and ERC-1155, the history of NFTs as well as background information about the Non-Fungible Token market.
+
+## NFT School
+
+The [NFT School](https://nftschool.dev/) is a community-driven website dedicated to cover all aspects of NFTs. Browsing through it you'll find resources to learn basic NFT concepts, in-depth tutorials as well as references and recommendations.
+
+NFT School is an Open Source project so everyone is encouraged to update the website and contribute to the project.
