@@ -87,6 +87,12 @@ The [Decentralized Finance MOOC](https://defi-learning.org/) is an online course
 
 **Protip**: Ensure that you take the quizzes and attend the labs to get the most out of this course.
 
+## Introduction to DeFi
+
+The [Introduction to DeFi](https://www.youtube.com/watch?v=vTuoXOLjP-Y) video by Corbin Page from ConsenSys covers everything you need to know to get started in the world of Decentralized Finance.
+
+Watching the ~1 hour long video you'll learn about the history of DeFi, key projects, core primitives, caveats as well as advanced topics such as Flash Loans, Yield Farming strategies and more.
+
 ## DeFi Weekly by Kerman Kohli
 
 If you're looking for a resource which breaks the complexities of DeFi down into easy to understand and digest pieces you're in for a treat subscribing to Kerman Kohli's Newsletter "[DeFi Weekly](https://defiweekly.substack.com/)".
