@@ -26,3 +26,11 @@ Reading through it you'll learn the basics of NFTs, differences between token st
 The [NFT School](https://nftschool.dev/) is a community-driven website dedicated to cover all aspects of NFTs. Browsing through it you'll find resources to learn basic NFT concepts, in-depth tutorials as well as references and recommendations.
 
 NFT School is an Open Source project so everyone is encouraged to update the website and contribute to the project.
+
+## Building a Full Stack NFT Marketplace
+
+This [blog post](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb) written by Nader Dabit teaches you everything you need to know to build and launch your own EVM-based NFT Marketplace.
+
+Working through it you'll use technologies like Next.js, Tailwind CSS, Solidity, Hardhat, Ethers.js and IPFS to create your own ERC-721 Smart Contract, publish the NFT to IPFS and display it via a frontend written in React.
+
+The codebase for the project can be found on [GitHub](https://github.com/dabit3/polygon-ethereum-nextjs-marketplace/). If you're a visual learner you can check out the accompanying [YouTube video](https://www.youtube.com/watch?v=GKJBEEXUha0).
