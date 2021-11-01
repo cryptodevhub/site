@@ -154,3 +154,7 @@ If you're a Blockchain developer looking for a way to leverage the DeFi ecosyste
 The Money Legos project consolidates Smart Contracts, ABIs and SDKs / APIs from various DeFi projects such as Compound, Aave or Maker into one re-usable dependency you can add to your dApp project.
 
 Even if you're not yet planning to integrate DeFi functionality into one of your dApps you should definitely look into their [documentation](https://money-legos.studydefi.com/) which will walk you through the inner-workings of concepts such as Flash Loans.
+
+## DeFi Open Source Tools
+
+The [DeFi Open Source Tools](https://github.com/gauss314/defi) project provides a tool suite written in Python which lets you calculate impermanent loss, evaluate staking- and farming strategies as well as query crypto APIs like CoinGecko for historical data.
