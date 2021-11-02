@@ -45,6 +45,12 @@ The "[All About Solidity](https://jeancvllr.medium.com/all-about-solidity-articl
 
 **Protip**: Browse through the corresponding [GitHub repository](https://github.com/CJ42/All-About-Solidity) to find more writeups which haven't been published yet.
 
+## Solidity Smart Contract Programming
+
+The [Solidity Smart Contract Programming](https://github.com/Mudasirrr/Solidity-SmartContract-Programming) project is a collection of writeups and code snippets that help you master Smart Contract development with the Solidity programming language.
+
+The 17 part series starts with the basics and teaches you everything you need to know to become a proficient dApp developer for EVM-based Blockchains.
+
 ## Building Secure Smart Contracts
 
 The [Building Secure Smart Contracts](https://github.com/crytic/building-secure-contracts) tutorial by Trail of Bits is one of the best resources to learn about Smart Contract development best practices and toolings in a hands-on fashion.
