@@ -88,3 +88,9 @@ Working through the tutorial you start with the genesis block to which you slowl
 With every step of the way you can look into the code underlying the implementation. The full [source code](https://github.com/seanjameshan/blockchain) can be found at GitHub.
 
 There's also another, interactive [Blockchain tutorial](https://andersbrownworth.com/blockchain/) by Anders Brownworth you might want to look into as well. The implementation of such project is also [available at GitHub](https://github.com/anders94/blockchain-demo).
+
+## Buildspace
+
+[Buildspace](https://buildspace.so) is an effort to teach you fundamental Blockchain- and Web3 concepts through project-based learning.
+
+Once joined you'll have access to courses that'll show you how to build EVM-based dApps with Solidity, generate an NFT art collection or implement a Blockchain game based on L2 networks.
