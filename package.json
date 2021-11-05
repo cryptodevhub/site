@@ -16,8 +16,8 @@
     "format": "prettier --write './**/*.{js,jsx,css,md,json}' --config ./.prettierrc.js"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.8",
-    "@docusaurus/preset-classic": "2.0.0-beta.8",
+    "@docusaurus/core": "2.0.0-beta.9",
+    "@docusaurus/preset-classic": "2.0.0-beta.9",
     "@easyops-cn/docusaurus-search-local": "^0.19.1",
     "@mdx-js/react": "^1.6.22",
     "@svgr/webpack": "^5.5.0",
