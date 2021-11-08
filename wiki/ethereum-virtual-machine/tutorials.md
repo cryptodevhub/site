@@ -39,6 +39,12 @@ This massive ~16 hours [video course](https://www.youtube.com/watch?v=M576WGiDBd
 
 The course's code repository can be found [on GitHub](https://github.com/smartcontractkit/full-blockchain-solidity-course-py).
 
+## Full Course on Polygon Development - Build Blockchain Apps on Polygon
+
+This ~5 hours [video course](https://www.youtube.com/watch?v=pc1yLO56pbg) teaches you everything you need to know to build and deploy dApps on Polygon.
+
+Working through it you'll learn about the Polygon Ecosystem, the matic.js library, the Token Bridge, Meta Transactions on Polygon, how to integrate Chainlink Oracles, how to run your own Polygon Node and more.
+
 ## All About Solidity
 
 The "[All About Solidity](https://jeancvllr.medium.com/all-about-solidity-article-series-f57be7bf6746)" article series is a collection of in-depth blog posts on various aspects of Solidity and the Ethereum Virtual Machine (EVM). Reading through it you'll learn everything there is to know about addresses, assembly, comments, contracts, functions, libraries and more.
