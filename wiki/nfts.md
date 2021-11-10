@@ -34,3 +34,9 @@ This [blog post](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethe
 Working through it you'll use technologies like Next.js, Tailwind CSS, Solidity, Hardhat, Ethers.js and IPFS to create your own ERC-721 Smart Contract, publish the NFT to IPFS and display it via a frontend written in React.
 
 The codebase for the project can be found on [GitHub](https://github.com/dabit3/polygon-ethereum-nextjs-marketplace/). If you're a visual learner you can check out the accompanying [YouTube video](https://www.youtube.com/watch?v=GKJBEEXUha0).
+
+## HashLips NFT Game Tutorial
+
+This step-by-step [video tutorial](https://www.youtube.com/playlist?list=PLvfQp12V0hS0DsA6rnucimPB1zTX7to7p) by the HashLips NFT project teaches you how to build and deploy a full-stack, EVM-based NFT game with Solidity.
+
+The codebase for the project can be found on [GitHub](https://github.com/HashLips/nft_game).
