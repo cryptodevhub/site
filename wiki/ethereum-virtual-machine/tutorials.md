@@ -25,6 +25,12 @@ The [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.
 
 While working through the curriculum you'll learn how the Ethereum blockchain works, why transactions are structured the way they are and what the Smart Contract lifecycle is comprised of. Finally you'll apply everything you learned in various labs to test your hard earned knowledge and build up a portfolio of blockchain dApps.
 
+## Ethereum in Depth
+
+This 2 part blog post series ([Part 1](https://blog.openzeppelin.com/ethereum-in-depth-part-1-968981e6f833/) / [Part 2](https://blog.openzeppelin.com/ethereum-in-depth-part-2-6339cf6bddb9/)) by OpenZeppelin teaches you everything you need to know about the inner-workings of the Ethereum Virtual Machine (EVM) from a software developer's perspective.
+
+Reading through it you'll learn about concepts such as Message Calls, Data Management, the Stack, Memory vs. Storage, Smart Contract creation and more.
+
 ## The Complete Guide to Full Stack Ethereum Development
 
 This [blog post](https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13) written by Nader Dabit gives an excellent overview and introduction to all the necessary tools for modern dApp development such as React, Hardhat, Ethers and The Graph.
