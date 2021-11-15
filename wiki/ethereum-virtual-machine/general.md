@@ -60,3 +60,9 @@ The blog post "[How does Ethereum work, anyway?](https://www.preethikasireddy.co
 The book "[Mastering Ethereum](https://ethereumbook.info/)", written by Andreas Antonopoulos and Gavin Wood does a great job explaining everything you need to know about the Ethereum Blockchain as well as the Ethereum Virtual Machine \(EVM\) and Smart Contract development via Solidity and Vyper.
 
 While you should definitely grab a copy at your retailer of choice you can also check out the books source code at their [GitHub repository](https://github.com/ethereumbook/ethereumbook) and file Issues / PRs to contribute back.
+
+## Ethereum 101
+
+The [Ethereum 101](https://secureum.substack.com/p/ethereum-101) post by Secureum outlines 101 important facts to know about Ethereum and the Ethereum Virtual Machine (EVM).
+
+Reading through the writeup you'll learn about Ethereum's underlying cryptography, the design of the EVM, EVM Opcodes, Transaction processing, the structure of individual Blocks and more.
