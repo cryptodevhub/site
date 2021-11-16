@@ -66,3 +66,9 @@ While you should definitely grab a copy at your retailer of choice you can also 
 The [Ethereum 101](https://secureum.substack.com/p/ethereum-101) post by Secureum outlines 101 important facts to know about Ethereum and the Ethereum Virtual Machine (EVM).
 
 Reading through the writeup you'll learn about Ethereum's underlying cryptography, the design of the EVM, EVM Opcodes, Transaction processing, the structure of individual Blocks and more.
+
+## Solidity 101 & 201
+
+The [Solidity 101](https://secureum.substack.com/p/solidity-101) and [Solidity 201](https://secureum.substack.com/p/solidity-201) posts by Secureum demonstrate and discuss key aspects of the Solidity programming language.
+
+Browsing through the resources you'll learn Solidity basics, security- and code enhancements as well as various tips and tricks to write more elegant Smart Contracts in Solidity.
