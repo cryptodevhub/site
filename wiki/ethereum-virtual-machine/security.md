@@ -31,6 +31,12 @@ The structure the authors adhere to is very useful as they'll start by explainin
 
 If you're reading the GitHub version linked above you'll also benefit from updates contributed by the community.
 
+## Security Pitfalls & Best Practices 101 & 102
+
+The [Security Pitfalls & Best Practices 101](https://secureum.substack.com/p/security-pitfalls-and-best-practices-101) and [Security Pitfalls & Best Practices 201](https://secureum.substack.com/p/security-pitfalls-and-best-practices-201) posts by Secureum discuss various Smart Contract attack vectors, security measures as well as best practices to help you build resilient EVM-based dApps.
+
+Reading through it you'll learn about vulnerabilities such as reentrancy, common pitfalls in ERC standards as well as economic measures to mitigate exploitations from bad actors.
+
 ## Smart Contract Attack Vectors
 
 The [Smart Contract Attack Vectors](https://github.com/KadenZipfel/smart-contract-attack-vectors) repository is a collection of security vulnerabilities and mitigation strategies for EVM-based Smart Contract projects.
