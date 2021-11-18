@@ -37,6 +37,12 @@ The [Security Pitfalls & Best Practices 101](https://secureum.substack.com/p/sec
 
 Reading through it you'll learn about vulnerabilities such as reentrancy, common pitfalls in ERC standards as well as economic measures to mitigate exploitations from bad actors.
 
+## Audit Techniques & Tools 101
+
+The [Audit Techniques & Tools 101](https://secureum.substack.com/p/audit-techniques-and-tools-101) post by Secureum describes how Smart Contracts and dApps are audited and which tools and techniques are used in the process.
+
+Reading through it you'll learn what you should do to prepare for an audit, how an audit is conducted, what results to expect form audits and more.
+
 ## Smart Contract Attack Vectors
 
 The [Smart Contract Attack Vectors](https://github.com/KadenZipfel/smart-contract-attack-vectors) repository is a collection of security vulnerabilities and mitigation strategies for EVM-based Smart Contract projects.
