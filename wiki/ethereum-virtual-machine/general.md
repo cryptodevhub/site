@@ -21,6 +21,12 @@ Browsing through the wiki you'll find plenty of resources on topics like governa
 
 [EthHub](https://ethhub.io/) is the single source for essential Ethereum information. Browsing through it you can learn [what Ethereum is](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/), how the upcoming [Ethereum 2.0](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) will work and what types of [applications](https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/) there are on the Ethereum Blockchain.
 
+## EthSpring
+
+The [EthSpring](https://ethspring.com/) project is an effort to gather and categorize Ethereum learning resources. Browsing through their material you'll learn about the Crypto Philosophy, Peer Protocols, Protocol Theory, Zero-Knowledge-Proofs and more.
+
+**Protip**: You can also subscribe to the EthSpring Newsletter to get notified when new resources are added.
+
 ## Eth.Build
 
 [Eth.build](https://eth.build/) is an educational sandbox which helps you understand how Ethereum works via visual exploration. Be sure to check out the [video introduction](https://www.youtube.com/watch?v=30pa790tIIA) which explains everything in great detail.
