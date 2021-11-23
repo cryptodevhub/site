@@ -51,6 +51,12 @@ Make sure to use their "Companies" page to find out what jobs are currently bein
 
 While browsing, take note of the "Blockchain jobs you might like" section on the right hand side of a job postings detail view which aggregates similar jobs to the one you're currently looking at.
 
+## She256 Job Board
+
+The [She256 Job Board](https://jobs.she256.org/) aims to help women, nonbinary people and underrepresented minorities find job opportunities in the Blockchain space.
+
+All company profiles and job postings are vetted to ensure that they adhere to the promotion of diversity and inclusiveness.
+
 ## PompCryptoJobs
 
 The [PompCryptoJobs](https://pompcryptojobs.com/) job board offers a variety of different Blockchain and Cryptocurrency jobs filterable by keywords and location.
