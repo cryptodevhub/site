@@ -89,6 +89,12 @@ With every step of the way you can look into the code underlying the implementat
 
 There's also another, interactive [Blockchain tutorial](https://andersbrownworth.com/blockchain/) by Anders Brownworth you might want to look into as well. The implementation of such project is also [available at GitHub](https://github.com/anders94/blockchain-demo).
 
+## RabbitHole
+
+[RabbitHole](https://rabbithole.gg/) is an educational project that lets users earn crypto by using the latest decentralized apps (dApps).
+
+Once the user's wallet is connected one can work through different quests, learn specific skills and explore new projects.
+
 ## Figment Learn
 
 [Figment Learn](https://learn.figment.io/) is a platform created by developers, for developers to learn about Blockchain and Web3 technologies.
