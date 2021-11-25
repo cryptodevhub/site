@@ -57,6 +57,12 @@ The [She256 Job Board](https://jobs.she256.org/) aims to help women, nonbinary p
 
 All company profiles and job postings are vetted to ensure that they adhere to the promotion of diversity and inclusiveness.
 
+## Dragonfly Capital Jobs
+
+The [Dragonfly Capital Job Board](https://jobs.dcp.capital/) lets you explore jobs from Dragonfly Capital's portfolio companies.
+
+One can search for jobs via keywords or use filters to narrow down results by company, team size, token / equity compensation, technical focus, location and more.
+
 ## PompCryptoJobs
 
 The [PompCryptoJobs](https://pompcryptojobs.com/) job board offers a variety of different Blockchain and Cryptocurrency jobs filterable by keywords and location.
