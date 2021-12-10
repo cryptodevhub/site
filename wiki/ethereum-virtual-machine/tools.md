@@ -392,6 +392,12 @@ Navigating the DeFi space is hard. The [DeFi-Map](https://github.com/YutaSugimur
 
 Their repository consolidates all the important project information such as links to Whitepapers, Documentation, Source Code and Smart Contract addresses.
 
+## EVM Codes
+
+[EVM Codes](https://www.evm.codes/) is an interactive reference for the Ethereum Virtual Machine (EVM) and its Opcodes.
+
+Browsing through the website you'll get access to a thorough list with Opcodes and Instructions as well as a playground to test and troubleshoot EVM bytecode.
+
 ## EtherVM
 
 The [EtherVM](https://ethervm.io/) project is a collection of resources for everything related to the Ethereum Virtual Machine (EVM).
