@@ -29,6 +29,10 @@ If you need some help getting the Blockchain data for your frontend you should a
 
 Hardhat core also ships with the [Hardhat Network](https://hardhat.org/hardhat-network/), a local Ethereum Network designed for fast iterations.
 
+## Foundry
+
+[Foundry](https://github.com/gakonst/foundry) is a Blockchain development framework by [Paradigm](https://www.paradigm.xyz/), and written in Rust. It is composed by Cast, a CLI tool for interacting with smart contracts, and the testing framework Forge, which lets you write your tests in Solidity. Forge also allows to override the EVM state at test runtime and to fuzz your tests.
+
 ## Embark
 
 [Embark](https://github.com/embarklabs/embark) is a framework which helps you build and deploy decentralized applications on EVM-based Blockchains like Ethereum or Binance Smart Chain. It seamlessly integrates with other technologies like IPFS, Swarm, Whisper and Orbit to offer decentralized file storage and communication capabilities.
