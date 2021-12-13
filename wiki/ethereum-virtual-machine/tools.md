@@ -93,6 +93,10 @@ Their [Supernode API](https://www.alchemy.com/supernode) offering provides devel
 
 While paid plans are an option they also offer a generous free plan which should be more than enough to get you started.
 
+## Moonstream
+
+[Moonstream](https://moonstream.to/) is an open-source tool for subscribing to events from Ethereum blockchain and also to transactions in the transaction mempool. It can be used as an analytics tool but can also be used to analyze how users are calling your smart contracts and set up alerts for suspicious activity.
+
 ## Tatum
 
 [Tatum](https://www.tatum.io/) is the fastest and most effective way to develop blockchain apps on 20+ blockchains. With a powerful unified API that streamlines complex blockchain operations into single API calls, lightning-fast infrastructure, and an abstraction layer with advanced built-in functionality, Tatum gives developers everything they need to build full-fledged blockchain apps, even without any blockchain development experience.
