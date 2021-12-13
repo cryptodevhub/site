@@ -28,6 +28,7 @@ sidebar_label: Testnet Faucets
 - [https://faucet.kyber.network/](https://faucet.kyber.network/)
 - [https://faucet.metamask.io/](https://faucet.metamask.io/)
 - [https://faucet.dimensions.network/](https://faucet.dimensions.network/)
+- [https://faucet.paradigm.xyz/](https://faucet.paradigm.xyz/)
 
 ## Rinkeby
 
@@ -46,6 +47,7 @@ sidebar_label: Testnet Faucets
 - [https://faucet.metamask.io/](https://faucet.metamask.io/)
 - [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
 - [https://faucets.blockxlabs.com/](https://faucets.blockxlabs.com/)
+- [https://faucet.paradigm.xyz/](https://faucet.paradigm.xyz/)
 
 ## Goerli
 
@@ -64,6 +66,7 @@ sidebar_label: Testnet Faucets
 - [https://faucet.metamask.io/](https://faucet.metamask.io/)
 - [https://goerli-faucet.slock.it/index.html](https://goerli-faucet.slock.it/index.html)
 - [https://faucet.goerli.mudit.blog/](https://faucet.goerli.mudit.blog/)
+- [https://faucet.paradigm.xyz/](https://faucet.paradigm.xyz/)
 
 ## Kovan
 
@@ -85,3 +88,4 @@ sidebar_label: Testnet Faucets
 - [https://faucet.kovan.network/](https://faucet.kovan.network/)
 - [https://gitter.im/kovan-testnet/faucet](https://gitter.im/kovan-testnet/faucet) \(**Note**: You can also join via Matrix\)
 - [https://faucets.blockxlabs.com/](https://faucets.blockxlabs.com/)
+- [https://faucet.paradigm.xyz/](https://faucet.paradigm.xyz/)
