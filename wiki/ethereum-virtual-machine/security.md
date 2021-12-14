@@ -160,6 +160,10 @@ If you want to learn how the infamous DeFi hacks worked and how you can take out
 
 **Protip:** If you get stuck, not making any significant progress you should check out the [OpenZeppelin Forum](https://forum.openzeppelin.com/) where community members share and discuss their solutions.
 
+## DeFi Hack
+
+[DeFi Hack](https://www.defihack.xyz) is a CTF / Wargame focused on popular DeFi exploits and vulnerabilities. It's based on The Etherneut wargame by the OpenZeppelin team.
+
 ## EtherHack
 
 [EtherHack](https://etherhack.positive.com/) is CTF / Wargame in which your goal it is to break into various Smart Contracts written in the Solidity programming language.
