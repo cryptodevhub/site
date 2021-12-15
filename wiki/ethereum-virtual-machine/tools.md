@@ -49,6 +49,14 @@ The [0xcert Framework](https://github.com/0xcert/framework/) is a JavaScript-bas
 
 **Protip 2**: When you're using Dapp you might also want to join the [DappHub Chat](https://dapphub.chat/), a self-organizing group of likeminded people who work with and on Dapp and Blockchain development in general.
 
+## Foundry
+
+[Foundry](https://github.com/gakonst/foundry) is a fast, portable and modular framework for Ethereum dApp development written in Rust.
+
+Foundry consists of the CLI tools Forge, an Ethereum testing framework and Cast, a "swiss army knife" for interacting with EVM Smart Contracts.
+
+**Protip**: Read the [release blog post](https://www.paradigm.xyz/2021/12/introducing-the-foundry-ethereum-development-toolbox/) to learn more about the story behind the development of Foundry.
+
 ## useDapp
 
 [useDapp](https://usedapp.io/) is an opinionated, yet extensible framework for rapid dApp development. Its main focus is to provide a "batteries included" developer experience by combining frequently used features like React hooks and the Multicall library with software engineering best practices such as integration testing and modularity.
