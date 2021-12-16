@@ -386,6 +386,20 @@ Not every project you're working necessarily uses the same Solidity compiler. Wi
 
 **Protip**: There's the [Solidity Visual Developer](https://github.com/ConsenSys/vscode-solidity-auditor) Visual Studio Code extension which ships with Surya support and is therefore one of the easiest ways to get started.
 
+## Ethereum Code Viewer
+
+[Ethereum Code Viewer](https://github.com/dethcrypto/ethereum-code-viewer) lets you view the source code of verified Smart Contracts on Etherscan in VS Code without leaving your browser.
+
+To use the Ethereum Code Viewer you only need to replace the `.io` part in the Etherscan URL with `deth.net`.
+
+**Example**: Let's say you want to browse the DAI ERC-20 Token contract. To do so you would update URL from:
+
+[https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f)
+
+to:
+
+[https://etherscan.deth.net/address/0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.deth.net/address/0x6b175474e89094c44da98b954eedeac495271d0f)
+
 ## Money Legos
 
 Are you working on DeFi projects and want to integrate with our existing DeFi projects in the space? The [Money Legos](https://github.com/studydefi/money-legos) project might be exactly what you're looking for.
