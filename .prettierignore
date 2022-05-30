@@ -1,0 +1,4 @@
+.next
+.yarn
+node_modules
+pnpm-lock.yaml

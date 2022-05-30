@@ -7,6 +7,7 @@ specifiers:
   eslint: 8.16.0
   eslint-config-next: 12.1.6
   next: 12.1.6
+  prettier: ^2.6.2
   react: 18.1.0
   react-dom: 18.1.0
   typescript: 4.7.2
@@ -22,6 +23,7 @@ devDependencies:
   '@types/react-dom': 18.0.5
   eslint: 8.16.0
   eslint-config-next: 12.1.6_5794735a2262de3d29e0baaa885b5942
+  prettier: 2.6.2
   typescript: 4.7.2
 
 packages:
@@ -1472,6 +1474,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /prop-types/15.8.1:
