@@ -9,9 +9,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        title="Placeholder"
-        description="Lorem ipsum dolor sit amet."
-        titleTemplate="%s - Placeholder"
+        title="CryptoDevHub"
+        description="The one-stop-shop for Blockchain- and Crypto developers. Learn Blockchain development, get a job in Crypto, grow your network."
+        titleTemplate="%s - CryptoDevHub"
       />
       <Head />
       <Layout>

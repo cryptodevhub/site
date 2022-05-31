@@ -6,7 +6,7 @@ export default function Header() {
       <>
         <Link href="/">
           <a>
-            <span>Placeholder</span>
+            <span>CryptoDevHub</span>
           </a>
         </Link>
         <nav>
