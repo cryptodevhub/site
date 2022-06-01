@@ -10,6 +10,7 @@
     "format": "prettier --config .prettierrc.js --write ."
   },
   "dependencies": {
+    "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "next": "12.1.6",
     "next-seo": "^5.4.0",

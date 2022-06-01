@@ -8,6 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.26.0
   autoprefixer: ^10.4.7
   daisyui: ^2.15.1
+  date-fns: ^2.28.0
   eslint: 8.16.0
   eslint-config-next: 12.1.6
   eslint-config-prettier: ^8.5.0
@@ -25,6 +26,7 @@ specifiers:
   vercel: ^24.2.4
 
 dependencies:
+  date-fns: 2.28.0
   gray-matter: 4.0.3
   next: 12.1.6_react-dom@18.1.0+react@18.1.0
   next-seo: 5.4.0_d30c2367b03c877b70a67c330200ac54
@@ -900,6 +902,11 @@ packages:
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
     dev: true
+
+  /date-fns/2.28.0:
+    resolution: {integrity: sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==}
+    engines: {node: '>=0.11'}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}

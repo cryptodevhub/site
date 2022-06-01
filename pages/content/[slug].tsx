@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
+import Date from '../../components/Date'
 import { getContentBySlug, getAllContentSlugs, Content } from '../../lib/content'
 
 export default function Show({ content }: { content: Content }) {
@@ -28,7 +29,9 @@ export default function Show({ content }: { content: Content }) {
             ))}
           </ul>
         </ul>
-        <p>{new Date(content.updated).toDateString()}</p>
+        <p>
+          <Date date={content.updated} />
+        </p>
       </section>
     </>
   )
