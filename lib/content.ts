@@ -1,5 +1,7 @@
 import fs from 'fs'
 import path from 'path'
+import html from 'remark-html'
+import { remark } from 'remark'
 import matter from 'gray-matter'
 
 const CONTENT_DIR_PATH = path.join(process.cwd(), 'content')
@@ -68,6 +70,7 @@ export function getAllContentSlugs(): Slug[] {
 
 function getContent(fileContent: string): Content {
   const parsed = matter(fileContent)
+  const processed = remark().use(html).processSync(parsed.content)
   return {
     title: parsed.data.title,
     description: parsed.data.description,
@@ -77,7 +80,7 @@ function getContent(fileContent: string): Content {
     tags: parsed.data.tags,
     created: parsed.data.created,
     updated: parsed.data.updated,
-    body: parsed.content
+    body: processed.toString()
   }
 }
 

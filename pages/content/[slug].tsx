@@ -13,7 +13,7 @@ export default function Show({ content }: { content: Content }) {
             {content.title}
           </a>
         </h1>
-        <p>{content.body}</p>
+        <div dangerouslySetInnerHTML={{ __html: content.body }} />
         <ul>
           <ul>
             {content.authors.map((author) => (
