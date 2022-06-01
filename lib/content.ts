@@ -4,28 +4,30 @@ import matter from 'gray-matter'
 
 const CONTENT_DIR_PATH = path.join(process.cwd(), 'content')
 
+export function getContentBySlug(slug: string): Content | undefined {
+  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+
+  let found
+  for (const fileName of fileNames) {
+    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    const content = getContent(fileContent)
+    if (content.slug === slug) {
+      found = content
+      break
+    }
+  }
+
+  return found
+}
+
 export function getContentByTags(tags: string[], mode: 'and' | 'or'): Content[] {
   const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
 
   const all: Content[] = fileNames.map((fileName) => {
     const filePath = path.join(CONTENT_DIR_PATH, fileName)
-    const content = fs.readFileSync(filePath, 'utf-8')
-
-    const parsed = matter(content)
-
-    const { title, description, authors, url, slug, tags, created, updated } = parsed.data
-
-    return {
-      title,
-      description,
-      authors,
-      url,
-      slug,
-      tags,
-      created,
-      updated,
-      body: parsed.content
-    }
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    return getContent(fileContent)
   })
 
   let filtered
@@ -49,6 +51,36 @@ export function getContentByTags(tags: string[], mode: 'and' | 'or'): Content[] 
   })
 }
 
+export function getAllContentSlugs(): Slug[] {
+  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+
+  return fileNames.map((fileName) => {
+    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    const content = getContent(fileContent)
+    return {
+      params: {
+        slug: content.slug
+      }
+    }
+  })
+}
+
+function getContent(fileContent: string): Content {
+  const parsed = matter(fileContent)
+  return {
+    title: parsed.data.title,
+    description: parsed.data.description,
+    authors: parsed.data.authors,
+    url: parsed.data.url,
+    slug: parsed.data.slug,
+    tags: parsed.data.tags,
+    created: parsed.data.created,
+    updated: parsed.data.updated,
+    body: parsed.content
+  }
+}
+
 export type Content = {
   title: string
   description: string
@@ -59,4 +91,10 @@ export type Content = {
   created: string
   updated: string
   body: string
+}
+
+type Slug = {
+  params: {
+    slug: string
+  }
 }
