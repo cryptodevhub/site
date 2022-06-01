@@ -6,7 +6,7 @@ import { getContentBySlug, getAllContentSlugs, Content } from '../../lib/content
 export default function Show({ content }: { content: Content }) {
   return (
     <>
-      <NextSeo title="Content" description="Content show page." />
+      <NextSeo title={content.title} description={content.description} />
       <section>
         <h1>
           <a href={content.url} target="_blank" rel="noreferrer">
