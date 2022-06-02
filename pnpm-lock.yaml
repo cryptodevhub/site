@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@tailwindcss/typography': ^0.5.2
+  '@types/lunr': ^2.3.4
   '@types/node': 17.0.36
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.5
@@ -13,6 +14,7 @@ specifiers:
   eslint-config-next: 12.1.6
   eslint-config-prettier: ^8.5.0
   gray-matter: ^4.0.3
+  lunr: ^2.3.9
   next: 12.1.6
   next-seo: ^5.4.0
   postcss: ^8.4.14
@@ -28,6 +30,7 @@ specifiers:
 dependencies:
   date-fns: 2.28.0
   gray-matter: 4.0.3
+  lunr: 2.3.9
   next: 12.1.6_react-dom@18.1.0+react@18.1.0
   next-seo: 5.4.0_d30c2367b03c877b70a67c330200ac54
   react: 18.1.0
@@ -37,6 +40,7 @@ dependencies:
 
 devDependencies:
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
+  '@types/lunr': 2.3.4
   '@types/node': 17.0.36
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.5
@@ -285,6 +289,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/lunr/2.3.4:
+    resolution: {integrity: sha512-j4x4XJwZvorEUbA519VdQ5b9AOU9TSvfi8tvxMAfP8XzNLtFex7A8vFQwqOx3WACbV0KMXbACV3cZl4/gynQ7g==}
     dev: true
 
   /@types/mdast/3.0.10:
@@ -2051,6 +2059,10 @@ packages:
     dependencies:
       yallist: 4.0.0
     dev: true
+
+  /lunr/2.3.9:
+    resolution: {integrity: sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==}
+    dev: false
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}

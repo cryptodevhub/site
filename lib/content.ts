@@ -43,14 +43,19 @@ export function getContentByTags(tags: string[], mode: 'and' | 'or'): Content[] 
     })
   }
 
-  return filtered.sort(({ updated: a }, { updated: b }) => {
-    if (a < b) {
-      return 1
-    } else if (a > b) {
-      return -1
-    }
-    return 0
+  return sort(filtered)
+}
+
+export function getAllContent(): Content[] {
+  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+
+  const all: Content[] = fileNames.map((fileName) => {
+    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    return getContent(fileContent)
   })
+
+  return sort(all)
 }
 
 export function getAllContentSlugs(): Slug[] {
@@ -82,6 +87,17 @@ function getContent(fileContent: string): Content {
     updated: parsed.data.updated,
     body: processed.toString()
   }
+}
+
+function sort(content: Content[]): Content[] {
+  return content.sort(({ updated: a }, { updated: b }) => {
+    if (a < b) {
+      return 1
+    } else if (a > b) {
+      return -1
+    }
+    return 0
+  })
 }
 
 export type Content = {
