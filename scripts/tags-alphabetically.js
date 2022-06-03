@@ -10,7 +10,7 @@ function main() {
   const tags = getTagFrequencies()
 
   // Adaption of https://stackoverflow.com/a/1069840
-  const sorted = Object.entries(tags).sort(([, a], [, b]) => a - b)
+  const sorted = Object.entries(tags).sort(([a], [b]) => a.localeCompare(b))
 
   const result = table(sorted, { align: ['l', 'r'] })
 
