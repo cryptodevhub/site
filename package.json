@@ -10,6 +10,7 @@
     "format": "prettier --config .prettierrc.js --write ."
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "lunr": "^2.3.9",

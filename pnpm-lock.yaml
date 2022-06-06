@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@heroicons/react': ^1.0.6
   '@tailwindcss/typography': ^0.5.2
   '@types/lunr': ^2.3.4
   '@types/node': 17.0.36
@@ -29,6 +30,7 @@ specifiers:
   vercel: ^24.2.4
 
 dependencies:
+  '@heroicons/react': 1.0.6_react@18.1.0
   date-fns: 2.28.0
   gray-matter: 4.0.3
   lunr: 2.3.9
@@ -91,6 +93,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@heroicons/react/1.0.6_react@18.1.0:
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.1.0
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
