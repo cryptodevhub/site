@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className="bg-base-200 text-base-content">
+    <div className="bg-neutral text-neutral-content">
       <footer className="max-w-7xl mx-auto footer p-10">
         <div>
           <span className="footer-title">Category 1</span>
