@@ -1,6 +1,10 @@
 import Link from 'next/link'
 
-export default function Content({ title, body, slug, url, tags }: Props) {
+import { Content as Data } from '../lib/content'
+
+export default function Content({ content }: { content: Data }) {
+  const { title, description, slug, url, tags } = content
+
   return (
     <div className="card bg-base-100 shadow-sm w-full h-full">
       <div className="card-body">
@@ -9,7 +13,7 @@ export default function Content({ title, body, slug, url, tags }: Props) {
             {title}
           </a>
         </h2>
-        <p className="line-clamp-2">{body}</p>
+        <p className="line-clamp-2">{description}</p>
         <ul>
           {tags.slice(0, 3).map((tag) => (
             <li
@@ -30,12 +34,4 @@ export default function Content({ title, body, slug, url, tags }: Props) {
       </div>
     </div>
   )
-}
-
-type Props = {
-  title: string
-  body: string
-  slug: string
-  url: string
-  tags: string[]
 }

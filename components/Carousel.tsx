@@ -19,13 +19,7 @@ export default function Carousel({ title, body, slug, max, content }: Props) {
       <ul className="carousel w-full shadow-sm rounded-2xl">
         {content.slice(0, max).map((item) => (
           <li key={item.slug} id={`${slug}-${item.slug}`} className="carousel-item w-full">
-            <ContentCard
-              title={item.title}
-              body={item.description}
-              slug={item.slug}
-              url={item.url}
-              tags={item.tags}
-            />
+            <ContentCard content={item} />
           </li>
         ))}
       </ul>

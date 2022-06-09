@@ -13,13 +13,7 @@ export default function Section({ title, body, content, columns = 1 }: Props) {
       <ul className={`grid gap-8 grid-cols-${columns}`}>
         {content.map((item) => (
           <li key={item.slug}>
-            <ContentCard
-              title={item.title}
-              body={item.description}
-              slug={item.slug}
-              url={item.url}
-              tags={item.tags}
-            />
+            <ContentCard content={item} />
           </li>
         ))}
       </ul>
