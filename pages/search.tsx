@@ -1,11 +1,12 @@
 import lunr from 'lunr'
-import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import { GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
-import { getAllContent } from '../lib/content'
+import ContentCard from '../components/Content'
+import SearchComponent from '../components/Search'
+import { getAllContent, Content } from '../lib/content'
 
 export default function Search({ index, documents }: Props) {
   const router = useRouter()
@@ -35,51 +36,25 @@ export default function Search({ index, documents }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query])
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-  }
-
-  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const { value } = event.currentTarget
-    setQuery(value)
-    router.push(
-      {
-        query: {
-          q: value
-        }
-      },
-      undefined,
-      {
-        shallow: true
-      }
-    )
-  }
-
   return (
     <>
       <NextSeo
         title="Search"
-        description="Find Blockchain development tutorials, tools, articles, jobs and more."
+        description="Find Blockchain development tutorials, guides, tools, articles and more."
       />
       <section>
-        <h1>Search</h1>
-        <h2>Find Blockchain development tutorials, tools, articles, jobs and more.</h2>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder='What are you looking for? (e.g. "Smart Contract", "Tutorial", "Security", ...)'
-            value={query}
-            onChange={handleChange}
-          />
-        </form>
+        <div className="text-center mb-8">
+          <h1 className="font-bold text-4xl">Search</h1>
+          <p className="text-md mt-2">
+            Find Blockchain development tutorials, guides, tools, articles and more.
+          </p>
+        </div>
+        <SearchComponent q={query} />
         {result.length > 0 && (
-          <ul>
+          <ul className="grid gap-8 grid-cols-3 mt-8">
             {result.map((item) => (
               <li key={item.ref}>
-                <Link href={`/content/${item.ref}`}>
-                  <a>{documents[item.ref].title}</a>
-                </Link>
-                <p>{documents[item.ref].description}</p>
+                <ContentCard content={documents[item.ref] as Content} />
               </li>
             ))}
           </ul>
@@ -101,8 +76,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
     content.forEach((item) => {
       this.add(item)
-      const { title, description, tags } = item
-      documents[item.slug] = { title, description, tags }
+      documents[item.slug] = item
     }, this)
   })
 
