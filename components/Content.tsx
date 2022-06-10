@@ -3,15 +3,21 @@ import Link from 'next/link'
 import { Content as Data } from '../lib/content'
 
 export default function Content({ content }: { content: Data }) {
-  const { title, description, slug, url, tags } = content
+  const { title, description, slug, tags } = content
 
   return (
     <div className="card bg-base-100 shadow-sm w-full h-full">
       <div className="card-body">
         <h2 className="card-title">
-          <a href={url} target="_blank" rel="noreferrer">
-            {title}
-          </a>
+          {content.url ? (
+            <a href={content.url} target="_blank" rel="noreferrer">
+              {title}
+            </a>
+          ) : (
+            <Link href={`/content/${slug}`}>
+              <a>{title}</a>
+            </Link>
+          )}
         </h2>
         <p className="line-clamp-2">{description}</p>
         <ul>

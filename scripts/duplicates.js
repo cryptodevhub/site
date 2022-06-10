@@ -11,14 +11,18 @@ const { log } = console
 function main() {
   const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
 
-  const urls = fileNames.map((fileName) => {
+  const urls = fileNames.reduce((accum, fileName) => {
     const filePath = path.join(CONTENT_DIR_PATH, fileName)
     const fileContent = fs.readFileSync(filePath, 'utf-8')
 
     const frontMatter = matter(fileContent)
 
-    return frontMatter.data.url
-  })
+    if (frontMatter.data.url) {
+      accum.push(frontMatter.data.url)
+    }
+
+    return accum
+  }, [])
 
   // Adaption of https://stackoverflow.com/a/32122760
   const duplicates = urls.filter((e, i, a) => a.indexOf(e) !== i)

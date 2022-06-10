@@ -41,9 +41,11 @@ export default function Show({ content }: { content: Content }) {
               </li>
             ))}
           </ul>
-          <a href={content.url} target="_blank" className="btn btn-primary" rel="noreferrer">
-            Go to Website
-          </a>
+          {content.url && (
+            <a href={content.url} target="_blank" className="btn btn-primary" rel="noreferrer">
+              Go to Website
+            </a>
+          )}
         </div>
       </article>
     </>

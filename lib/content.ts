@@ -80,12 +80,12 @@ function getContent(fileContent: string): Content {
     title: parsed.data.title,
     description: parsed.data.description,
     authors: parsed.data.authors,
-    url: parsed.data.url,
     slug: parsed.data.slug,
     tags: parsed.data.tags,
     created: parsed.data.created,
     updated: parsed.data.updated,
-    body: processed.toString()
+    body: processed.toString(),
+    url: parsed.data.url || null
   }
 }
 
@@ -104,12 +104,12 @@ export type Content = {
   title: string
   description: string
   authors: string[]
-  url: string
   slug: string
   tags: string[]
   created: string
   updated: string
   body: string
+  url?: string
 }
 
 type Slug = {
