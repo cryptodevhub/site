@@ -26,7 +26,7 @@ export default function Search({ q }: { q?: string }) {
   }
 
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-sm">
       <form onSubmit={handleSubmit}>
         <div className="card-body">
           <input
