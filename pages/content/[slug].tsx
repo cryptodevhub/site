@@ -6,10 +6,19 @@ import Date from '../../components/Date'
 import ContentCard from '../../components/Content'
 import { getContentBySlug, getAllContentSlugs, Content, getContentByTags } from '../../lib/content'
 
-export default function Show({ content, embedded }: { content: Content; embedded: Content[] }) {
+export default function Show({
+  content,
+  embedded,
+  related
+}: {
+  content: Content
+  embedded: Content[]
+  related: Content[]
+}) {
   let embedding = <></>
+  let recommendations = <></>
 
-  if (embedded) {
+  if (embedded.length) {
     embedding = (
       <section>
         <ul className="grid gap-8 grid-cols-3 mt-8">
@@ -19,6 +28,24 @@ export default function Show({ content, embedded }: { content: Content; embedded
             </li>
           ))}
         </ul>
+      </section>
+    )
+  }
+
+  if (related.length) {
+    recommendations = (
+      <section>
+        <div className="divider my-14" />
+        <h2 className="text-center text-2xl mb-6">You might also enjoy</h2>
+        <section>
+          <ul className="grid gap-8 grid-cols-3">
+            {related.slice(0, 3).map((content) => (
+              <li key={content.slug}>
+                <ContentCard content={content} />
+              </li>
+            ))}
+          </ul>
+        </section>
       </section>
     )
   }
@@ -65,6 +92,7 @@ export default function Show({ content, embedded }: { content: Content; embedded
             </a>
           )}
         </div>
+        {recommendations}
       </article>
     </>
   )
@@ -82,16 +110,20 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params) {
     const content = getContentBySlug(params.slug as string)
 
+    let related: Content[] = []
     let embedded: Content[] = []
-    if (content?.embedded) {
-      const { tags, operator } = content.embedded
-      embedded = getContentByTags(tags, operator)
+    if (content) {
+      if (content.embedded) {
+        embedded = getContentByTags(content.embedded.tags, content.embedded.operator)
+      }
+      related = getContentByTags(content.tags, 'or').filter((item) => item.slug !== content.slug)
     }
 
     return {
       props: {
         content,
-        embedded
+        embedded,
+        related
       }
     }
   }
