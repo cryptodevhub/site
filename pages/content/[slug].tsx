@@ -3,9 +3,26 @@ import { NextSeo } from 'next-seo'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Date from '../../components/Date'
-import { getContentBySlug, getAllContentSlugs, Content } from '../../lib/content'
+import ContentCard from '../../components/Content'
+import { getContentBySlug, getAllContentSlugs, Content, getContentByTags } from '../../lib/content'
 
-export default function Show({ content }: { content: Content }) {
+export default function Show({ content, embedded }: { content: Content; embedded: Content[] }) {
+  let embedding = <></>
+
+  if (embedded) {
+    embedding = (
+      <section>
+        <ul className="grid gap-8 grid-cols-3 mt-8">
+          {embedded.map((content) => (
+            <li key={content.slug}>
+              <ContentCard content={content} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
   return (
     <>
       <NextSeo title={content.title} description={content.description} />
@@ -18,6 +35,7 @@ export default function Show({ content }: { content: Content }) {
           </h1>
         </div>
         <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content.body }} />
+        {embedding}
         <div className="flex items-center justify-between my-6">
           <ul className="flex">
             {content.authors.map((author, index) => (
@@ -63,9 +81,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params) {
     const content = getContentBySlug(params.slug as string)
+
+    let embedded: Content[] = []
+    if (content?.embedded) {
+      const { tags, operator } = content.embedded
+      embedded = getContentByTags(tags, operator)
+    }
+
     return {
       props: {
-        content
+        content,
+        embedded
       }
     }
   }

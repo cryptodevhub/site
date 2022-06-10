@@ -23,7 +23,7 @@ export function getContentBySlug(slug: string): Content | undefined {
   return found
 }
 
-export function getContentByTags(tags: string[], mode: 'and' | 'or'): Content[] {
+export function getContentByTags(tags: string[], operator: Operator): Content[] {
   const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
 
   const all: Content[] = fileNames.map((fileName) => {
@@ -33,7 +33,7 @@ export function getContentByTags(tags: string[], mode: 'and' | 'or'): Content[] 
   })
 
   let filtered
-  if (mode === 'or') {
+  if (operator === 'or') {
     filtered = all.filter((content) => {
       return tags.some((tag) => content.tags.includes(tag))
     })
@@ -85,7 +85,8 @@ function getContent(fileContent: string): Content {
     created: parsed.data.created,
     updated: parsed.data.updated,
     body: processed.toString(),
-    url: parsed.data.url || null
+    url: parsed.data.url || null,
+    embedded: parsed.data.embedded || null
   }
 }
 
@@ -110,6 +111,14 @@ export type Content = {
   updated: string
   body: string
   url?: string
+  embedded?: Embedded
+}
+
+type Operator = 'and' | 'or'
+
+type Embedded = {
+  tags: string[]
+  operator: Operator
 }
 
 type Slug = {
