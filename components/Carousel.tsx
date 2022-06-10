@@ -16,20 +16,13 @@ export default function Carousel({ title, body, slug, max, content }: Props) {
         </h2>
         <p className="text-md mt-2">{body}</p>
       </div>
-      <ul className="carousel w-full shadow-sm rounded-2xl">
+      <ul className="carousel carousel-center rounded-box">
         {content.slice(0, max).map((item) => (
-          <li key={item.slug} id={`${slug}-${item.slug}`} className="carousel-item w-full">
+          <li key={item.slug} className="carousel-item mx-2 w-fit">
             <ContentCard content={item} />
           </li>
         ))}
       </ul>
-      <div className="flex justify-center w-full py-2 gap-2">
-        {content.slice(0, max).map((item, index) => (
-          <a key={item.slug} href={`#${slug}-${item.slug}`} className="btn btn-xs">
-            {index + 1}
-          </a>
-        ))}
-      </div>
     </section>
   )
 }
