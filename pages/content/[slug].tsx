@@ -61,7 +61,9 @@ export default function Show({
             </a>
           </h1>
         </div>
-        <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content.body }} />
+        {content.body && (
+          <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content.body }} />
+        )}
         {embedding}
         <div className="flex items-center justify-between my-6">
           <ul className="flex">
@@ -80,7 +82,7 @@ export default function Show({
                 key={tag}
                 className="mr-2 badge badge-outline hover:badge-primary hover:badge-outline"
               >
-                <Link href={`/tags/${tag}`}>
+                <Link href={`/content/${tag}`}>
                   <a>{tag}</a>
                 </Link>
               </li>
@@ -114,7 +116,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     let embedded: Content[] = []
     if (content) {
       if (content.embedded) {
-        embedded = getContentByTags(content.embedded.tags, content.embedded.operator)
+        embedded = getContentByTags(content.embedded.tags, content.embedded.operator).filter(
+          (item) => item.slug !== content.slug
+        )
       }
       related = getContentByTags(content.tags, 'or').filter((item) => item.slug !== content.slug)
     }

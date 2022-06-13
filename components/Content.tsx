@@ -26,7 +26,7 @@ export default function Content({ content }: { content: Data }) {
               key={tag}
               className="mr-2 badge badge-outline hover:badge-primary hover:badge-outline"
             >
-              <Link href={`/tags/${tag}`}>
+              <Link href={`/content/${tag}`}>
                 <a>{tag}</a>
               </Link>
             </li>
