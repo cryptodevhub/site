@@ -4,14 +4,15 @@ import html from 'remark-html'
 import { remark } from 'remark'
 import matter from 'gray-matter'
 
+import { getAllFilePaths } from '../scripts/shared'
+
 const CONTENT_DIR_PATH = path.join(process.cwd(), 'content')
 
 export function getContentBySlug(slug: string): Content | undefined {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
   let found
-  for (const fileName of fileNames) {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  for (const filePath of filePaths) {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     const content = getContent(fileContent)
     if (content.slug === slug) {
@@ -24,10 +25,9 @@ export function getContentBySlug(slug: string): Content | undefined {
 }
 
 export function getContentByTags(tags: string[], operator: Operator): Content[] {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
-  const all: Content[] = fileNames.map((fileName) => {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  const all: Content[] = filePaths.map((filePath: string) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     return getContent(fileContent)
   })
@@ -47,10 +47,9 @@ export function getContentByTags(tags: string[], operator: Operator): Content[] 
 }
 
 export function getAllContent(): Content[] {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
-  const all: Content[] = fileNames.map((fileName) => {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  const all: Content[] = filePaths.map((filePath: string) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     return getContent(fileContent)
   })
@@ -59,10 +58,9 @@ export function getAllContent(): Content[] {
 }
 
 export function getAllContentSlugs(): Slug[] {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
-  return fileNames.map((fileName) => {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  return filePaths.map((filePath: string) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     const content = getContent(fileContent)
     return {

@@ -1,18 +1,16 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 const fs = require('fs')
-const path = require('path')
 const matter = require('gray-matter')
 
-const { CONTENT_DIR_PATH } = require('./shared')
+const { getAllFilePaths, CONTENT_DIR_PATH } = require('./shared')
 
 const { log } = console
 
 function main() {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
-  const urls = fileNames.reduce((accum, fileName) => {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  const urls = filePaths.reduce((accum, filePath) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
 
     const frontMatter = matter(fileContent)

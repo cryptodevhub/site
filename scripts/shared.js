@@ -7,10 +7,9 @@ const matter = require('gray-matter')
 const CONTENT_DIR_PATH = path.join(__dirname, '..', 'content')
 
 function getTagFrequencies() {
-  const fileNames = fs.readdirSync(CONTENT_DIR_PATH)
+  const filePaths = getAllFilePaths(CONTENT_DIR_PATH)
 
-  const tags = fileNames.map((fileName) => {
-    const filePath = path.join(CONTENT_DIR_PATH, fileName)
+  const tags = filePaths.map((filePath) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8')
 
     const frontMatter = matter(fileContent)
@@ -34,7 +33,23 @@ function getTagFrequencies() {
   return frequency
 }
 
+function getAllFilePaths(dirPath, fileArray = []) {
+  const items = fs.readdirSync(dirPath)
+
+  items.forEach((item) => {
+    const filePath = path.join(dirPath, item)
+    if (fs.statSync(filePath).isDirectory()) {
+      fileArray = getAllFilePaths(filePath, fileArray)
+    } else {
+      fileArray.push(filePath)
+    }
+  })
+
+  return fileArray
+}
+
 module.exports = {
+  getAllFilePaths,
   getTagFrequencies,
   CONTENT_DIR_PATH
 }
