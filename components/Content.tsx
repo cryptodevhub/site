@@ -14,7 +14,7 @@ export default function Content({ content }: { content: Data }) {
               {title}
             </a>
           ) : (
-            <Link href={`/content/${slug}`}>
+            <Link href={slug}>
               <a>{title}</a>
             </Link>
           )}
@@ -26,14 +26,14 @@ export default function Content({ content }: { content: Data }) {
               key={tag}
               className="mr-2 badge badge-outline hover:badge-primary hover:badge-outline"
             >
-              <Link href={`/content/${tag}`}>
+              <Link href={tag}>
                 <a>{tag}</a>
               </Link>
             </li>
           ))}
         </ul>
         <div className="card-actions justify-end">
-          <Link href={`/content/${slug}`}>
+          <Link href={slug}>
             <a className="btn btn-link">Details</a>
           </Link>
         </div>

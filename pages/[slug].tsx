@@ -2,9 +2,9 @@ import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
-import Date from '../../components/Date'
-import ContentCard from '../../components/Content'
-import { getContentBySlug, getAllContentSlugs, Content, getContentByTags } from '../../lib/content'
+import Date from '../components/Date'
+import ContentCard from '../components/Content'
+import { getContentBySlug, getAllContentSlugs, Content, getContentByTags } from '../lib/content'
 
 export default function Show({
   content,
@@ -82,7 +82,7 @@ export default function Show({
                 key={tag}
                 className="mr-2 badge badge-outline hover:badge-primary hover:badge-outline"
               >
-                <Link href={`/content/${tag}`}>
+                <Link href={tag}>
                   <a>{tag}</a>
                 </Link>
               </li>
