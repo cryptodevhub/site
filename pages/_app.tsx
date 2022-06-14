@@ -12,6 +12,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         title="CryptoDevHub"
         description="The one-stop-shop for Blockchain- and Crypto developers. Learn Blockchain development, get a job in Crypto, grow your network."
         titleTemplate="%s - CryptoDevHub"
+        openGraph={{
+          type: 'website',
+          locale: 'en_IE',
+          url: 'https://cryptodevhub.io',
+          site_name: 'CryptoDevHub'
+        }}
+        twitter={{
+          handle: '@cryptodevhub',
+          site: '@cryptodevhub',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head />
       <Layout>
